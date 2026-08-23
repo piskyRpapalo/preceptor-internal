@@ -1,0 +1,9 @@
+# Dependencias de LA FORJA. Jamás del producto: aurelius es stdlib y se queda así.
+# torch se instala aparte, desde el índice CPU (ver preparar_beelink.sh).
+transformers>=4.44
+peft>=0.12
+datasets>=2.20
+accelerate>=0.33
+trl>=0.9
+# bitsandbytes NO: su NF4 es CUDA. En CPU esto es LoRA, no QLoRA (README §2 B1).
+# unsloth NO por defecto: espera GPU NVIDIA (README §2 B2). Se prueba en Fase 0.
