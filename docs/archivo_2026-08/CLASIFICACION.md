@@ -186,7 +186,14 @@ indica:
 
 31 documentos. Es el lote con la joya más accionable de todo el archivo.
 
-### La joya principal: El Faro está construido, entero, y nadie lo ha vuelto a encender
+### La joya principal: El Faro está construido, entero — y **vivo**
+
+> **CORRECCIÓN, 2026-08-23, misma noche.** Este apartado decía «y nadie lo ha vuelto a
+> encender». Era falso, y el fallo fue mío: lo escribí mirando la copia congelada de
+> `~/pre-bee/` sin consultar el nodo donde el canon dice que vive. Consultado `la-fragua`:
+> `hexelion-faro.service` lleva **cuatro días activo** en `:8100`, firma ed25519 de verdad,
+> opera en `DRY_RUN` sobre testnet, y **las claves privadas están ahí con permisos 0600**.
+> El detalle completo, en [`docs/faro/estado.md`](../faro/estado.md).
 
 No es un plan. El código vive en `~/pre-bee/hexelion/faro/` — `main.py`, `ledger.py`,
 `merkle.py`, `faro_anchor.py`, `faro_mcp.py`, `proof_store.py`, `near_tx.py`, con tests,
