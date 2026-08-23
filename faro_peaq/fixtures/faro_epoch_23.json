@@ -1,0 +1,71 @@
+{
+  "format": "faro-proof-bundle/v1",
+  "epoch": 23,
+  "root": "6c7b73954d1e827fbca5f1b8382439da56968062f1f97db0393960e25213efd7",
+  "anchor_tx": "LD4MQTo41V9eXf5uTMDXUofujzpUMhEoqr3gF3bmF6d",
+  "network": "testnet",
+  "seq_range": [
+    23,
+    24
+  ],
+  "count": 2,
+  "leaves": [
+    {
+      "seq": 23,
+      "leaf_hash": "5a2b1597038ab0daaf89efa269c148eef7913d49f1d51fcc7f469f45c078efdc",
+      "payload": {
+        "data": {
+          "cog_e2": 20500,
+          "lat_e7": 386511000,
+          "lon_e7": -90782000,
+          "mmsi": 263701460,
+          "sog_e2": 0,
+          "heading": 107
+        },
+        "kid": "hxl-attest-1",
+        "kind": "ais.position",
+        "node": "hexelion.near",
+        "prev": "0f83ecd8af3c141df163db092a877d84f7db7fb27fbb7f1e937293caef151975",
+        "seq": 23,
+        "t": 1780465516,
+        "v": 1
+      }
+    },
+    {
+      "seq": 24,
+      "leaf_hash": "27529dca6874fa90b9c1b88e22dfb208cbc9f87bc5ef8adea96ef13304dbfab7",
+      "payload": {
+        "data": {
+          "cog_e2": 20500,
+          "lat_e7": 386511000,
+          "lon_e7": -90782000,
+          "mmsi": 263701460,
+          "sog_e2": 0,
+          "heading": 107
+        },
+        "kid": "hxl-attest-1",
+        "kind": "ais.position",
+        "node": "hexelion.near",
+        "prev": "693c6c3014edc6b216cf1310e18ee02e96cc854be5ac43bc6b8072460877f0ca",
+        "seq": 24,
+        "t": 1780465516,
+        "v": 1
+      }
+    }
+  ],
+  "merkle_paths": {
+    "23": [
+      {
+        "sibling": "27529dca6874fa90b9c1b88e22dfb208cbc9f87bc5ef8adea96ef13304dbfab7",
+        "side": "right"
+      }
+    ],
+    "24": [
+      {
+        "sibling": "5a2b1597038ab0daaf89efa269c148eef7913d49f1d51fcc7f469f45c078efdc",
+        "side": "left"
+      }
+    ]
+  },
+  "ts": 1780465522.6198485
+}
