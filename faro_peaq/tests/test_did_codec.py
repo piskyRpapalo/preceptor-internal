@@ -7,15 +7,15 @@ import pytest
 
 from faro_peaq import did_codec
 
-# Entrada real de PeaqDid::AttributeStore, agung, clave
-# 0x50b1…a14300001a0289b9a9b12ff3cfdb4b567c65b4a4f9d38322d333e411576f21ea2ab353454753…
-# Envoltorio observado: raw-proto (el SDK oficial de peaq asume hex-ascii y aquí falla).
-REAL_ATTR_RAW_PROTO = bytes.fromhex(
-    "ec706561713a6469643a3078363836313665363236313666373137353631366537333631373433373430"
-    "36376436313639366332653633366636643"
-    "69070a396469643a706561713a35473667574267555661764b776b5568636b796943394"
-    "86f715672515153"
-)
+# Valores tomados de la entrada real de PeaqDid::AttributeStore en agung
+# (clave 0x50b1…a1430000 1a0289b9…, leída el 2026-08-23):
+#   name       = "peaq:did:0x68616e62616f7175616e7361743740676d61696c2e636f6d" (59 bytes)
+#   validity   = 4294967295 (u32::MAX — sin caducidad)
+#   created    = 1722621558027 (Moment, milisegundos unix)
+#   envoltorio = raw-proto  ← el SDK oficial de peaq asume hex-ascii y aquí falla
+REAL_NAME_LEN = 59
+REAL_VALIDITY = 4294967295
+REAL_CREATED_MS = 1722621558027
 
 
 def test_scale_compact_modos():
@@ -41,16 +41,17 @@ def test_decode_attribute_estructura_real():
     Vector real completo: nombre + valor protobuf + validity(u32) + created(u64).
     `created` es un Moment de Substrate en milisegundos.
     """
-    name = b"peaq:did:0x68616e"
+    name = b"peaq:did:0x68616e62616f7175616e7361743740676d61696c2e636f6d"
+    assert len(name) == REAL_NAME_LEN
     value = did_codec.encode_did_document("did:peaq:5G6g", "did:peaq:5GL4")
     raw = (bytes([len(name) << 2]) + name
            + bytes([len(value) << 2]) + value
-           + (4294967295).to_bytes(4, "little")
-           + (1722621558027).to_bytes(8, "little"))
+           + REAL_VALIDITY.to_bytes(4, "little")
+           + REAL_CREATED_MS.to_bytes(8, "little"))
     attr = did_codec.decode_attribute(raw)
     assert attr["name"] == name
-    assert attr["validity"] == 4294967295
-    assert attr["created_ms"] == 1722621558027
+    assert attr["validity"] == REAL_VALIDITY
+    assert attr["created_ms"] == REAL_CREATED_MS
     assert did_codec.decode_did_document(attr["value"])["id"] == "did:peaq:5G6g"
 
 

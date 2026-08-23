@@ -1,0 +1,5 @@
+# faro_peaq — Paso 1. Cero librerías de firma, a propósito.
+pydantic>=2.0        # modelos estrictos (extra=forbid, strict, frozen)
+pytest>=8.0          # tests
+xxhash>=3.0          # opcional: twox128 para prefijos de storage.
+                     # Sin él, reader.py usa KNOWN_PREFIXES (verificados en cadena).
