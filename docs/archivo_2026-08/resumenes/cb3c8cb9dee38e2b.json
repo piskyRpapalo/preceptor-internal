@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento especifica la estructura de la base de datos relacional de Aurelius V1.8, con tablas para engramas, sensores, cadenas de bloques, pares de malla y registros de interacción. Incluye implementaciones de búsqueda semántica mediante FTS5 y triggers de sincronización automática. Se describe el uso de hashes de Merkle y firmas Ed25519 para garantizar integridad y autenticidad. El diseño está optimizado para hardware ARM con journal_mode=WAL y UTF-8 estricto.",
+  "ideas_clave": [
+    "Uso de SQLite con FTS5 para búsqueda semántica local sin nube",
+    "Implementación de cadenas de bloques con hashes de Merkle y firmas Ed25519",
+    "Estructura de tablas especializadas para engramas, sensores, pares de confianza y logs",
+    "Optimización de E/S de disco para hardware de bajo consumo ARM"
+  ],
+  "quedo_a_medias": true
+} 

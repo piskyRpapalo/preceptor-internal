@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-06-07",
+  "resumen": "Este documento fija la doctrina híbrida de Hexelion, estableciendo la separación entre el plano local (soberanía, firma física) y el plano nube (razonamiento sin claves). Define la prioridad inmediata en la creación del Nexo de monitorización local, y afirma que Claude no firma ni ejecuta valor. Establece principios claros sobre la línea inviolable entre cómputo y custodia, y reafirma el ADN del proyecto sin cambios. El documento describe un plan de trabajo enfocado en la implementación del Nexo, pero aún no confirma ciertos prerrequisitos.",
+  "ideas_clave": [
+    "Hexelion es híbrido: el rack mantiene la soberanía y firma físicamente, mientras la nube razona sin claves.",
+    "La nube no puede custodiar claves ni ejecutar acciones autónomas de valor, solo pensar y proponer.",
+    "La firma final siempre será humana y física, y los sistemas solo preparan intenciones, no ejecutan.",
+    "Se enfoca en el Nexo de monitorización local como prioridad inmediata, con un panel de jurado que confirma acciones."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para Claude Code que define las reglas y contexto para la ejecución de tareas en el nodo 'La Fragua' del proyecto HEXELION. Establece las fases de trabajo, reglas inviolables para la seguridad y operación del sistema, y el contexto técnico del organismo cibernético. Incluye detalles sobre el hardware, servicios en ejecución, y la estructura del sistema para el desarrollo de productos M2M en entorno testnet.",
+  "ideas_clave": [
+    "El proyecto HEXELION opera como un organismo cibernético soberano que vende certidumbre física a través de datos firmados con timestamp hardware.",
+    "Se establecen reglas estrictas para la operación en testnet, incluyendo prohibición de acciones irreversibles y control estricto de recursos del hardware.",
+    "La identidad del nodo 'La Fragua' es clave para la ejecución de tareas y se debe verificar antes de cualquier modificación.",
+    "El documento define una estructura de trabajo en dos fases: reconocimiento (Fase 0) y construcción (Fase 1), con énfasis en la reversibilidad y aislamiento de los cambios."
+  ],
+  "quedo_a_medias": true
+} 

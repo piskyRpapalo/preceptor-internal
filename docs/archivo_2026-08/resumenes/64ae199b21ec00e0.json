@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento propone evolucionar el sistema Aurelius hacia una arquitectura de agentes autónomos en edge, usando patrones como LongHorizon Harness y BigBang v1. Se enfoca en la seguridad, soberanía de datos y gobernanza local-first, siguiendo los principios de P0X. El plan introduce el patrón Manage-Execute-Audit (MEA) para garantizar ejecuciones verificables y responsables. Se busca cerrar brechas en el ciclo actual de desarrollo y asegurar que cada acción esté respaldada por auditorías empíricas.",
+  "ideas_clave": [
+    "La arquitectura se basa en el principio 'El silicio propone, el carbono firma' y utiliza el modelo Qwen 30B como gestor de planes.",
+    "Se introduce el Auditor como componente obligatorio para verificar el estado real del sistema antes de cada ejecución.",
+    "El patrón MEA (Manage-Execute-Audit) desacopla la planificación, ejecución y auditoría en fases separadas para mayor estabilidad.",
+    "Se requiere que toda tarea comience desde un objetivo validado en Silver y termine con una firma en Gold, evitando construcción fuera del ciclo."
+  ],
+  "quedo_a_medias": true
+} 

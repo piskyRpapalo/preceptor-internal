@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la implementación del orquestador del Sínodo en la Fase A.2, responsable de gestionar la deliberación de propuestas mediante seis voces y aplicar reglas deterministas para tomar decisiones. Establece la lógica de reconciliación de dictámenes, con transiciones de estado claras y persistencia de veredictos. No incluye elementos UI o base de datos aún, y opera en modo backend headless. Se enfoca en la estructura del código, la definición de tipos y la gestión de errores.",
+  "ideas_clave": [
+    "El orquestador actúa como intermediario que coordina las seis voces deliberativas y aplica una regla determinista para tomar decisiones sobre las propuestas.",
+    "Las decisiones se basan en criterios cuantificables como votos a favor, contra, y el veto del Monje, sin uso de LLM en esta fase.",
+    "Se mantiene el principio de no escritura automática hacia el estado CANONIZADA, dejando esa transición al Soberano.",
+    "La fase es completamente backend, sin UI ni base de datos, y se enfoca en el registro de deliberaciones y veredictos."
+  ],
+  "quedo_a_medias": true
+} 

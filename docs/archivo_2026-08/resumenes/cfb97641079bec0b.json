@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la creación de un panel 'Faro 2.0 · Economía-Máquina' para mostrar el estado honesto y estático de un roadmap. El panel refleja la dirección del proyecto sin presentar métricas falsas ni tocar componentes clave como el cableado existente o OSIRIS. Incluye una tesis sobre vender verdad atestada a máquinas y muestra el estado de integraciones y productos en diseño o sin iniciar. Se enfatiza en la honestidad brutal y la falta de datos fabricados.",
+  "ideas_clave": [
+    "La honestidad es fundamental: el panel debe reflejar estados reales y no productos vivos.",
+    "No se fabrican cifras ni se altera la infraestructura existente, como el cableado o OSIRIS.",
+    "La tesis del proyecto es vender verdad atestada a máquinas, no operar capital.",
+    "Los badges de estado son transparentes: 'SIN VENDER', 'PENDIENTE', 'EN DISEÑO', 'NO INTEGRADO'."
+  ],
+  "quedo_a_medias": false
+} 

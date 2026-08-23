@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "21 Mayo 2026",
+  "resumen": "Se define la creación de un dashboard HTML estático autocontenido para el sistema hexelion, sin usar React ni herramientas de build. El dashboard debe consumir datos de endpoints específicos del gateway y refrescarse automáticamente cada 30 segundos. Se detallan las reglas y fases de desarrollo del nuevo dashboard v9. El documento incluye instrucciones para preparar el entorno, verificar endpoints y estructurar el HTML con imágenes reales y estilos CSS inline.",
+  "ideas_clave": [
+    "El dashboard v9 será un archivo HTML único, sin dependencias externas, y se servirá por el gateway existente.",
+    "Los datos se obtendrán directamente de endpoints confirmados del sistema, sin inventar información.",
+    "Se debe mantener el dashboard React existente sin modificarlo.",
+    "El dashboard debe refrescarse automáticamente cada 30 segundos."
+  ],
+  "quedo_a_medias": true
+} 

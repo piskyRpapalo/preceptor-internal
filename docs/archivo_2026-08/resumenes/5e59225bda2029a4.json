@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "24 de Mayo de 2026",
+  "resumen": "Este documento es el briefing actualizado de HEXELION, que presenta una doctrina revisada sobre la soberanía simbiótica entre el componente silicio y carbono. Incluye cambios en la arquitectura física, correcciones técnicas del sistema solar y nuevas leyes constitucionales. También introduce nuevas doctrinas técnicas y una bitácora de errores. El documento está en estado incompleto.",
+  "ideas_clave": [
+    "HEXELION es un organismo cibernético soberano compuesto por silicio (hardware, agentes) y carbono (humano).",
+    "El silicio ejecuta, el carbono arbitra y HEXELION decide; esta relación es fundamental para la operación del sistema.",
+    "Se corrigió la potencia útil del sistema solar, limitada a ~600W por el MPPT del C1000.",
+    "Se introdujeron nuevas doctrinas técnicas como el particionado Lexar, inferencia compartida, y protocolo Lázaro."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Se corrige un enlace roto en el botón 'volver al Nexo' de la página catastro.html, que apuntaba a una ruta inexistente y causaba un error 404. El cambio consiste en hacer que el botón apunte a /dashboard usando el mismo mecanismo que otras páginas funcionales como Sínodo y Cosecha. Se realiza un backup antes de modificar el archivo y se asegura que el resto de funcionalidades de catastro.html permanezcan intactas. El informe concluye que el botón está corregido y sin más errores 404.",
+  "ideas_clave": [
+    "El botón 'volver al Nexo' en catastro.html apuntaba a una ruta incorrecta y causaba un 404.",
+    "La solución implica usar el mismo patrón de enlace que funciona en otras páginas como Sínodo y Cosecha.",
+    "Se realiza un backup antes de hacer cambios y se verifica que las pruebas den resultados positivos.",
+    "Se deja abierto el posibilidad de que otras subpáginas tengan el mismo problema y deberían corregirse igual."
+  ],
+  "quedo_a_medias": true
+} 

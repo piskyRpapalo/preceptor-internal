@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "20260808_042358",
+  "resumen": "Este documento describe la doctrina visual y el diseño del dashboard de Hexelion, con énfasis en la estética y la interacción. Incluye especificaciones técnicas de elementos visuales como placas, hotspots y animaciones. Se mencionan propuestas descartadas para el diseño visual. Se define una estructura CSS para la escena del dashboard, con elementos como muros, laboratorio y elementos dinámicos como velas y cofres.",
+  "ideas_clave": [
+    "Se establece una doctrina visual basada en la estética del silicio y la frontera.",
+    "Se describen elementos visuales como hotspots, animaciones de velas y cofres brillantes.",
+    "Se mencionan propuestas descartadas para el diseño, como mascottes o fondos blancos.",
+    "Se define un sistema de animaciones y transiciones para elementos como los hotspots y las velas."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la implementación de El Vocero, un agente que obtiene y clasifica los precios de energía del mercado OMIE cada hora. Define su lógica de búsqueda de precios en múltiples fuentes y su clasificación en modos energéticos. Se enfoca en integrar esta funcionalidad dentro del sistema existente sin alterar otros componentes. El documento incluye código de ejemplo para el fetch de datos y la clasificación por modos energéticos.",
+  "ideas_clave": [
+    "El Vocero es el agente que determina el modo energético del organismo basado en el precio de OMIE.",
+    "Se implementa una cascada de fuentes para obtener precios: caché local, OMIE directo, ENTSO-E y estadística local.",
+    "Los modos energéticos están definidos por rangos de precio y tienen emojis asociados para identificación visual.",
+    "No se debe tocar otros agentes ni modificar el contrato de AgentState."
+  ],
+  "quedo_a_medias": true
+} 

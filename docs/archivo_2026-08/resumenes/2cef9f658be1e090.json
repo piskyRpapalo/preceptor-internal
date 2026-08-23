@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento explica cómo desplegar un Nodo Ligero de Nubit en infraestructuras ARM o x86_64, con requisitos mínimos de hardware. Detalla los pasos para preparar la red, instalar el nodo mediante un script automatizado, realizar copias de seguridad de la clave privada y configurar el servicio con systemd. También advierte sobre la importancia de usar direcciones independientes para cada dispositivo y menciona que el nodo puede operar en segundo plano. El documento está incompleto al final, sin cerrar con una conclusión clara.",
+  "ideas_clave": [
+    "El nodo ligero de Nubit requiere muy pocos recursos (500 MB RAM, 10 GB disco).",
+    "Es necesario abrir el puerto 2121 para la comunicación en la red P2P de Nubit.",
+    "Cada nodo debe tener su propia frase semilla y dirección única para evitar conflictos.",
+    "La instalación se realiza con un script de una sola línea y se configura como servicio systemd."
+  ],
+  "quedo_a_medias": true
+} 

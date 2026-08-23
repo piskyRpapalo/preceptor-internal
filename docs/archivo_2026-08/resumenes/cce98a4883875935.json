@@ -1,0 +1,13 @@
+{
+  "proyecto": "otro",
+  "tipo": "investigacion",
+  "fecha_declarada": "2026-08-17",
+  "resumen": "El documento describe la descarga y verificación de un modelo de lenguaje Qwen3-4B-Instruct y una voz es_ES-sharvard-medium. Se menciona la fuente de los archivos y se confirma su integridad mediante una comparación con una copia local. No se indica ningún proyecto específico relacionado con Hexelion, Aurelius o P0x. El documento parece ser una nota de verificación de archivos descargados.",
+  "ideas_clave": [
+    "Descarga limpia de modelos desde Hugging Face",
+    "Verificación de integridad mediante hashes",
+    "Uso de voces locales para síntesis de voz",
+    "Mantenimiento de registros de confirmación de archivos"
+  ],
+  "quedo_a_medias": false
+} 

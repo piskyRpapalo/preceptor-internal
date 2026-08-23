@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "21 Mayo 2026",
+  "resumen": "Este documento define el módulo económico de Hexelion v1, centrado en la cosecha de recursos de diferentes protocolos. Propone un widget en el dashboard y una página dedicada para visualizar balances y estado de los protocolos. Incluye una lista detallada de protocolos, sus wallets y estado actual. Establece reglas claras para la actualización de datos y la integración con CoinGecko.",
+  "ideas_clave": [
+    "Los datos de los protocolos son la fuente de verdad y no deben inventarse",
+    "La actualización de balances se realiza cada hora excepto para puntos manuales",
+    "Se usa CoinGecko para precios con fallback a 'precio no disponible'",
+    "El Soberano actualiza manualmente los balances de puntos y alertas"
+  ],
+  "quedo_a_medias": true
+} 

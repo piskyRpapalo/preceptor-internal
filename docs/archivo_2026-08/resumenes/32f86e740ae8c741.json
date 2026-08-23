@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define la doctrina maestra de p0x, basada en cinco pilares soberanos: soberanía digital, firma humana obligatoria, honestidad de los sensores, fricción física pedagógica y brújula estoica. Establece también un glosario de namespaces UNIX para la organización del conocimiento. Incluye un catálogo completo de skills de Aurelius clasificados por niveles de dificultad. Se presenta como una versión consolidada y validada del canon de oro de p0x.",
+  "ideas_clave": [
+    "La soberanía digital absoluta implica que la inferencia de IA local corre completamente aislada en el hardware físico",
+    "La firma humana obligatoria requiere que todo cambio sea revisado y firmado físicamente por el operador antes de aplicarse",
+    "Los sensores deben reportar 'NO DATA' en lugar de valores falsos o cacheados",
+    "La fricción física pedagógica obliga a una selección manual del texto para evitar asimilación automática"
+  ],
+  "quedo_a_medias": false
+} 

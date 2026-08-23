@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece las reglas de seguridad para la fase 1 de desarrollo de 'El Faro', una superficie M2M monetizable en Hexelion. Se detallan las reglas inmutables para evitar llamadas no autorizadas al contrato en mainnet NEAR. Se describe el proceso de desbloqueo y creación del servicio Faro v0.1 con endpoints para salud, manifiesto, barcos en vivo y atestiguados, todo en modo DRY_RUN. Se enfatiza la firma local criptográfica y el aislamiento del entorno.",
+  "ideas_clave": [
+    "La firma en El Faro es local y criptográfica (SHA-256 + ed25519), sin interacción con la cadena",
+    "Se prohíbe firmar por temporizador; solo bajo petición HTTP entrante",
+    "El entorno debe estar aislado y solo usar testnet",
+    "El pago es entrante y se maneja en modo DRY_RUN sin verificaciones on-chain"
+  ],
+  "quedo_a_medias": true
+} 

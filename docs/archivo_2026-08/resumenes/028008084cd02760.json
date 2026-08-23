@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe la limpieza y reorganización del dashboard de El Faro, incluyendo la eliminación de servicios innecesarios, la creación de un endpoint para exponer datos reales del sistema y la reconfiguración de la interfaz para mostrar información de cadena de custodia. Se enfatiza la honestidad de los datos y el mantenimiento de la integridad del núcleo del sistema. Se detallan los pasos para asegurar que los datos mostrados sean reales y no inventados, con énfasis en la seguridad y la integridad del sistema. El documento también incluye pruebas para verificar que el sistema funcione correctamente.",
+  "ideas_clave": [
+    "Se debe crear un endpoint para exponer datos reales de El Faro sin escribir en la cadena.",
+    "Se debe mantener la estética actual del dashboard y no romper otras rutas del gateway.",
+    "Se debe asegurar la honestidad de los datos mostrados, evitando números o firmas inventadas.",
+    "Se debe mantener el núcleo del sistema (:8100) intacto y no tocar sus claves o firmas."
+  ],
+  "quedo_a_medias": true
+} 

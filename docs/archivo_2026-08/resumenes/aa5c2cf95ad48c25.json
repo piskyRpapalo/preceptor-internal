@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece las reglas operativas para el laboratorio hexelion-lab, donde se desarrollan protocolos y estrategias futuras bajo la guía del Soberano. Define el rol del cofundador como auditor y constructor de entregables, con énfasis en la honestidad, el foco y el respeto al ADN del proyecto. Se describen los valores, método de trabajo y guardas inviolables que rigen la operación del lab. Se detallan también los nombres canónicos del ecosistema y los entregables esperados.",
+  "ideas_clave": [
+    "El laboratorio no es productivo ni gana dinero, sino que incuban ideas para luego canonizarlas.",
+    "El trabajo se basa en un ciclo de auditoría y construcción que prioriza el largo plazo.",
+    "Se establecen guardas inviolables sobre firma en mainnet, uso de fuentes externas y auto-mejora limitada a la capa de opinión.",
+    "La métrica anti-teología evalúa si cada ciclo produce una atestación o propuesta canonizable."
+  ],
+  "quedo_a_medias": false
+} 

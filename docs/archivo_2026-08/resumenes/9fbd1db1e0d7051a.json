@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento define la arquitectura del 'Hexelion AI Vault' como un sistema de hardware autónomo para la validación y sellado de datos en entornos de baja potencia. Propone un enfoque de 'low-risk' usando una NVIDIA Jetson Orin con limitaciones de memoria y seguridad. Se centra en la construcción de un protocolo de Machine-to-Agent (M2A) con restricciones técnicas y filosóficas. Se describe una estrategia de 'guerrilla de hardware' sin dependencia de nubes masivas.",
+  "ideas_clave": [
+    "La infraestructura del Vault se construye sobre hardware local (Jetson) con baja potencia y sin requerimientos de nube.",
+    "Se implementa una arquitectura de 'cascarón de protocolo ciego' para el M2A, enfocada en validación y sellado de datos.",
+    "La memoria limitada (8GB) se gestiona con un tamaño estricto de 32MB para evitar fallos por falta de memoria (OOM).",
+    "Se utiliza una estrategia de sobreescritura binaria explícita para gestionar la seguridad en memoria volátil."
+  ],
+  "quedo_a_medias": true
+} 

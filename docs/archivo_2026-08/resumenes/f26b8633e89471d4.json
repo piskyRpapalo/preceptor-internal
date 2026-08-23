@@ -1,0 +1,12 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "doctrina",
+  "fecha_declarada": "17 AGO 2026",
+  "resumen": "El documento analiza el cumplimiento regulatorio del EU AI Act y NIST para Aurelius, destacando la falta de documentación de compliance y safety case. Propone integrar telemetría energética como diferenciador competitivo frente a soluciones en la nube. También revisa el ecosistema de modelos Qwen3.6 y sus limitaciones en contexto.",
+  "ideas_clave": [
+    "Aurelius podría ser el primer producto de IA local con un safety case auditable mapeado a regulaciones EU y NIST.",
+    "La integración de telemetría energética permitiría diferenciar Aurelius de productos en la nube, mostrando soberanía energética.",
+    "El contexto corto de los modelos Qwen3.6 en Ollama es un problema crítico para usuarios que requieren grandes contextos."
+  ],
+  "quedo_a_medias": true
+} 

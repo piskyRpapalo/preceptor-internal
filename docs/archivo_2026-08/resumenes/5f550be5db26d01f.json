@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento describe un procedimiento para evaluar la recuperación del sistema AIS tras un reinicio, mediante una medición de ventana limpia. Se enfoca en confirmar recepción de buques y medir el rendimiento del 1090 en modo solo lectura. Incluye pasos para verificar el estado del AIS y dump1090 sin realizar cambios. El objetivo es cerrar el confound entre problemas del AIS y del 1090. No hay desviaciones ni reinicios permitidos durante la ventana de medición.",
+  "ideas_clave": [
+    "La ventana limpia es crucial para determinar si el AIS se recuperó de forma estable o sigue siendo frágil.",
+    "Medir el 1090 en esta ventana permite distinguir si su debilidad es propia o arrastrada por el AIS.",
+    "Se debe evitar cualquier cambio en el sistema durante la medición para no contaminar los resultados.",
+    "El veredicto final se basa en la tasa de mensajes y la presencia de buques y aviones en el mapa del Nexo."
+  ],
+  "quedo_a_medias": false
+} 

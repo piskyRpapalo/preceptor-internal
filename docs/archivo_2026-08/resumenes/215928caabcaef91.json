@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "investigacion",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el inventario físico y lógico del nodo soberano de p0x llamado Le Jardin, ubicado en Lisboa. Incluye detalles sobre hardware, nodos de borde, infraestructura de energía, adquisición de señal y software activo. Se mencionan servicios en ejecución y se prohíbe el uso de ciertos directorios en el sistema original. El documento también destaca la configuración de dispositivos como la impresora 3D y los dongles SDR usados para adquisición de señales.",
+  "ideas_clave": [
+    "El sistema está basado en hardware aislado y bajo el principio de que 'el silicio es la frontera'.",
+    "Se utilizan varios nodos (Beelink, Orange Pi, Raspberry Pi) para diferentes funciones de adquisición y procesamiento de datos.",
+    "La infraestructura incluye generación solar, reserva energética y control de climatización para el rack.",
+    "Existen servicios activos como FastAPI, OpenWebUI y Ollama, con configuraciones específicas para ejecución local-first."
+  ],
+  "quedo_a_medias": false
+} 

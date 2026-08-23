@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Se propone afinar los marcos del rack utilizando border-image para evitar que las ruedas crezcan al agrandar el panel. Se elimina el velo cálido que difumina el fondo y se ajusta la legibilidad con halos de texto. Se recomienda cambiar los contadores a azul neón y verificar el diseño en móvil. Se debe mantener el cableado intacto y centrarse en el front-end.",
+  "ideas_clave": [
+    "Usar border-image para mantener las ruedas pequeñas y las tuberías largas al redimensionar.",
+    "Eliminar el velo cálido que tapa las plantas y mejorar la legibilidad con text-shadow.",
+    "Recolorear contadores a azul neón con efecto glow para resaltarlos.",
+    "Verificar el diseño en dispositivos móviles y mantener el cableado sin cambios."
+  ],
+  "quedo_a_medias": true
+} 

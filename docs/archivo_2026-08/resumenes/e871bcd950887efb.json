@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "2026-08-13",
+  "resumen": "El documento revisa el plan temporal de M1 y identifica tres bloqueos: incompatibilidad de arquitecturas para el LoRA, contradicción con D68 sobre modos de operación, y falta de resolución sobre el carácter del producto. También destaca que Piper ya está implementado y medido, y recomienda usarlo en lugar de otros modelos de TTS. El plan tiene una pieza ya construida que no aparece en él: Piper.",
+  "ideas_clave": [
+    "El LoRA propuesto no es compatible con el modelo medido debido a diferencias arquitectónicas.",
+    "La Fase 2 del plan contradice D68 al usar transporte de red en lugar de entrada/salida estándar.",
+    "El Temple no está resuelto y afecta la implementación del carácter del producto.",
+    "Piper ya está instalado, medido y listo para uso, y es más adecuado que Qwen3-TTS o Parler-TTS."
+  ],
+  "quedo_a_medias": true
+} 

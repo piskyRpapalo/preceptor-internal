@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "15 de Mayo de 2026",
+  "resumen": "El documento especifica cómo se gestionará la transición entre dos eras energéticas en el sistema Hexelion mediante un flag de configuración. Se introduce un mecanismo basado en el flag `BATTERY_PRESENT` para activar o desactivar funcionalidades según la presencia de batería. Se define un decorador `@sleeping` que permite deshabilitar funciones en la era sin batería y un complemento `@sun_synchronous` para funciones exclusivas de la era sol-sincrónica. El objetivo es permitir la reconfiguración del sistema en tiempo de ejecución sin necesidad de reescribir código.",
+  "ideas_clave": [
+    "El flag `BATTERY_PRESENT` actúa como único punto de cambio entre eras energéticas.",
+    "Se introduce el decorador `@sleeping` para desactivar funciones en la era sin batería.",
+    "El decorador `@sun_synchronous` permite ejecutar funciones solo en la era sol-sincrónica.",
+    "La reconfiguración se realiza mediante una variable de entorno y reinicio de servicios."
+  ],
+  "quedo_a_medias": true
+} 

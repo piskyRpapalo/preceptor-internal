@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento que define las reglas y estructura para construir el esqueleto mínimo del cerebro del lab hexelion-lab. Establece restricciones de seguridad y arquitectura para el código, sin tocar blockchain ni claves. Incluye especificaciones técnicas y pruebas para componentes clave como Redis, LLM y registro de estrategias. Se enfoca en un entorno seguro y aislado, sin dependencias externas ni servicios permanentes.",
+  "ideas_clave": [
+    "El código debe ejecutarse en modo read-only, sin tocar cadena ni claves privadas.",
+    "Se debe usar una única conexión a SQLite en memoria y manejar atomicidad correctamente.",
+    "La estructura del proyecto es estricta y debe seguir un esquema exacto para funcionar en La Fragua.",
+    "Se debe validar estrictamente todas las entradas con Pydantic v2 y evitar alucinaciones en el I/O."
+  ],
+  "quedo_a_medias": true
+} 

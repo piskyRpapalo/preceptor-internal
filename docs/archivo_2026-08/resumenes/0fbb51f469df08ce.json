@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "otro",
+  "fecha_declarada": "2026-05-17",
+  "resumen": "Documento es una lista maestra de tareas para el proyecto HEXELION, actualizada el 17 de mayo de 2026. Incluye tareas urgentes, desarrollo del dashboard, nuevos proyectos como wallets y recompensas, agentes HEXELION y protocolos DePIN pendientes. Se detallan instalaciones, configuraciones y pendientes de infraestructura y recompensas.",
+  "ideas_clave": [
+    "Se está desarrollando un módulo de dashboard para gestionar wallets y recompensas de diferentes protocolos DePIN.",
+    "Se implementa un agente local basado en Qwen para ejecutar comandos y proporcionar información del sistema.",
+    "Se están activando varios protocolos DePIN como Storj, Sia, Jackal, Acurast, GagaNode y GaiaNet en diferentes nodos.",
+    "Se mencionan pendientes de infraestructura como corrección de firmas en la cadena hexelion.near y verificación de recompensas."
+  ],
+  "quedo_a_medias": true
+} 

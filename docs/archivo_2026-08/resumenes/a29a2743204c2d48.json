@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "investigacion",
+  "fecha_declarada": "21 Mayo 2026",
+  "resumen": "El documento describe la creación de un nuevo dashboard HTML estático para el proyecto Hexelion, utilizando solo un archivo HTML autocontenido con datos de endpoints reales. Se especifican reglas estrictas sobre la implementación, incluyendo el uso de imágenes reales, auto-refresh cada 30 segundos y no modificar el dashboard existente. Se detallan las fases de preparación y desarrollo, con un enfoque en la integración con el gateway actual.",
+  "ideas_clave": [
+    "Creación de un dashboard HTML estático autocontenido sin dependencias externas",
+    "Uso de imágenes reales en lugar de placeholders SVG",
+    "Auto-refresh automático cada 30 segundos para todos los paneles",
+    "Mantenimiento del dashboard React existente sin modificarlo"
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento que describe tres parches críticos para mejorar la seguridad del clúster HEXELION, eliminando servicios expuestos como GagaNode, Jupyter Lab y n8n. Cada parche incluye comandos para identificar, detener y reconfigurar los servicios afectados. Se enfatiza en hacer backups, evitar tocar componentes críticos y verificar cada cambio.",
+  "ideas_clave": [
+    "Los parches deben ser quirúrgicos y no afectar servicios esenciales como ais-catcher o Sínodo.",
+    "Se requiere un backup previo de cada configuración modificada y un rollback idempotente.",
+    "Los servicios deben reconfigurarse para no escuchar en IPs públicas y exigen autenticación.",
+    "El proceso requiere interacción manual del Soberano para manejar credenciales sensibles."
+  ],
+  "quedo_a_medias": true
+} 

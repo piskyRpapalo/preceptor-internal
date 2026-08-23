@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "2026-08-12",
+  "resumen": "Se propone corregir una fuga de datos en el test de guardrails de Aurelius-MVP, reemplazando nombres reales por un léxico sintético. Se diseña un mecanismo para cargar léxicos reales o sintéticos según el entorno de prueba. Se establecen tres invariantes para garantizar la privacidad y seguridad del sistema. Se completa el código para manejar preguntas humanas mediante una nueva tabla de perfil.",
+  "ideas_clave": [
+    "Reemplazar nombres reales en pruebas por un léxico sintético para evitar fugas de datos",
+    "Diseñar un mecanismo de carga dinámica de léxicos reales o sintéticos según el contexto",
+    "Establecer invariantes de seguridad para garantizar que el léxico prohibido no se versione",
+    "Introducir una tabla de perfil para almacenar información de dispositivo y nombre sin afectar la tabla de engrams"
+  ],
+  "quedo_a_medias": false
+} 

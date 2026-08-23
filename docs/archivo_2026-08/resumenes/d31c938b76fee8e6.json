@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "otro",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un manifiesto que describe un sistema para verificar la integridad y actualidad de los datos de memoria sin revelar su contenido. Proporciona herramientas para generar y verificar manifiestos que actúan como huellas digitales de la memoria. El sistema garantiza que los manifiestos no alteren la memoria y que su verificación se basa en cálculos recalculados. Se destaca que la firma no modifica la memoria y que el manifiesto solo cubre el cuerpo del documento, dejando la firma fuera.",
+  "ideas_clave": [
+    "El manifiesto actúa como una huella digital de la memoria sin almacenar su contenido.",
+    "La verificación del manifiesto asegura integridad y actualidad de la memoria.",
+    "La firma no modifica la base de datos de memoria, solo se lee para verificar.",
+    "La verificación se realiza mediante cálculo recalculado, sin confiar en declaraciones."
+  ],
+  "quedo_a_medias": true
+} 

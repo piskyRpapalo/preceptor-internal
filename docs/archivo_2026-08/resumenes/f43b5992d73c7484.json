@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "21 Mayo 2026",
+  "resumen": "Este documento describe el módulo económico de Hexelion, específicamente el widget 'Cosecha' en el dashboard v9 y una página dedicada /cosecha. Detalla la arquitectura del sistema y los protocolos integrados, incluyendo sus balances y estados. Se establecen reglas para la actualización de datos y la integración con CoinGecko. Se menciona que algunos balances son manuales y se guardan en Redis.",
+  "ideas_clave": [
+    "El widget 'Cosecha' reemplaza a 'Economía/Protocolo' en el dashboard v9.",
+    "Los datos de los protocolos son la fuente de verdad, incluyendo wallets, tokens y balances.",
+    "Se usará CoinGecko para precios, con fallback a 'precio no disponible' si falla.",
+    "Algunos balances se actualizan manualmente y se guardan en Redis."
+  ],
+  "quedo_a_medias": true
+} 

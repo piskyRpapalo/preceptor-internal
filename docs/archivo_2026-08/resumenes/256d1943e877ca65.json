@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe las reglas y tareas para desplegar y conectar el Nexo con datos reales en el sistema hexelion, incluyendo la configuración de OSIRIS en modo aislado y la integración de datos del Faro, El Vigía y el Sínodo. Se enfoca en mantener separación entre componentes soberanos y de aprovechamiento, con énfasis en seguridad y datos honestos. Incluye instrucciones para el despliegue estático de páginas web y la sustitución de datos mock por datos reales. Se menciona también la importancia de la configuración correcta de Redis y la autenticación para evitar inyección de datos falsos.",
+  "ideas_clave": [
+    "El Nexo debe operar en modo read-only, sin tocar la clave del Faro ni ejecutar transacciones.",
+    "OSIRIS corre en un entorno aislado (La Legión) sin claves ni acceso al rack soberano.",
+    "Los datos se mueven de forma unidireccional desde el Gateway hacia OSIRIS, sin conexiones salientes.",
+    "La configuración de Redis debe incluir autenticación para evitar inyección de veredictos falsos."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento explica cómo crear una cuenta en el portal Defli, vincular una billetera Web3 y configurar un nodo ADS-B para enviar datos. Se describe la descarga del software cliente desde GitHub y su instalación en un sistema Linux. Se detallan los pasos para enlazar el flujo de datos local y verificar el estado del nodo en línea. El proceso incluye el uso de un ID de estación terrena y la ejecución de scripts de configuración.",
+  "ideas_clave": [
+    "El proyecto Defli permite a los usuarios contribuir con datos de ADS-B mediante la creación de nodos conectados a una red descentralizada.",
+    "Se requiere una billetera Web3 compatible con EVM para asociar la dirección de recompensas a la cuenta del usuario.",
+    "El nodo debe estar en línea y enviar datos continuamente para poder recibir recompensas por la participación en la red.",
+    "El software se configura desde un repositorio oficial en GitHub y se ejecutan scripts para integrar el nodo con el sistema."
+  ],
+  "quedo_a_medias": false
+} 

@@ -1,0 +1,14 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-08",
+  "resumen": "Este documento especifica la infraestructura de software para el proyecto p0x, enfocándose en entornos virtuales, aislamiento de red y seguridad criptográfica. Detalla el uso de entornos virtuales para el intérprete de Python, la configuración de almacenamiento volátil en RAM y las prácticas de concurrencia en bases de datos SQLite. También describe el proceso de arranque seguro y mecanismos de escritura atómica para garantizar la integridad de los datos.",
+  "ideas_clave": [
+    "Uso de entornos virtuales para evitar conflictos con el intérprete del sistema operativo.",
+    "Configuración de /tmp/p0x-logs en RAM para reducir el desgaste del almacenamiento.",
+    "Uso de WAL en SQLite para manejar concurrencia sin bloqueos.",
+    "Restricciones de red estrictas para evitar accesos no autorizados desde interfaces locales.",
+    "Mecanismos de verificación criptográfica en el arranque para asegurar la integridad del sistema."
+  ],
+  "quedo_a_medias": false
+} 

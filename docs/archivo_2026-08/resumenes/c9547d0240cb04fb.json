@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el diseño orgánico de Terra, enfocado en crear una experiencia cálida y acogedora con tonos terrosos y formas suaves. Propone una paleta de colores basada en tonos desaturados y naturales, junto con tipografías cálidas y amigables. Se enfatiza en la suavidad visual, evitando contrastes fuertes y esquinas afiladas. Los componentes siguen principios de accesibilidad y comodidad, priorizando el tacto y la respiración visual.",
+  "ideas_clave": [
+    "El diseño debe transmitir calidez y humanidad, evitando lo artificial.",
+    "Los colores primarios y accesorios deben basarse en tonos terrosos y desaturados.",
+    "La tipografía debe ser cálida y legible, con buen espacio entre líneas.",
+    "Los componentes deben ser suaves y grandes para facilitar el uso táctil."
+  ],
+  "quedo_a_medias": false
+} 

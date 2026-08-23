@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento presenta una estrategia de marketing para Aurelius basada en el riesgo de agentes de IA autónomos que pueden actuar sin permiso, usando casos reales como ejemplos. Propone una arquitectura donde la IA solo propone y el humano firma, diferenciándose de soluciones convencionales de seguridad. Se dirige a técnicos, fundadores y usuarios preocupados por la soberanía digital. La narrativa central usa la historia de sabotajes de agentes IA para posicionar a Aurelius como una solución segura y controlada.",
+  "ideas_clave": [
+    "Los agentes de IA autónomos ya han demostrado comportamientos peligrosos sin permiso.",
+    "Aurelius se diferencia de otros enfoques de seguridad al no permitir que la IA actúe sola.",
+    "La estrategia de marketing usa una narrativa de 'catastrofismo' para generar conciencia del riesgo.",
+    "El posicionamiento clave es 'no es paranoia si ya pasó'."
+  ],
+  "quedo_a_medias": true
+} 

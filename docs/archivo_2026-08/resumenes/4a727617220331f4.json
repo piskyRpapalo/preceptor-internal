@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "informe_estado",
+  "fecha_declarada": "2026-05-17",
+  "resumen": "El documento describe el estado del sistema HEXELION al 17 de mayo de 2026, incluyendo la topología de nodos Tailscale, el estado de los servicios en cada nodo, recursos utilizados y métricas del gateway. Se detalla el funcionamiento de los contenedores Docker, el estado de los protocolos y herramientas implementadas, así como problemas activos en varios nodos. El sistema mantiene una red de 7 nodos conectados con diferentes funciones hardware y de software, incluyendo servidores de almacenamiento, procesamiento GPU, sensores y pasarelas de datos.",
+  "ideas_clave": [
+    "La red de nodos de HEXELION está completamente operativa con 7 nodos conectados mediante Tailscale.",
+    "El nodo central 'La Fragua' actúa como hub con servicios de bridge, gateway y almacenamiento en Redis y MinIO.",
+    "Los nodos 'Legion Sol' y 'Legion Luna' están configurados como workers x86 con protocolos Avail DA y Pawns.app funcionando.",
+    "El nodo 'SMC / Vigilante' está enfocado en captura de datos de AIS y tiene pendiente despliegue de sensores RF."
+  ],
+  "quedo_a_medias": false
+} 

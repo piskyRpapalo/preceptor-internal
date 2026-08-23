@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "investigacion",
+  "fecha_declarada": "2026-07-13",
+  "resumen": "Se realiza un inventario detallado de widgets y métricas del dashboard Hexelion y el Jardin, incluyendo estado de cada componente. Se analizan 13 páginas del dashboard y el estado de los paneles, con foco en widgets vivos, vacíos, obsoletos o en desarrollo. Se describe el funcionamiento de los sistemas de monitoreo, energía, chat, alertas y otros elementos del sistema.",
+  "ideas_clave": [
+    "La mayoría de los widgets del dashboard Hexelion están en estado VIVO, mostrando datos actualizados o simulados.",
+    "Algunos componentes están marcados como STALE, indicando datos desactualizados o fuentes no confiables.",
+    "Hay elementos como el sistema de energía solar que están VACÍO-HONESTO debido a hardware sin cablear.",
+    "El Jardin des Ombres tiene componentes que operan con datos en tiempo real, incluyendo cámaras y chat narrativo."
+  ],
+  "quedo_a_medias": true
+} 

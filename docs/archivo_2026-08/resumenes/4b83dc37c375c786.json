@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Se propone un rediseño del dashboard del Nexo organizado en cuatro secciones: Escucha, Prueba, Sostén y Rumbo. Se establece un principio de procesos donde cada uno tiene descripción, estado y badge de solo lectura o ejecución. Se reutilizan componentes vivos del Mapa 2 y se evita el uso de rutas muertas o post nuevos. Se requiere una rama nueva para el desarrollo sin tocar main.",
+  "ideas_clave": [
+    "El dashboard se reorganiza en 4 secciones con funciones específicas: Escucha (sensores), Prueba (estado del faro), Sostén (energía y salud) y Rumbo (visión y mente).",
+    "Cada proceso debe tener una descripción legible, estado en vivo y badge claro (READ-ONLY o EJECUTA) con ejecución limitada a 3 acciones blindadas.",
+    "Se reutilizan componentes del Mapa 2 y se colapsan o integran datos reales, evitando simulaciones falsas o rutas muertas.",
+    "El diseño mantiene la identidad visual actual y se enfoca en la honestidad de los datos mostrados."
+  ],
+  "quedo_a_medias": true
+} 

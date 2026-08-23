@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento que establece las reglas para verificar la integridad del sistema solar post-instalación, asegurando que los datos se manejen de forma soberana y honesta. Propone un enfoque prioritario en el acceso local vía Modbus TCP, con fallback a la nube marcado como no-soberano. Se enfoca en la verificación de servicios y la integridad del sistema sin interferir físicamente. No se permite el control automático ni el uso de credenciales autónomas. Incluye pasos manuales para el Soberano para habilitar funciones clave como Modbus o el login de Anker.",
+  "ideas_clave": [
+    "El sistema debe operar en modo read-only y sin control físico autónomo.",
+    "Priorizar el acceso local al dato (Modbus TCP) sobre la nube para mantener soberanía.",
+    "Cualquier dato proveniente de la nube debe estar etiquetado como 'vía nube, no soberano'.",
+    "El Soberano es el único responsable de proporcionar credenciales o habilitar funcionalidades."
+  ],
+  "quedo_a_medias": false
+} 

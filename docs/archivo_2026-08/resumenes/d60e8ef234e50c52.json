@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para diagnosticar el flujo de datos ADS-B entre El Vigía y La Fragua, sin modificar el sistema. Se enfoca en confirmar si el decoder ve aviones localmente y localizar dónde se corta el flujo de datos. Incluye pasos para verificar puertos, reglas de cortafuegos y proponer soluciones de forma segura. No se debe reiniciar el sistema ni tocar configuraciones sensibles como claves o certificados.",
+  "ideas_clave": [
+    "El diagnóstico debe realizarse en modo read-only para evitar interrumpir el AIS.",
+    "Si el archivo aircraft.json está estancado, no se debe proceder con la conexión a El Nexo.",
+    "Se debe comparar el tráfico ADS-B con el AIS, que funciona, para identificar el corte.",
+    "Las soluciones propuestas deben entregarse como reglas o servicios deshabilitados para su activación segura por el Soberano."
+  ],
+  "quedo_a_medias": true
+} 

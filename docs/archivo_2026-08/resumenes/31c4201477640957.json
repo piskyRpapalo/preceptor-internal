@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-07-18",
+  "resumen": "El documento presenta el mapa evolutivo de P0X, estructurado en seis frentes con fases y puertas de evidencia. Cada frente tiene una descripción clara, su estado actual y la puerta siguiente a cruzar. El enfoque es coordinado, basado en evidencia y con un cerebro central (PC Soberano) que guía la evolución. No se permite tomar decisiones estructurales fuera del mapa sin su actualización correspondiente.",
+  "ideas_clave": [
+    "Cada frente tiene una fase definida, una puerta de evidencia y dependencias declaradas.",
+    "El PC Soberano actúa como cerebro central del sistema, con una graduación de autonomía desde G0 hasta G4.",
+    "La coordinación se basa en evidencia, no en decisiones arbitrárias, y se evita la fragmentación de recursos.",
+    "Las puertas de avance se cruzan mediante evaluaciones con métricas duras, como diagnósticos, artefactos aplicados y reportes contrastados."
+  ],
+  "quedo_a_medias": true
+} 

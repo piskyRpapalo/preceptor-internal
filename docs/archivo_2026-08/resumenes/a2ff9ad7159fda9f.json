@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "otro",
+  "fecha_declarada": "Agosto 2026",
+  "resumen": "Acta final de la oleada visual del proyecto p0x, que documenta el mapa del ecosistema, el pipeline de datos, los enlaces entre componentes y la doctrina visual aplicada. Incluye detalles técnicos sobre servicios, puertos, daemons y arquitectura de datos. Describe el funcionamiento del sistema de gestión de datos en tres capas (Bronce, Plata, Oro) y los mecanismos de verificación y seguridad. También explica la implementación del cahier como memoria ritual y la filosofía visual del proyecto.",
+  "ideas_clave": [
+    "El silicio es la frontera, la matemática es la ley y el carbono sella la verdad; filosofía del proyecto p0x.",
+    "Arquitectura de datos en tres capas (Bronce, Plata, Oro) con verificación de integridad y firmas Ed25519.",
+    "Uso de daemons especializados para monitoreo térmico, energía, sensores y ADS-B, optimizados para rendimiento y fiabilidad.",
+    "La doctrina visual se basa en 'Dos Luces': luz de estado constante (SSE) y luz de ambiente (loops sin codificación de estado)."
+  ],
+  "quedo_a_medias": false
+} 

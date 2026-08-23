@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "investigacion",
+  "fecha_declarada": "Mayo 2026",
+  "resumen": "Este documento describe la configuración física y operativa del nodo HEXELION en Lisboa, denominado TAGUS_ALPHA. Detalla el hardware utilizado, incluyendo dispositivos de procesamiento, sensores y sistemas energéticos. Presenta la arquitectura de red con VLANs dedicadas para diferentes funciones. Establece las fases de operación del nodo desde la calibración hasta la monetización abierta.",
+  "ideas_clave": [
+    "El nodo opera con una arquitectura dividida en roles específicos: Fragua (cerebro), Córtex (músculo GPU) y Legión (computo de oportunidad).",
+    "El sistema incluye sensores de tipo AIS y ADS-B para captura de datos geoespaciales y de tráfico aéreo.",
+    "La gestión energética se basa en umbrales de OMIE y estado de carga de batería para activar modos tácticos de operación.",
+    "El diseño incluye mecanismos de seguridad como firmas digitales con PUF y redundancia en sistemas críticos."
+  ],
+  "quedo_a_medias": true
+} 

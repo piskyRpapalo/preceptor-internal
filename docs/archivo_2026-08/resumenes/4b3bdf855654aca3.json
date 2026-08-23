@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe un refactor estructural del dashboard de Hexelion, cambiando la disposición de los nodos a un grid 2×3 y renombrando los nodos según un lore canónico. Se añade un nuevo nodo llamado 'SOBERANO' y se reubica el DragonSeal en el footer. Incluye datos canónicos de los seis nodos del sistema y las variantes de estilos para los badges. No se completa la acción de copiar los assets al proyecto.",
+  "ideas_clave": [
+    "Refactor estructural del dashboard: cambio de lista a grid 2×3.",
+    "Renombrado de nodos HP1→LEGION SOL, HP2→LEGION LUNA, EL VIGÍA→VIGILANTE.",
+    "Incorporación del nodo 'SOBERANO' con todos los badges DePIN visibles.",
+    "Reubicación del DragonSeal en el footer y nuevo ojo cibernético en el header."
+  ],
+  "quedo_a_medias": true
+} 

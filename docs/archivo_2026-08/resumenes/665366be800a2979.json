@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define las reglas y el alcance para la preparación del sistema de telemetría solar en el rack HEXELION antes de la instalación de los paneles Aiko. Establece que todo debe ser read-only, sin control físico ni optimización. Se enfoca en asegurar el almacenamiento en NVMe, definir un esquema honesto de telemetría, y preparar el entorno para la integración del hardware el lunes. No se permite automatización ni acceso al value-layer. El documento también indica que hay elementos pendientes que deben completarse antes del lunes, aunque pueden continuar después si la sesión se llena.",
+  "ideas_clave": [
+    "El sistema debe operar en modo read-only, sin control físico ni automatización de cargas o baterías.",
+    "La telemetría solar debe ser honesta y en unidades reales, sin inflar métricas ni inventar datos.",
+    "El almacenamiento de datos debe estar en NVMe antes del lunes, no en eMMC, para evitar desgaste.",
+    "No se permite el envío de datos al value-layer ni el acceso al Faro o capa firmada del sistema."
+  ],
+  "quedo_a_medias": true
+} 

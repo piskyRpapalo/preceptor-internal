@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para modificar la interfaz del proyecto p0x, específicamente el frontend de Nexo cálido 'Aetheric', incluyendo cambios de tema, estilos, neón, modo privacidad y persistencia de cortafuegos. Se enfoca en el diseño visual y funcional del entorno de trabajo, sin tocar componentes fundamentales del sistema. No se menciona una fecha específica. El documento presenta instrucciones detalladas sobre cómo implementar un nuevo tema cálido, aplicar efectos de neón, activar el modo privacidad y asegurar la persistencia de reglas de red.",
+  "ideas_clave": [
+    "Se propone un tema visual 'Aetheric' cálido basado en colores crema, turquesa y cobre, con sombras suaves y elementos neón.",
+    "Se introduce un modo privacidad que permite ocultar información sensible mediante un desenfoque visual (blur).",
+    "Se requiere persistencia de cortafuegos mediante netfilter-persistent para mantener reglas de red incluso tras reinicios.",
+    "El diseño debe mantener compatibilidad con el layout existente y no afectar componentes críticos como el cableado o el despliegue de OSIRIS."
+  ],
+  "quedo_a_medias": true
+} 

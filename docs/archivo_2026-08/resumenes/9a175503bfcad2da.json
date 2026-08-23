@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece las reglas de interacción con el proyecto Claude dentro del contexto de Hexelion. Define un protocolo de sesión riguroso que prioriza el uso de conocimiento existente, respetando la separación de capas y la integridad del canon. Incluye instrucciones para auditar información, evitar duplicados y gestionar ideas nuevas. Se enfoca en mantener la coherencia del sistema de conocimiento del Proyecto P0X.",
+  "ideas_clave": [
+    "Uso obligatorio de project_knowledge_search antes de afirmar cualquier hecho sobre Hexelion.",
+    "Prioridad del contenido de archivos sobre _ESTADO.md en carpetas del Nexus.",
+    "Separación estricta de las 3 capas del sistema: personal, local (Lisboa) y público ($SOLARIS).",
+    "Requerimiento de auditoría crítica para cualquier input de Gemini, con clasificación de ideas."
+  ],
+  "quedo_a_medias": false
+} 

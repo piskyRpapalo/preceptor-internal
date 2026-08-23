@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define la estructura y funcionamiento de las 'Voces del Sínodo' para el proyecto p0x, especificando el motor deliberativo basado en LLMs con validación estricta. Establece las seis voces definidas por su rol, temperatura y prompt inicial, y describe la arquitectura técnica del módulo sinodo. No se implementa aún el orquestador ni la persistencia de resultados. El enfoque es exclusivamente de opinión sin acción directa.",
+  "ideas_clave": [
+    "Las Voces del Sínodo son motores de opinión que no pueden firmar ni mover estados, solo emitir dictámenes estructurados",
+    "Se aplica una política de validación estricta mediante Pydantic v2 para evitar alucinaciones",
+    "Se define un sistema de identificadores planos y greppables, sin uso de metáforas neuronales en la lógica",
+    "Las temperaturas por voz están definidas según el rol: Monje (0.2), Escriba (0.2), Vocero (0.4), Berserker (0.9), Alquimista (0.2), Enlace (0.5)"
+  ],
+  "quedo_a_medias": true
+} 

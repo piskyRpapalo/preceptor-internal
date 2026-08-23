@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento establece una gestión proactiva de la fricción en el desarrollo de Aurelius en Movilidad según la doctrina P0X. Propone clasificar los problemas en críticos, medios y bajos para una evaluación más completa del producto antes del lanzamiento. Se recomienda abarcar los problemas críticos y medios en la investigación inicial, mientras que los de menor impacto se relegan a un backlog. Esto permite anticipar fallos potenciales en dispositivos reales y garantizar la calidad jerárquica del dataset.",
+  "ideas_clave": [
+    "La fricción se define como predicción o recuperación según el canon P4_CANON_AURELIUS.",
+    "Los problemas críticos (D1-D5) son obstáculos insuperables que impiden el lanzamiento del producto.",
+    "Los problemas de nivel medio representan predicciones de coste que pueden fallar en condiciones reales de uso.",
+    "Los problemas de nivel bajo se consideran mejoras secundarias que se manejan en fases futuras."
+  ],
+  "quedo_a_medias": true
+} 

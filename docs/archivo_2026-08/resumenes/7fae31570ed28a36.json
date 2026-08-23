@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para un auditor de seguridad que debe revisar tres hallazgos críticos en un entorno de Fragua viva. Se detallan comandos para verificar la existencia de claves de firma en mainnet, la exposición pública de puertos mediante Funnel, y el uso del puerto 9000. El informe debe realizarse en un archivo específico sin realizar cambios.",
+  "ideas_clave": [
+    "Se debe verificar si existe una clave full-access de hexelion.near en mainnet.",
+    "Se debe comprobar qué puertos están expuestos públicamente por Funnel.",
+    "Se debe identificar qué servicio está usando el puerto 9000 y si está expuesto a la red.",
+    "Se debe reportar el estado de procesos relacionados con bridge_script y streamr."
+  ],
+  "quedo_a_medias": true
+} 

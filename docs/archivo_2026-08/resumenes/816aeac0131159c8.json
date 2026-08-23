@@ -1,0 +1,13 @@
+{
+  "proyecto": "otro",
+  "tipo": "investigacion",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento presenta un inventario de criptomonedas y activos digitales, incluyendo Ethereum, Solana, NEAR, Sui y Bitcoin, con sus respectivas cantidades y valores en euros. Detalla las direcciones y cuentas donde se encuentran estos activos. Se muestra un desglose por blockchain y cuenta, con totales parciales por cada una. El valor total de los activos se presenta como 2.891 €.",
+  "ideas_clave": [
+    "El documento organiza activos cripto en diferentes blockchains y cuentas.",
+    "Se realiza un seguimiento de los valores en euros de cada activo.",
+    "Se incluyen activos como stNEAR, afSUI y otros tokens en diferentes plataformas.",
+    "El documento no tiene fecha declarada, y parece un registro de activos personales."
+  ],
+  "quedo_a_medias": false
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para modificar la interfaz del proyecto 'hexelion', específicamente el archivo 'nexo.html', implementando un tema cálido 'Aetheric' con estética neón y modo privacidad. Incluye instrucciones para optimizar assets, cambiar paletas de colores, ajustar estilos de paneles y orbes, y mantener funcionalidades existentes como el chat v2 y el jurado. También se define cómo gestionar el modo privacidad mediante un clic en el logo. El documento está incompleto, con una sección final que parece interrumpida durante la definición de la función 'togglePrivacy()'.",
+  "ideas_clave": [
+    "Implementar un tema visual 'Aetheric' con paleta cálida basada en fondos y colores del zip proporcionado.",
+    "Mantener el modo oscuro 'Sovereign' como alternativa y no tocar funcionalidades críticas como el chat v2 y el jurado.",
+    "Hacer que los orbes del logo tengan un efecto neón permanente y que el logo active el modo privacidad.",
+    "Optimizar imágenes de fondo para web y asegurar que el diseño sea responsive."
+  ],
+  "quedo_a_medias": true
+} 

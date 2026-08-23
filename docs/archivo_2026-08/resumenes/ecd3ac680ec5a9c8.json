@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la arquitectura del sistema CineK Automático, basado en hardware commodity con CPU solo y sin telemetría solar. El sistema utiliza una máquina de estados para gestionar el flujo de trabajo, delegando tareas a servicios especializados mediante APIs REST. La implementación prioriza la resistencia y la mantenibilidad a largo plazo. Se integra con una interfaz web usando Vite y FastAPI.",
+  "ideas_clave": [
+    "Uso de hardware común (Beelink SER9 Max) sin GPU dedicada para ejecución completa.",
+    "Eliminación de telemetría solar por problemas de compatibilidad con Android.",
+    "Diseño basado en una máquina de estados con checkpoints para reanudar trabajos.",
+    "Separación clara entre la capa de orquestación y los componentes computacionalmente intensivos."
+  ],
+  "quedo_a_medias": false
+} 

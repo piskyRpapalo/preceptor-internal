@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe un rediseño de la arquitectura de información del sistema Nexo, reorganizando su estructura en cuatro secciones basadas en verbos planos que indican qué hace el sistema. Se enfoca en mantener la identidad visual y la honestidad de los datos, sin modificar componentes críticos como la clave del Faro o el cableado. El enfoque es claridad funcional, con secciones destacadas para señales del mundo real, autenticidad, salud del sistema y rumbo futuro, además de colapsar elementos pendientes. Se asegura de mantener backups y revisiones antes de aplicar cambios.",
+  "ideas_clave": [
+    "El rediseño organiza la información del sistema en cuatro verbos planos (ESCUCHA, PRUEBA, SOSTÉN, RUMBO) para hacerlo comprensible sin formación técnica.",
+    "Se mantiene la identidad visual y el estado honesto de los datos, sin ocultar información ni falsificar valores.",
+    "Se reorganiza el contenido para destacar lo vivo y colapsar lo pendiente, usando detalles colapsables según demanda.",
+    "Se garantiza que los elementos críticos como la clave del Faro, la capa firmada y el cableado no se modifiquen, y se hace un backup antes de cualquier cambio."
+  ],
+  "quedo_a_medias": true
+} 

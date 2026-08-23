@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para realizar un inventario de recursos DePIN en nodos del clúster HEXELION. Define las reglas para auditoría de contenedores Docker, servicios systemd, uso de CPU, RAM, disco y claves en el sistema. Incluye instrucciones para revisar protocolos activos y detectar posibles conflictos o zombis. El objetivo es generar un informe detallado sin realizar cambios ni exponer secretos.",
+  "ideas_clave": [
+    "Se debe auditar solo los nodos: La Fragua, La Torre, HP1, El Vigía. HP2 está pendiente de aprobación.",
+    "Se identifican protocolos DePIN según su estado: EARNING, WARMING, IDLE/ZOMBIE, CORE o UNKNOWN.",
+    "Se investigan posibles conflictos entre nodos (por ejemplo, pawns compartiendo IP) y se revisan claves en disco sin exponerlas.",
+    "El informe final debe incluir capacidad por nodo, protocolos zombis, conflictos y detalles técnicos de servicios como earn_app."
+  ],
+  "quedo_a_medias": false
+} 

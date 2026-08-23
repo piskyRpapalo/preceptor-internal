@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-09",
+  "resumen": "Este documento establece las reglas para los mecanismos de seguridad en P0X, diferenciando entre frenos que detienen acciones, sensores que informan y registros que documentan. Presenta una taxonomía clara de estos mecanismos y describe el estado actual de implementación. Destaca la importancia de que los frenos realmente detengan, no solo avisen. Se menciona la necesidad de extender ciertos controles a otros repositorios y se detallan aspectos como la firma humana y el watchdog para bucles infinitos.",
+  "ideas_clave": [
+    "Un freno es una comprobación que realmente detiene una acción, no solo avisa.",
+    "Los tres tipos de mecanismos son: FRENO (detiene), SENSOR (informa) y REGISTRO (documenta).",
+    "La falta de implementación de controles en repositorios públicos es una vulnerabilidad conocida.",
+    "La firma humana sobre lotes de cambios es un mecanismo para garantizar la integridad y control de datos."
+  ],
+  "quedo_a_medias": true
+} 

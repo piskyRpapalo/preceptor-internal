@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este informe propone adaptar el modelo LoRA Aurelius, basado en Qwen2.5-1.5B-Instruct, para que funcione como un intermediario cognitivo autónomo en hardware de borde. Se enfoca en optimizar el modelo para dispositivos móviles con 8-16 GB de RAM, utilizando cuantización y LoRA para mantener su funcionalidad sin conexión. Se analizan los componentes necesarios, incluyendo TTS Kokoro y arquitecturas de hardware compatibles. El enfoque es mantener la autonomía del sistema y la integridad doctrinal del modelo.",
+  "ideas_clave": [
+    "El modelo base Qwen2.5-1.5B-Instruct es ideal para la adaptación debido a su tamaño manejable y soporte multilingüe.",
+    "Se utilizará cuantización GGUF para reducir el tamaño del modelo, permitiendo ejecución en hardware con recursos limitados.",
+    "La técnica LoRA permite añadir nuevas habilidades sin alterar el núcleo existente del modelo, manteniendo modularidad.",
+    "La autonomía en dispositivos móviles se logra evitando dependencias externas, con un enfoque en la ejecución local."
+  ],
+  "quedo_a_medias": true
+} 

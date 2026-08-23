@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento presenta un plan para evolucionar Aurelius hacia una arquitectura de agentes autónomos en entornos edge, usando los patrones LongHorizon Harness y BigBang v1. Se enfoca en la seguridad, soberanía de datos y gobernanza local-first, implementando el ciclo MEA (Manage-Execute-Audit). Propone una separación estricta entre roles para garantizar verificación empírica y responsabilidad en cada paso. El objetivo es lograr un sistema inspeccionable, reproducible y auditible, alineado con los principios de P0X.",
+  "ideas_clave": [
+    "La implementación de MEA (Manage-Execute-Audit) como base arquitectónica para sistemas autónomos en edge.",
+    "La separación de roles entre Manager, Executor y Auditor para evitar supervisión entre silicios con consecuencias reales.",
+    "La importancia de la verificación empírica como garantía de integridad del sistema, no solo de suposiciones.",
+    "La necesidad de una cadena de responsabilidad que vaya desde el Soberano hasta el último bit de información generada."
+  ],
+  "quedo_a_medias": true
+} 

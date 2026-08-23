@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento que establece las instrucciones para el preceptor del Sínodo v2 en la lectura del estado del proyecto P0X. Detalla los pasos a seguir para revisar la pizarra diaria, los últimos documentos firmados y listar frentes abiertos. Incluye la identificación de bloqueos que requieren firma del Soberano y la preparación de un checkpoint diario. No se permite ejecutar comandos que modifiquen el estado.",
+  "ideas_clave": [
+    "El preceptor del Sínodo v2 debe leer el estado del proyecto P0X sin hacer suposiciones.",
+    "Es necesario revisar la pizarra diaria y los últimos documentos firmados del canon.",
+    "Se deben identificar frentes abiertos y bloqueos que requieren intervención humana.",
+    "El checkpoint diario debe incluir el estado de cada frente y la próxima acción recomendada."
+  ],
+  "quedo_a_medias": true
+} 

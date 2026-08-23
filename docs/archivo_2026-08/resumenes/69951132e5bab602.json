@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento propone solucionar el problema de desconexión USB en El Vigía, causado por el autosuspend de los dongles RTL-SDR. Sugiere desactivar el autosuspend mediante una regla udev y ajustar la política de reinicio de los servicios AIS y ADS-B para que se reenganchen automáticamente. La implementación requiere la aprobación del Soberano y se enfoca en cambios reversibles y seguros. El diagnóstico se realiza en modo read-only, sin tocar el hardware ni el sistema de claves.",
+  "ideas_clave": [
+    "El problema de desconexión se debe principalmente al autosuspend de USB en los dongles RTL-SDR.",
+    "Se propone desactivar el autosuspend mediante una regla udev específica para los dispositivos 0bda:2838.",
+    "Se ajustan las políticas de reinicio de los servicios para que se reconecten automáticamente tras una caída.",
+    "El diagnóstico es read-only y no se toca el cableado ni el sistema de seguridad del sistema (Faro/cadena/claves)."
+  ],
+  "quedo_a_medias": true
+} 

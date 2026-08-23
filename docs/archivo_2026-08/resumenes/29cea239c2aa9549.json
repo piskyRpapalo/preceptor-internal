@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-16",
+  "resumen": "El documento analiza el estado del MVP v1 de Aurelius, señalando que la mayoría de lo que el brief indica como faltante ya está implementado en el repositorio público. Se destacan dos bloques principales: la falta de hashes SHA256 para modelos descargados y la ausencia de binarios del sistema necesarios para ejecutar la voz. También se discute sobre la necesidad de clarificar requisitos y evitar soluciones que contradicen la doctrina del proyecto.",
+  "ideas_clave": [
+    "La mayoría de las 'deudas' mencionadas en el brief son de naturaleza de lectura, no construcción.",
+    "El bloqueo principal es la falta de confirmación de hashes SHA256 por parte del Soberano.",
+    "La descarga de modelos y voz no incluye instalación de binarios del sistema, lo cual es intencional según la doctrina del proyecto.",
+    "Se propone una definición corregida del MVP que prioriza la simplicidad y evita dependencias externas como Ollama."
+  ],
+  "quedo_a_medias": true
+} 

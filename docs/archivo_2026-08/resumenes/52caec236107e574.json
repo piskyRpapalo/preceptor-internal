@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define la fase B.1 del proyecto 'El Arnés', que constituye el substrato de ejecución, telemetría y contexto para el Sínodo. Establece principios clave como la separación entre el modelo y el arnés, la gestión segura del contexto y la verificación del rendimiento. Describe los 5 primitivos del harness y su implementación en HEXELION. Incluye un experimento inicial de colocación como script de propuesta.",
+  "ideas_clave": [
+    "El Arnés actúa como brida del modelo, controlando qué ve, qué puede hacer y cómo reacciona ante fallos",
+    "Se establecen tres líneas rojas para evitar 'reward hacking': no modificar la neurona, usar oráculos de calidad y mantener el control humano en mejoras",
+    "El sistema utiliza un enfoque de 'context rot' donde solo se mantiene el contexto mínimo necesario para maximizar la señal",
+    "Se implementan mecanismos de memoria durable y verificación pre/post con oráculo para mantener la integridad del proceso"
+  ],
+  "quedo_a_medias": true
+} 

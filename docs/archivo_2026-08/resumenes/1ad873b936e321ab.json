@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la arquitectura y especificaciones del sistema paralelo p0x, enfocado en el aislamiento de directorios y permisos de acceso. Establece reglas estrictas para la escritura y lectura de archivos, prohíbe el acceso a directorios originales y define políticas de seguridad de red. Incluye detalles sobre la jerarquía de directorios, permisos de Linux y mecanismos de seguridad para evitar colisiones y corrupción de datos.",
+  "ideas_clave": [
+    "Aislamiento absoluto de E/S de disco para evitar colisiones con el entorno original",
+    "Permisos estrictos en directorios (0700, 0755) para controlar acceso y escritura",
+    "Política de lectura de solo lectura para credenciales y configuraciones sensibles",
+    "Filtrado de tráfico de red mediante Tailscale y validación de IP para seguridad"
+  ],
+  "quedo_a_medias": true
+} 

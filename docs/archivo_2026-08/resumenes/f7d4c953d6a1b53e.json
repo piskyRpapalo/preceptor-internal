@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la fase A.3.1 del proyecto p0x, que corrige un fallo de calibración en el Monje al implementar una inhibición graduada en lugar de un veto binario. Se introduce un bloqueo de factibilidad basado en la realidad del hardware para evitar que el Monje bloquee proposiciones válidas por alucinaciones. El enfoque mantiene la autonomía del sistema y actualiza los tests para garantizar que el proceso de canonización funcione correctamente.",
+  "ideas_clave": [
+    "Se reemplaza el veto binario del Monje por una inhibición graduada que se basa en el estado real del hardware (MAQUINA_REAL).",
+    "El Monje ahora bloquea solo proposiciones que son físicamente imposibles de ejecutar en el rack actual.",
+    "Se introduce un nuevo campo `bloqueo_factibilidad` en `DictamenLLM` para registrar estos bloqueos.",
+    "La lógica de `reconciliar` se actualiza para manejar el nuevo comportamiento del Monje sin alterar la frontera de autonomía."
+  ],
+  "quedo_a_medias": true
+} 

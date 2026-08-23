@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece un protocolo de reestructuración para la carpeta p0x, basado en la arquitectura Medallion y el canon de Aurelius. Propone una organización modular de datos en capas bronze, silver y gold. Define el rol de Claude Cowork como supervisor activo, subordinado a la autoridad del usuario humano. El enfoque busca crear un sistema coherente, soberano y auditable.",
+  "ideas_clave": [
+    "La reestructuración de p0x se fundamenta en dos pilares doctrinales: arquitectura Medallion y canon de Aurelius",
+    "La implementación de las capas Medallion (Bronze, Silver, Gold) permite una organización progresiva y estructurada de los datos",
+    "Claude Cowork actúa como supervisor activo pero siempre subordinado a la autoridad del usuario humano",
+    "La capa Bronze preserva la integridad del origen, la Silver refina y enriquece los datos, y la Gold optimiza para el consumo final"
+  ],
+  "quedo_a_medias": true
+} 

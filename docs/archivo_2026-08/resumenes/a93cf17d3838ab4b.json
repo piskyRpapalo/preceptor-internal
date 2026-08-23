@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-08",
+  "resumen": "Especificación maestra del proyecto hexelion que define la interfaz de usuario y experiencia de usuario para el jardín digital. Describe la navegación con tres caras interactivas, el estilo atmosférico con fondos y overlays, y las funcionalidades de adaptabilidad y estabilidad del DOM. Incluye detalles sobre el diario íntimo de notas y el modo de ahorro de energía.",
+  "ideas_clave": [
+    "Sistema de navegación con tres caras: Nexo (jardín), Le Jardin (el nexo) y El Chat (sínodo) con efectos visuales dinámicos.",
+    "Implementación de un grid soberano y una tira deslizable de herbier para la visualización de contenidos botánicos.",
+    "Sistema de ahorro de energía que reduce el consumo visual cuando el sistema detecta batería baja.",
+    "El diario íntimo de notas (Cahier) con animaciones 3D de apertura y cierre, y mecanismos de guardado automatizados."
+  ],
+  "quedo_a_medias": false
+} 

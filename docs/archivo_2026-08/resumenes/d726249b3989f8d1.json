@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "2026-08-12",
+  "resumen": "El documento explica que el repositorio hexelion-public contiene información sensible que debe ser eliminada. Se propone una corrección basada en el commit inicial, eliminando contenido privado y manteniendo solo elementos públicos limpios. Se justifica la acción de borrar y recrear el repositorio por la presencia de direcciones expuestas en el historial. Se detalla el contenido propuesto para el repositorio limpio, enfocado en documentación y herramientas sin datos sensibles.",
+  "ideas_clave": [
+    "El repositorio actual contiene información sensible que debe ser eliminada",
+    "Se propone volver al estado inicial (commit 1) para restaurar una cara pública limpia",
+    "El historial del repositorio contiene 256 commits y direcciones expuestas",
+    "Se presentan las herramientas y documentos que deben permanecer en el repositorio limpio"
+  ],
+  "quedo_a_medias": false
+} 

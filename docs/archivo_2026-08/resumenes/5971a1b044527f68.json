@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento establece una tarea de investigación para decidir la base del dashboard, enfocándose en la comparación entre versiones v9 y v10.3-staging. Se requiere confirmar el estado del motor del panel de jurado del Nexo y evaluar si v10.3 es salvagable o si se debe descartar. No se permite edición ni construcción. Se busca validar criterios de diseño y funcionalidad para tomar una decisión informada.",
+  "ideas_clave": [
+    "La tarea incluye verificar el estado de v10.3-staging y compararla con v9 para identificar diferencias en funcionalidades y diseño.",
+    "Se debe confirmar el cumplimiento de A.3.1, especialmente en relación con canonización y bloqueo de factibilidad.",
+    "El objetivo es evaluar si v10.3 es adecuada como base para el dashboard del Nexo, con énfasis en panel de deliberación, datos reales y ausencia de hype.",
+    "La investigación debe ser exhaustiva y solo lectura, sin cambios en el código ni commits."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "15 de Mayo de 2026",
+  "resumen": "El documento describe una reforma energética del proyecto Hexelion que elimina el almacenamiento de energía mediante baterías, adaptando la arquitectura a una nueva realidad física. Se introduce la doctrina del 'sol-síncrono', donde el organismo opera solo durante las horas de luz solar. Se detallan los cambios en hardware, la pérdida de ciertas funcionalidades y se preservan capacidades como el autoconsumo y la telemetría. Se menciona la posibilidad futura de reincorporar baterías. El documento no está cerrado y deja pendiente la descripción de la fase de ocaso.",
+  "ideas_clave": [
+    "Introducción de la doctrina 'sol-síncrono' donde el funcionamiento del organismo depende directamente de la luz solar.",
+    "Eliminación de baterías en la fase inicial, con impacto en autonomía y modos de operación como MCT-MAX o Ahorro real.",
+    "Preservación del autoconsumo solar y capacidad de expansión futura con baterías.",
+    "Definición de ciclos diarios del organismo basados en la disponibilidad solar."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026.05.04",
+  "resumen": "Este documento establece la visión estratégica del proyecto Hexelion, definiendo tres capas distintas: el organismo personal del Soberano, Hexelion Lisboa (mvp) y el protocolo público. Se unifican los tiers del protocolo y se clarifica el rol del Gólem como puerta de entrada. Se desambigua el nombre 'La Ciudadela' y se mantienen inmutables los axiomas del proyecto. Se establecen próximos pasos para formalizar el protocolo y crear un glosario común.",
+  "ideas_clave": [
+    "Separación clara de tres capas: organismo personal, mvp lisboa y protocolo público",
+    "Unificación de los tiers del protocolo en una sola nomenclatura",
+    "El Gólem como entrada para usuarios curiosos, no como nodo principal",
+    "Clarificación del nombre 'La Ciudadela' como tier 4, no como nodo del Soberano"
+  ],
+  "quedo_a_medias": true
+} 

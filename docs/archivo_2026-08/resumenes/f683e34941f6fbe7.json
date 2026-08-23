@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-16",
+  "resumen": "Se realiza una auditoría del MVP v1 de p0x, revisando el plan, correcciones en el código y la falta de implementación de hashes de seguridad. Se identifican problemas en la configuración del entorno y se destaca la necesidad de confirmar huellas SHA256 por parte del Soberano. Se mencionan deudas no existentes y se deja pendiente la revisión de partes del README y tokens de sesión.",
+  "ideas_clave": [
+    "El MVP v1 está a dos cadenas de texto de finalización, dependiendo de la confirmación de hashes SHA256 por el Soberano.",
+    "La falta de herramientas como `llama-cli` y `piper` en el entorno del Soberano requiere documentarlos como requisitos o implementar un modo degradado.",
+    "Algunas deudas reportadas eran falsas, como la necesidad de fixtures o scripts de setup que ya existían.",
+    "La revisión del README y el LICENSE son cruciales para cerrar el MVP v1."
+  ],
+  "quedo_a_medias": true
+} 

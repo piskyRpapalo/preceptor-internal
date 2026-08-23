@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "David presenta HEXELION como un laboratorio de inteligencia artificial en el borde, operando en un rack físico en Lisboa. El sistema utiliza hardware de baja potencia para captar señales radiofrecuencia y razonar localmente con modelos pequeños. Se enfoca en la autenticación criptográfica de datos y en crear sistemas autónomos con base en energía física. Es una exploración de infraestructura soberana y redes descentralizadas.",
+  "ideas_clave": [
+    "El enfoque está en sistemas autónomos que operan localmente sin intermediarios.",
+    "Se prioriza la verificación criptográfica de datos desde su fuente original.",
+    "Se explora la relación entre el costo energético de los procesos de razonamiento y su implementación física.",
+    "Se busca desarrollar infraestructura que permita una economía de agentes (M2M) basada en la confianza y el atestado de recepción."
+  ],
+  "quedo_a_medias": false
+} 

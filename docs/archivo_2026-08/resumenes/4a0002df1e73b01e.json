@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "informe_estado",
+  "fecha_declarada": "2026-06-01",
+  "resumen": "HEXELION es un microestado digital soberano que opera un nodo en Beato, Lisboa, centrado en la emisión de atestaciones AIS firmadas criptográficamente. El sistema incluye hardware especializado, un oráculo llamado 'El Faro' que firma y ancla datos en una cadena de custodia, y un dashboard para monitoreo. El estado actual muestra que El Faro está activo en testnet, con firma, anclaje y cobro en modo dry-run. Los backups están restaurados y funcionales, y hay cuatro nodos operativos con estado de conexión variable.",
+  "ideas_clave": [
+    "El Faro actúa como oráculo que emite atestaciones AIS firmadas con Ed25519, sin manejar fondos.",
+    "El sistema opera en testnet con una cadena de custodia basada en Merkle y anclaje de datos.",
+    "El dashboard centraliza el monitoreo de sensores, energía, agentes y nodos conectados.",
+    "La infraestructura incluye múltiples nodos con distintas funciones: Fragua, Torre, Legión Sol/Luna, Vigía y Oráculo."
+  ],
+  "quedo_a_medias": true
+} 

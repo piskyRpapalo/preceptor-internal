@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-06",
+  "resumen": "El documento presenta la arquitectura del sistema p0x, basada en cinco pilares soberanos: soberanía digital, firma humana, honestidad de sensores, fricción pedagógica y brújula estoica. Define el repositorio crítico 'codice-emancipacion-atomica' y su rol en la verificación del sistema. Establece un compromiso absoluto del sistema paralelo para garantizar una transición segura sin riesgos en el runtime activo. Describe el proceso de verificación en frío y la reestructuración del repositorio para corregir deudas técnicas.",
+  "ideas_clave": [
+    "El sistema p0x se basa en cinco pilares: soberanía digital, firma humana, honestidad de sensores, fricción pedagógica y brújula estoica.",
+    "El repositorio 'codice-emancipacion-atomica' contiene los scripts críticos que validan el sistema, incluyendo verificación de firmas y consistencia de datos.",
+    "Se establece un Contrato de Sistema Paralelo para garantizar una transición segura sin afectar el entorno de producción.",
+    "La verificación en frío permite comparar el nuevo sistema con el original para asegurar funcionalidad independiente."
+  ],
+  "quedo_a_medias": true
+} 

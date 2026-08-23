@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe un prompt para el cierre honesto del día, enfocado en la sincronización del sistema con la realidad actual de los sensores AIS y ADS-B, destacando que ADS-B está desconectado por decisión y no por fallo. Se asegura que los estados sean correctamente interpretados y que no se toquen componentes críticos como Faro o la cadena de claves. Se confirma la salud del servicio ais-catcher y se mantiene un enfoque en la transparencia sin inventar corroboraciones. El documento está incompleto o pendiente de ejecución, ya que se describe el proceso pero no se indica si se ha llevado a cabo.",
+  "ideas_clave": [
+    "AIS está operativo con ~39 buques en el Tejo.",
+    "ADS-B está desconectado deliberadamente por decisión, no por fallo.",
+    "El sistema debe distinguir entre 'fallo' y 'decisión'.",
+    "El conteo AIS es real y no cacheado, y ais-catcher está estable."
+  ],
+  "quedo_a_medias": true
+} 

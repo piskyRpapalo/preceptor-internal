@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la instalación de una nueva antena ADS-B que interrumpió la señal AIS, y propone soluciones para evitar conflictos entre dispositivos SDR. Se establecen reglas de seguridad para un reset controlado del sistema, con validación real del estado de los feeds. Se incluyen pruebas obligatorias para verificar la correcta asignación de serial y el funcionamiento del dashboard. Se menciona que las acciones son locales y no tocan la cadena ni El Faro.",
+  "ideas_clave": [
+    "Asignar serial único a cada RTL-SDR para evitar conflictos al añadir/quitar dispositivos.",
+    "El dashboard debe reflejar el estado real de los feeds mediante iconos dinámicos, no fijos.",
+    "El endpoint de reset es estrictamente controlado (tailnet, autenticado, rate-limited) y solo reinicia servicios específicos.",
+    "El documento no modifica El Faro ni la cadena, y se enfoca en la infraestructura local."
+  ],
+  "quedo_a_medias": true
+} 

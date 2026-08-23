@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "investigacion",
+  "fecha_declarada": "2026-08-08",
+  "resumen": "Este documento describe el inventario de hardware y sensores del proyecto p0x, incluyendo nodos activos en terreno como el Beelink SER9 Max, Jetson Orin Nano y Raspberry Pi. Detalla los puertos activos confirmados, buses de adquisición física y radiofrecuencia, así como mecanismos de control térmico y protección contra desgaste de escritura. También incluye la lógica determinista de inferencia solar y el monitoreo de energía solar.",
+  "ideas_clave": [
+    "El sistema utiliza múltiples nodos físicos con diferentes roles: director de orquesta principal, worker de aceleración visual y botánica, y nodo para motor de Whisper.",
+    "El control térmico implementa histéresis basada en el sensor k10temp del procesador Ryzen, ajustando el rendimiento según la temperatura.",
+    "La lógica de inferencia solar se basa en el voltaje de las baterías para determinar el estado de operación del sistema.",
+    "Se desactiva el swap para proteger la unidad NVMe y se implementan mecanismos de protección contra el desgaste de escritura."
+  ],
+  "quedo_a_medias": false
+} 

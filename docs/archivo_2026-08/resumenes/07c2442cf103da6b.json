@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para Claude Code que establece tres tareas clave: refinar el radar de los mapas con un cono translúcido, implementar un mecanismo de vida honesta para El Faro mediante firmas locales y añadir personalidades al Sínodo con voces mitológicas. Se enfoca en mantener la integridad de los datos, la seguridad local y una presentación estilizada sin falsear métricas. Incluye instrucciones para mantener la seguridad del sistema y el estilo de los agentes del Sínodo.",
+  "ideas_clave": [
+    "Refinamiento visual del radar con cono translúcido y gradiente verde",
+    "Implementación de firma local para demostrar vida del sistema sin afectar cadenas",
+    "Asignación de personalidades mitológicas a los agentes del Sínodo con mantras y estilos distintos",
+    "Mantener la integridad de datos y evitar falsificación de métricas"
+  ],
+  "quedo_a_medias": true
+} 

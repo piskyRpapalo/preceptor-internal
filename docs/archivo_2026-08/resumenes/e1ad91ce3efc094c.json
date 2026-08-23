@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe la recuperación y actualización del nexo \"Aetheric\" con un enfoque en temas cálidos, privacidad y seguridad. Incluye instrucciones para actualizar el dashboard, aplicar nuevos fondos y estilos neón, así como implementar un modo de privacidad y persistir reglas de cortafuegos. Se enfoca en mantener la integridad del sistema sin alterar componentes críticos como OSIRIS o el jurado. La tarea requiere actualizaciones front-end y configuración de seguridad.",
+  "ideas_clave": [
+    "Implementar un tema cálido 'Aetheric' con colores suaves y neón como elemento visual principal.",
+    "Agregar un modo de privacidad que desenfoque información sensible como balances y direcciones de wallet.",
+    "Mantener la persistencia de reglas de cortafuegos usando netfilter-persistent para resistir reinicios.",
+    "Actualizar el estilo visual del dashboard con fondos optimizados y animaciones neón en los orbes."
+  ],
+  "quedo_a_medias": true
+} 

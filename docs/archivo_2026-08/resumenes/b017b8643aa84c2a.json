@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "21 Mayo 2026",
+  "resumen": "Documento técnico que describe la implementación de la vista Sínodo como HTML en el gateway, con chat real conectado a Ollama. Incluye arquitectura, endpoints, reglas de implementación y fases de desarrollo. Define los system prompts para 6 agentes IA con personalidades distintas. El documento detalla el funcionamiento del sistema de historial persistente en Redis y el uso de modelos de lenguaje como llama3.2:3b.",
+  "ideas_clave": [
+    "Implementación de un chat real con agentes IA personalizados (Monje, Vocero, Berserker, Escriba, Alquimista, Enlace) conectados a Ollama",
+    "Uso de Redis para persistir el historial del chat del Sínodo",
+    "Arquitectura de tres capas: navegador → gateway → Ollama (La Torre)",
+    "Reglas estrictas de implementación: solo se puede editar en dashboard-v9, backup obligatorio antes de cambios"
+  ],
+  "quedo_a_medias": true
+} 

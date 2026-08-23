@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento que describe una actualización visual del dashboard de HEXELION, incluyendo cambios en fondos de tarjetas, logo del header y un icono cibernético clickeable. No se toca ningún dato ni funcionalidad del sistema. Se especifican los pasos para identificar el dashboard, hacer backup y aplicar los nuevos assets. El documento es una guía técnica para el desarrollo de una mejora visual de forma precisa y controlada.",
+  "ideas_clave": [
+    "El cambio visual se realiza únicamente en elementos de estilo (fondos, imágenes), sin tocar lógica ni datos del sistema.",
+    "Se requiere identificar el dashboard antes de comenzar, asegurando que los assets estén disponibles en la máquina local.",
+    "Los nuevos assets incluyen ilustraciones temáticas para las tarjetas, un logo 3D y un icono cibernético clickeable.",
+    "Se usa un proceso de backup y verificación para evitar errores en el entorno de producción."
+  ],
+  "quedo_a_medias": true
+} 

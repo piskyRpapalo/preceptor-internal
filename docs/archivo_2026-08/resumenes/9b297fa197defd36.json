@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el proceso para silenciar la alarma de una UPS (Uninterruptible Power Supply) mediante NUT. Incluye pasos para identificar la UPS, verificar su estado, ejecutar comandos de silenciamiento y tomar decisiones según el nivel de batería. No se recomienda realizar cambios adicionales ni reiniciar servicios. El proceso debe ejecutarse de forma urgente en caso de falla de energía. Se debe reportar el estado de la UPS y el comando usado para silenciarla.",
+  "ideas_clave": [
+    "El proceso de silenciamiento debe realizarse con credenciales NUT válidas.",
+    "Es importante verificar el estado actual de la batería antes de actuar.",
+    "Si el nivel de batería es menor al 30%, se debe ejecutar un apagado limpio.",
+    "Solo se debe silenciar la alarma, sin realizar modificaciones adicionales."
+  ],
+  "quedo_a_medias": false
+} 

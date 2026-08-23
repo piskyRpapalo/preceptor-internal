@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "informe_estado",
+  "fecha_declarada": "23 Mayo 2026",
+  "resumen": "El documento presenta un inventario detallado del hardware del sistema Hexelion, incluyendo nodos de control, IA, sensores y dispositivos de red. Se describe el consumo energético real y estimado de cada componente. Se analiza la generación solar disponible y su cobertura respecto al consumo. Se calcula el costo operativo mensual y anual del organismo.",
+  "ideas_clave": [
+    "El consumo medio del organismo es de ~87 W, equivalente a una bombilla halógena",
+    "La generación solar cubre el 65% del consumo anual promedio, pero hay déficit en invierno",
+    "El costo operativo estimado es de ~12 €/mes (~143 €/año)",
+    "Los nodos HP ProBook 640 consumen menos energía que mini-PCs tradicionales gracias a su eficiencia Energy Star"
+  ],
+  "quedo_a_medias": true
+} 

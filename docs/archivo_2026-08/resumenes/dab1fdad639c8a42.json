@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento propone la implementación de la arquitectura Medallion para reestructurar los datos del ecosistema P0X, organizándolos en capas de bronce, plata y oro. Establece los fundamentos para una gestión proactiva y estructurada de los datos, desde la ingestión cruda hasta su uso final en aplicaciones. Se enfatiza la importancia de especificar los esquemas de datos antes de la construcción y la necesidad de mantener la integridad y reproducibilidad de los datos a lo largo de las capas. El rol de Aurelius como filtro Edge determinista es clave para garantizar la calidad de los datos.",
+  "ideas_clave": [
+    "La arquitectura Medallion permite una gestión estructurada y proactiva de los datos, pasando de un modelo reactivo a uno cohesivo.",
+    "Las capas Bronze, Silver y Gold tienen roles específicos: ingestión cruda, limpieza y consolidación, y consumo final con contexto.",
+    "La especificación previa de esquemas de datos es crucial para garantizar la integridad y la reproducibilidad entre capas.",
+    "Aurelius actúa como filtro Edge determinista, asegurando la calidad y consistencia de los datos antes de su procesamiento en capas superiores."
+  ],
+  "quedo_a_medias": true
+} 

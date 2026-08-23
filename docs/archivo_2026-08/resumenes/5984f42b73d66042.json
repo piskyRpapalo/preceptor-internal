@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "2026-08-15",
+  "resumen": "El documento propone el plan estructural del M3 (HEGEMONIKON) en el proyecto p0x, que consiste en seis salas para la introspección personal. Describe seis conflictos principales relacionados con el diseño técnico y la experiencia del usuario, como la estructura de la base de datos y la inclusión de funciones invasivas. Se establece un enfoque minimalista y se evita la duplicación de funcionalidades ya existentes. Se menciona que el plan es una propuesta sin código y pendiente de firma, con una fecha de actualización del 15 de agosto de 2026.",
+  "ideas_clave": [
+    "La estructura de la base de datos debe evitar migraciones costosas, usando filas en lugar de columnas para nuevos datos.",
+    "Se debe eliminar el campo user_id para mantener la simplicidad del producto individual.",
+    "Se deben limitar las tablas a solo dos (fuga_sala y fuentes), evitando tablas redundantes como artefactos_forja y manifiestos.",
+    "Se debe evitar funciones invasivas como micrófonos y vibraciones, y el uso de voces como 'Aduana' o 'Guardia' que no son adecuadas para la interfaz pública."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "informe_estado",
+  "fecha_declarada": "3-4 Mayo 2026",
+  "resumen": "Se realiza el despliegue físico del rack Hexelion, verificando el estado del hardware y configurando el entorno de trabajo. Se ejecutan pruebas de conectividad, instalación de Docker y herramientas, y se inicia el desarrollo del script hexelion_omie.py. Se identifican problemas con la pantalla OLED del case Yahboom y el bloqueo del C302 por gestión empresarial. Se confirma la llegada de nuevos dispositivos como el switch TP-Link y una serie de almacenamiento. Se revisa la arquitectura de red y se planifican las próximas sesiones.",
+  "ideas_clave": [
+    "El Jetson Orin Nano Super está operativo y en estado óptimo con Docker instalado.",
+    "La API de OMIE presenta un formato diferente al esperado, pero se implementó un fallback.",
+    "El switch TP-Link TL-SG108E cambiará la arquitectura de red a VLANs por puerto.",
+    "Se registró el primer script del organismo (hexelion_omie.py) que genera datos reales del sistema."
+  ],
+  "quedo_a_medias": true
+} 

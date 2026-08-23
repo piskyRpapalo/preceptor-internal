@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "2026-08-08",
+  "resumen": "Este documento es una especificación técnica del sistema p0x, que registra elementos descartados, deudas técnicas y pendientes de implementación. Incluye decisiones arquitectónicas, incidentes en el hardware y refactorizaciones pendientes. Se enfoca en el control de versiones, el estado del sistema y la transición hacia una API modular. Se menciona el estado de la Oleada Visual y la integración de telemetría real en el sistema.",
+  "ideas_clave": [
+    "El documento enumera elementos visuales y decisiones técnicas descartadas para mantener la integridad del sistema.",
+    "Se mencionan incidentes y deudas técnicas relacionadas con hardware y software del sistema p0x.",
+    "Se describe el estado de la Oleada Visual y la transición hacia una API REST modular.",
+    "Se identifican problemas de conectividad y configuraciones incorrectas en el sistema."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe dos tareas autónomas para la noche: construir interacción de voces en el Nexo usando frases pre-renderizadas y generar un inventario read-only del software en cada nodo del rack. No se realizan cambios persistentes en el sistema. Se propone un plan de limpieza de red basado en el mapeo de servicios y DePIN. El trabajo se ejecuta sin bloqueos y toma decisiones razonables, dejando bifurcaciones para el informe de la mañana.",
+  "ideas_clave": [
+    "El proceso de generación de voces es pre-renderizado, sin TTS en vivo ni clonación de voces reales.",
+    "El inventario se realiza en modo read-only para preparar una limpieza de red sin afectar servicios.",
+    "Se marcan DePIN aprobados, muertos (zombi) y desconocidos para identificar posibles problemas de seguridad.",
+    "El trabajo se ejecuta de forma desatendida, con decisiones documentadas y sin modificar el sistema."
+  ],
+  "quedo_a_medias": true
+} 

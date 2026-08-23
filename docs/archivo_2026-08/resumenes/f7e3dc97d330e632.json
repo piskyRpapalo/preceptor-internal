@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento propone evolucionar el sistema Aurelius hacia una arquitectura de agentes autónomos en entornos edge, usando patrones como LongHorizon Harness y BigBang v1. Se enfoca en la seguridad, soberanía de datos y gobernanza local-first, siguiendo los principios de P0X. El plan introduce el patrón Manage-Execute-Audit (MEA) para garantizar ejecuciones verificables y reproducibles. Se busca cerrar brechas en el ciclo actual del sistema, como la citación de documentos inexistentes y la construcción fuera del ciclo.",
+  "ideas_clave": [
+    "La arquitectura se basa en el principio 'El silicio propone, el carbono firma', donde cada decisión pasa por un auditor independiente.",
+    "Se introduce el patrón MEA (Manage-Execute-Audit) para separar la planificación, ejecución y auditoría de los agentes.",
+    "El sistema debe ser inspeccionable, reproducible y auditible, desde sensores hasta decisiones de IA.",
+    "Se prohíbe la supervisión entre silicios con consecuencias reales, manteniendo el control local y la soberanía."
+  ],
+  "quedo_a_medias": true
+} 

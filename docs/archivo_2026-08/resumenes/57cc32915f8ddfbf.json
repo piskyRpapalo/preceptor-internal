@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el proceso de cableado y promoción de una nueva carcasa para el dashboard Nexo, integrando datos en tiempo real desde endpoints vivos. Incluye pasos de backup, verificación en staging y promoción segura. Se mantienen los placeholders del Arnés y se evita el manejo de claves o firmas. El proceso está pensado para ser seguro y reversible.",
+  "ideas_clave": [
+    "Cablear la carcasa nueva con datos reales de endpoints vivos sin tocar servicios críticos como OSIRIS o Faro.",
+    "El jurado solo registra votos, no firma ni ejecuta acciones en la cadena.",
+    "Los paneles del Arnés mantienen placeholders honestos, sin datos inventados.",
+    "El proceso incluye verificación en staging antes de promover el cambio, con rollback listo."
+  ],
+  "quedo_a_medias": true
+} 

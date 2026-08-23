@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la implementación de 'El Vocero', un agente que obtiene y clasifica los precios de energía del mercado OMIE cada hora. Detalla el proceso de reconocimiento del código existente y la lógica de fetch con múltiples fuentes. El agente es responsable de clasificar el modo energético según el precio y escribir los datos en TimescaleDB. Se establece una cascada de fuentes para obtener el precio con prioridad en caché, OMIE directo y fallback a ENTSO-E.",
+  "ideas_clave": [
+    "El Vocero clasifica el modo energético según el precio del OMIE, determinando acciones de otros agentes.",
+    "La implementación usa una cascada de fuentes para obtener precios, priorizando caché y OMIE.",
+    "Los modos son: negativo (OVERDRIVE), agresivo, normal y caro, cada uno con un emoji asociado.",
+    "Los datos se almacenan en TimescaleDB para su uso en el dashboard."
+  ],
+  "quedo_a_medias": true
+} 

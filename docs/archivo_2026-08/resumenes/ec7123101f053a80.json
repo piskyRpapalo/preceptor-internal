@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "25 Mayo 2026",
+  "resumen": "Este documento describe un rediseño integral del dashboard de HEXELION v10.2, incluyendo correcciones críticas y mejoras estéticas. Se detalla el proceso de staging, se corrige un error en el puerto de vigilancia y se propone un nuevo fondo digital bio-orgánico. También se rediseña el mapa marítimo con iconos de barcos diferenciados por tipo y dirección, y se integran elementos visuales inspirados en circuitos y biología. El documento indica claramente las instrucciones técnicas para implementación y preview del staging.",
+  "ideas_clave": [
+    "Rediseño del dashboard con fondo dinámico que fusiona circuitos electrónicos y estructuras orgánicas.",
+    "Corrección del puerto incorrecto en el servicio de vigilancia (8000 → 8765).",
+    "Mejora visual del mapa marítimo con iconos de barcos rotados por dirección y diferenciados por tipo.",
+    "Incorporación de elementos decorativos como raíces biolumínicas y nodos fotosintéticos en el fondo."
+  ],
+  "quedo_a_medias": false
+} 

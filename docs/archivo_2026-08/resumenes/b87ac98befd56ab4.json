@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe el proceso para silenciar de forma definitiva la alarma de una UPS (Green Cell PowerProof 1000VA) sin desactivar su función de apagado automático. Explica cómo identificar la UPS, verificar sus comandos, usar credenciales NUT para silenciarla temporal o permanentemente, y confirmar que la protección sigue activa. Incluye alternativas si el driver no soporta el comando de silencio. No se modifica el power ni se desactiva upsmon.",
+  "ideas_clave": [
+    "Solo se debe silenciar la alarma audible, no el power ni el auto-apagado.",
+    "Se usa NUT (Network UPS Tools) para interactuar con la UPS a través de SSH.",
+    "Hay dos métodos para silenciar permanentemente: comandos beeper.disable o ajuste en la interfaz LCD.",
+    "Es crucial mantener la protección automática del sistema incluso si se desactiva el sonido."
+  ],
+  "quedo_a_medias": false
+} 

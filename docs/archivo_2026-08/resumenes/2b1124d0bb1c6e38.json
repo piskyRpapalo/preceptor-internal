@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe el algoritmo de correlación trinitaria de hexelion-lab, que analiza tres flujos de datos: código (GitHub), consenso social (Polymarket) y hardware (DePINscan) para detectar divergencias. Utiliza un índice de divergencia trinitaria (IDT) para identificar anomalías entre la narrativa externa y la realidad física del proyecto. Cuando se cruza un umbral crítico, se activa automáticamente 'La Imprenta' que genera scripts de monitorización. El sistema busca identificar proyectos zombi o señales de nueva realidad en el desarrollo tecnológico.",
+  "ideas_clave": [
+    "La doctrina de hexelion-lab prioriza la fricción real del hardware sobre promesas teológicas",
+    "El algoritmo une tres pilares ontológicos: física del código, ruido del consenso social y masa física del hardware",
+    "El índice de divergencia trinitaria (IDT) actúa como mecanismo de detección de inconsistencias entre narrativa externa y realidad material",
+    "La Imprenta se imprime sola cuando se detecta una ruptura de la realidad, generando scripts de monitorización automáticamente"
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "otro",
+  "fecha_declarada": "Mayo 2026",
+  "resumen": "Este documento es un backlog de ideas y tareas pendientes para el proyecto Hexelion, incluyendo conceptos como mantenimiento autónomo, seguros de verdad sintética, monetización del análisis estratégico, y arbitraje cognitivo. También detalla tareas técnicas inmediatas como la configuración de testnet NEAR, el cliente Hermes en el Vigía y la publicación de datos OMIE. El documento está en estado de desarrollo y no tiene una finalización clara.",
+  "ideas_clave": [
+    "Mantenimiento autónomo mediante micropagos en Bitcoin Lightning cuando un sensor no responde.",
+    "Venta de certificados de presencia física para detectar deepfakes mediante datos RF firmados por hardware.",
+    "Monetización del análisis estratégico de Hexelion como servidor MCP pagado en BTC Lightning.",
+    "Intercambio automático de tiempo de GPU por créditos energéticos en Akash Network bajo ciertas condiciones económicas."
+  ],
+  "quedo_a_medias": true
+} 

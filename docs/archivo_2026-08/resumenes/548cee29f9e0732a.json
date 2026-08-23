@@ -1,0 +1,12 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento contiene credenciales de cuenta NEAR para hexelion.testnet en la red de prueba. Muestra información de acceso incluyendo el ID de cuenta, clave pública y privada. Se menciona que el contrato aún no ha sido desplegado. El archivo parece ser una configuración de desarrollo para una cuenta en la red NEAR.",
+  "ideas_clave": [
+    "Configuración de cuenta NEAR para desarrollo en testnet",
+    "Uso de credenciales para acceder a la red NEAR",
+    "Estado pendiente de despliegue del contrato"
+  ],
+  "quedo_a_medias": true
+} 

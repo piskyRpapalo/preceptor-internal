@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "Agosto 2026",
+  "resumen": "El documento resume el estado actual del sistema p0x tras completar la 'Oleada Visual', destacando su arquitectura visual con elementos metálicos y tonos violeta, así como nuevas capacidades como el CineK Studio Operativo y la Sentinelle Corregida. Incluye optimizaciones de rendimiento y una doctrina visual confirmada con reglas de iluminación y efectos. Se mencionan pendientes como el cableado solar y la implementación de un build estático. Se describe el entorno físico del sistema en Le Jardin, Beato (Lisboa).",
+  "ideas_clave": [
+    "La arquitectura visual se basa en gradientes cromáticos y texturas metálicas para crear una estética coherente.",
+    "Se introduce el concepto de 'CineK Studio Operativo' como pipeline de video local-first integrado en el jardín.",
+    "La doctrina visual establece reglas claras sobre uso de luces, CPU-only para animaciones y evitación de backdrop-filter.",
+    "Hay un enfoque en la optimización del sistema: desactivación de swap, uso de SQLite WAL mode y limitación de hilos en ComfyUI."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-13",
+  "resumen": "El documento describe el empaquetado del MVP v1 de 'aurelius', especificando el peso base del producto, los componentes opcionales que se descargan con consentimiento, y las reglas para un README honesto. Destaca que la base pesa 1,15 MiB y contiene solo 104 KiB de código ejecutable, mientras que las imágenes representan la mayor parte del tamaño. Propone que la descarga de componentes adicionales sea explícita y verificable, y que el README no incluya datos no medidos ni prometas no comprobables. Se menciona la importancia de mantener la base completa como ritual, y que el README debe ser claro y honesto sobre el peso, funcionalidad y condiciones de uso.",
+  "ideas_clave": [
+    "La base del producto pesa 1,15 MiB, siendo el código ejecutable solo 104 KiB.",
+    "Los componentes adicionales (cerebro y voz) deben descargarse con consentimiento y verificación de hash.",
+    "El README debe ser honesto y no incluir datos no medidos ni promesas no comprobables.",
+    "La base debe funcionar completamente por sí sola, convirtiendo la descarga de componentes en ritual, no obligación."
+  ],
+  "quedo_a_medias": true
+} 

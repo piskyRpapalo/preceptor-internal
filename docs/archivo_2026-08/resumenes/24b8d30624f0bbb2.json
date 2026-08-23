@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe los requisitos de hardware para participar en Gradient Network, diferenciando entre nodos sentry (nivel básico) y edge hosts (nivel avanzado). Detalla las especificaciones mínimas y recomendadas para CPU, RAM, GPU, almacenamiento y red. Presenta la Jetson Orin Nano Super como dispositivo optimizado para ejecutar IA distribuida. Ofrece instrucciones para configurar esta placa como nodo Edge Host en Gradient.",
+  "ideas_clave": [
+    "Gradient Network tiene dos niveles de hardware: básico para nodos sentry (navegador) y avanzado para edge hosts con IA",
+    "La Jetson Orin Nano Super (8GB, 67 TOPS) es ideal para Edge Host gracias a su eficiencia energética y capacidad de IA",
+    "Para maximizar recompensas se debe usar hardware potente como GPU dedicada y evitar conexiones Wi-Fi inestables",
+    "El sistema Parallax permite ejecutar modelos de lenguaje locales y orquestar máquinas heterogéneas"
+  ],
+  "quedo_a_medias": true
+} 

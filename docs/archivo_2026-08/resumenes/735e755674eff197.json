@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el Paso 0 del Bucle B, enfocado en capturar una línea base de consumo real y append-only en NVMe. Se enfoca en leer datos de NUT y proxies sin control físico, manteniendo la honestidad estructural de las mediciones. No incluye pronóstico ni lazos de aprendizaje, y se propone persistir los datos en JSONL diarios en NVMe. El enfoque es estrictamente read-only y sin re-cablear componentes ya existentes.",
+  "ideas_clave": [
+    "El sistema debe mantener una línea base de consumo append-only en NVMe, sin control físico ni pronóstico.",
+    "Se distingue entre mediciones reales (MEDIDA) y estimadas (ESTIMADA), sin fusionarlas.",
+    "La persistencia se hace en JSONL diarios en NVMe, evitando eMMC por desgaste.",
+    "Se propone un muestreador periódico con Pydantic v2 estricto, con protocolo de lectura y escritura."
+  ],
+  "quedo_a_medias": true
+} 

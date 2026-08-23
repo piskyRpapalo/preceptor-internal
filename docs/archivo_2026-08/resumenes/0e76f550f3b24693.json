@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la implementación de un lector keyless para balances on-chain en NEAR, sin claves ni firmas. Se enfoca en leer cuentas públicas mediante RPC público y persistir los datos en un registro. El enfoque es estrictamente de lectura, sin ejecutar transacciones. Incluye modelos Pydantic para validación y tests con mock.",
+  "ideas_clave": [
+    "Lectura keyless de balances on-chain usando solo direcciones públicas.",
+    "Validación estricta de datos mediante Pydantic para evitar valores inválidos.",
+    "Persistencia de datos en un registry NVMe y alimentación de un panel existente.",
+    "Separación clara entre lectura on-chain y off-chain, evitando confusiones."
+  ],
+  "quedo_a_medias": true
+} 

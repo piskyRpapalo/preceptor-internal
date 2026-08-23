@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "investigacion",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define la estructura inicial del Sínodo de HEXELION, centrada en la creación del esqueleto del sistema con roles canónicos y una topología de despliegue. Establece las reglas para la Fase 1, incluyendo el contrato entre componentes y la separación de responsabilidades entre La Torre y La Fragua. Se detallan los servicios y agentes involucrados, así como los pasos de verificación previa. No se incluye una fecha declarada en el documento.",
+  "ideas_clave": [
+    "La estructura del sistema está basada en roles canónicos como MONJE, ALQUIMISTA, ESCRIBA, BERSERKER, VOCERO y ENLACE.",
+    "La topología de despliegue divide las funciones entre La Torre (procesamiento) y La Fragua (comunicaciones y gateway).",
+    "El flujo de datos pasa por TimescaleDB, Redis y el dashboard, con tolerancia a fallos en caso de caída de La Torre.",
+    "Se exige una verificación previa rigurosa antes de avanzar a la Fase 1."
+  ],
+  "quedo_a_medias": true
+} 

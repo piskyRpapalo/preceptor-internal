@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "plan",
+  "fecha_declarada": "2026-05-17",
+  "resumen": "Se detalla una lista maestra de tareas para el proyecto Hexelion, con énfasis en tareas urgentes, desarrollo del dashboard, nuevos proyectos como wallets y recompensas, y la activación de protocolos DePIN. Se mencionan también tareas de infraestructura y reclamación de wallets. Incluye información sobre nodos, despliegues y pendientes de configuración.",
+  "ideas_clave": [
+    "Se planea integrar un módulo de wallets y recompensas dentro del dashboard.",
+    "Se desarrollará un agente local basado en Qwen para interactuar con los nodos.",
+    "Se activarán nuevos protocolos DePIN como Storj, Sia, Jackal, Acurast y GagaNode.",
+    "Se requiere limpieza de imágenes y revisión de configuraciones de nodos y puertos."
+  ],
+  "quedo_a_medias": true
+} 

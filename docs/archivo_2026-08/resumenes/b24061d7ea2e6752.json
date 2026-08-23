@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt maestro para la fase B.1 del Arnés, especificando instrucciones e invariantes para la construcción segura y autoritaria del sistema. Se enfoca en la ejecución física simulada, el razonamiento detenido y la gestión de riesgos técnicos. Describe los componentes cognitivamente complejos del Arnés y sus reglas de operación. Incluye restricciones estrictas sobre el código, la telemetría y el manejo de datos. No se cierra con una conclusión clara, dejando pendientes aspectos de implementación.",
+  "ideas_clave": [
+    "El Arnés es una amenaza interna que requiere invariantes duras y una gestión rigurosa del código y los datos.",
+    "La construcción debe simular el comportamiento físico y térmico antes de escribir código.",
+    "Se prohíbe la modificación del propio código fuente (neurona) y se establece un oráculo de calidad como referencia.",
+    "La telemetría debe ser honesta, con datos reales y sin inventar valores de consumo energético."
+  ],
+  "quedo_a_medias": true
+} 

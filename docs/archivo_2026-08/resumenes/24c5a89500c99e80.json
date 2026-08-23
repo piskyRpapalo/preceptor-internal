@@ -1,0 +1,14 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "2026-06-05",
+  "resumen": "Documento que establece las reglas para extraer el código y las rutas del dashboard (v9 y v10.x) y del Gateway, sin realizar modificaciones. Se enfoca en recopilar información crítica para la reparación y sustitución del sistema, incluyendo rutas REST, código fuente, y lógica de datos. Se excluyen dependencias y se redactan secretos. Se destaca la necesidad de comprender el estado entre v9 y v10.x para decidir la ruta de reparación. El objetivo es entregar un bundle legible a la Tríada para su revisión.",
+  "ideas_clave": [
+    "La extracción debe ser exclusivamente de lectura y no incluir cambios ni instalaciones.",
+    "Los secretos deben ser redactados (mostrando nombres de variables, no valores).",
+    "Importante identificar qué versión del dashboard sirve realmente (v9 vs v10.x).",
+    "Se deben recopilar rutas REST y código de paneles críticos como HARVEST·DEPIN, SÍNODO·AGENTS, EL FARO, etc.",
+    "La integración de ganancias DePIN y el chat del Sínodo requieren análisis detallado de sus dependencias y lógica."
+  ],
+  "quedo_a_medias": true
+} 

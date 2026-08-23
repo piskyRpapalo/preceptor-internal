@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "2026-08-12",
+  "resumen": "El documento evalúa la compatibilidad del vocabulario del MVP de Aurelius con el canon existente, identificando colisiones y problemas de privacidad. Se descubre que solo el 31% del filtro está listo para reutilización, y que el léxico específico de P0X contiene información sensible. Se propone no renombrar IDs de reglas ni compartir el fichero `guardia_higiene.py` en el MVP, debido a riesgos de fuga de información. La propuesta arquitectónica es compartir solo expresiones regulares genéricas.",
+  "ideas_clave": [
+    "El léxico del MVP es limpio y no colisiona, mientras que el del Preceptor tiene múltiples colisiones duras.",
+    "Solo el 31% del filtro está listo para reutilización, no el 80% afirmado previamente.",
+    "Compartir el archivo `guardia_higiene.py` en el MVP expondría el inventario de infraestructura del Soberano.",
+    "Los IDs de regla deben mantenerse tal como están porque están firmados y usados en expedientes inmutables."
+  ],
+  "quedo_a_medias": true
+} 

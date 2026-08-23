@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para Claude Code que instruye sobre cómo acumular datos AIS en TimescaleDB, despertar los tres agentes del sínodo (Alquimista, Vocero y Berserker) y corregir el sensor de temperatura del Monje. Incluye pasos técnicos para la configuración de la base de datos, integración de flujos de datos y verificación de estados. No se realiza ninguna transacción ni firma en cadena, solo lectura de datos externos. El objetivo es preparar el terreno para productos predictivos futuros.",
+  "ideas_clave": [
+    "La tarea principal es crear un historial persistente de datos AIS mediante una hypertable en TimescaleDB.",
+    "Los tres agentes deben ser activados completamente con lectura externa y sin firmas ni transacciones.",
+    "Se necesita corregir el sensor de temperatura del Monje para que muestre datos reales en lugar de None.",
+    "La seguridad es prioritaria: se permite solo lectura, y se debe hacer backup antes de cualquier cambio estructural."
+  ],
+  "quedo_a_medias": true
+} 

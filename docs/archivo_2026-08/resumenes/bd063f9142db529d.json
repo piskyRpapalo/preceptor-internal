@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un manual operativo para la gestión táctica de energía en el sistema hexelion, basado en precios de mercado de OMIE y ENTSO-E. Define modos de operación del sistema según umbrales de precio energético. Establece jerarquía de fuentes de datos y cómo se comporta el sistema en diferentes condiciones de costo energético. Describe acciones automáticas del sistema en función del precio de la electricidad.",
+  "ideas_clave": [
+    "El sistema tiene diferentes modos operativos (MCT-MAX, MCT-PAR, modo ahorro) según los precios del mercado eléctrico",
+    "Existen tres fases de obtención de datos energéticos: local, OMIE y ENTSO-E, con prioridades distintas",
+    "Las acciones automáticas del sistema incluyen carga de batería, control de cómputo, y gestión de contenedores DePIN",
+    "El sistema puede operar con precios negativos o muy altos, adaptándose dinámicamente a las condiciones del mercado"
+  ],
+  "quedo_a_medias": false
+} 

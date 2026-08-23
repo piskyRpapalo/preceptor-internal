@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe un plan de desarrollo para el proyecto Aurelius, estructurado en rondas y fases, que define habilidades y objetivos clave para el aprendizaje y la arquitectura del sistema. Cada ronda contiene un conjunto de habilidades relacionadas con la gestión de conocimiento, el desarrollo de software y la arquitectura de sistemas. Las habilidades se encuentran en diferentes estados de desarrollo, desde 'STAGED' hasta 'LOCKED', indicando su progreso. El plan incluye elementos como el archivo de rechazos, lexicones vivientes, sandbox de chaos y otros componentes técnicos para el desarrollo de la plataforma.",
+  "ideas_clave": [
+    "El plan se organiza en rondas y fases, cada una con un conjunto específico de habilidades que se deben desarrollar.",
+    "Las habilidades están vinculadas a conceptos como la gestión de conocimiento, arquitectura de sistemas y desarrollo de software.",
+    "El estado 'LOCKED' indica que ciertos conjuntos de habilidades están esperando la verificación de rondas anteriores.",
+    "La estructura del plan incluye tanto elementos técnicos como conceptuales, como el archivo de rechazos o el lexicon viviente."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "21 Mayo 2026",
+  "resumen": "Documento describe la implementación del sistema Sínodo v1 con agentes IA en Hexelion. Define la arquitectura de comunicación con Ollama y Redis. Incluye endpoints y system prompts para seis agentes distintos. Establece reglas inviolables para el desarrollo.",
+  "ideas_clave": [
+    "Sínodo como vista HTML servida en /sinodo del gateway",
+    "6 agentes con personalidades definidas (Monje, Vocero, Berserker, Escriba, Alquimista, Enlace)",
+    "Integración con Ollama (llama3.2:3b) y Redis para historial persistente",
+    "Arquitectura basada en POST /api/sinodo/chat con system prompts por agente"
+  ],
+  "quedo_a_medias": true
+} 

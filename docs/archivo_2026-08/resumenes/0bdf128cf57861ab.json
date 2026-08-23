@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026.14",
+  "resumen": "Este documento define la arquitectura de red y segmentación VLAN para HEXELION, especificando las subredes, IPs fijas, puertos y reglas de firewall entre las diferentes VLANs. Establece un sistema de aislamiento estricto entre componentes, con privilegios mínimos y acceso controlado. Se describen las funciones de cada VLAN, como el núcleo soberano, ejecución, ingestión sensorial y red doméstica. Incluye reglas de firewall que restringen el tráfico entre VLANs, permitiendo solo comunicaciones autorizadas.",
+  "ideas_clave": [
+    "La red está segmentada en VLANs con función específica: núcleo (VLAN 10), ejecución (VLAN 20), ingestión sensorial (VLAN 30) y doméstica (VLAN 50).",
+    "Se aplica el principio de privilegio mínimo, donde cada VLAN tiene acceso controlado a otras según su rol en el sistema.",
+    "El tráfico entre VLANs está restringido mediante reglas de firewall, con excepciones solo para el \"Hermes Beacon\" (puerto 9000) y salida a internet.",
+    "Los dispositivos críticos tienen IPs fijas asignadas por MAC, garantizando identidad y control de acceso."
+  ],
+  "quedo_a_medias": true
+} 

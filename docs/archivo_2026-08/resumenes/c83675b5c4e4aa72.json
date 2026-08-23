@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "Mayo 2026",
+  "resumen": "Documento describe el diseño e implementación del mapa marítimo de HEXELION, partiendo de una interfaz básica y funcional hacia una versión interactiva con estelas, rotación de buques y sistemas de alerta. Incluye la definición de la arquitectura técnica con JSON de datos AIS, integración de WebSocket en FastAPI y una hoja de ruta de mejoras gráficas. Se presenta una primera previsualización interactiva con elementos visuales dinámicos. El documento no está cerrado, ya que se detalla un proceso en curso con próximos pasos definidos.",
+  "ideas_clave": [
+    "La interfaz original era funcional pero austera, sin interactividad visual ni identidad de marca.",
+    "Se define un contrato de datos entre backend y frontend usando JSON para el mapa marítimo.",
+    "La integración de WebSocket permite una actualización en tiempo real de los buques.",
+    "Se propone una hoja de ruta de mejoras gráficas que va desde nivel 1 (iconos rotativos) hasta nivel 4 (Gaussian Splatting)."
+  ],
+  "quedo_a_medias": true
+} 

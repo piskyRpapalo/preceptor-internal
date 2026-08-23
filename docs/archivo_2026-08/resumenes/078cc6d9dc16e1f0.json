@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "otro",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece las especificaciones técnicas y el canon visual para las interfaces del nodo Soberano, incluyendo el Puente de navegación entre El Nexo, Le Jardin y el Chat. Define reglas de diseño, continuidad evolutiva, simplificación de datos y restricciones de código. Se enfoca en optimizar el hardware local y garantizar la honestidad en la telemetría visual. El documento describe componentes de interfaz con detalles de estilo, colores, transiciones y accesibilidad, y establece límites de tamaño y control de renderizado.",
+  "ideas_clave": [
+    "El Puente es un componente de navegación fijo que permite cambiar entre tres vistas principales con diseño visual específico para cada una.",
+    "Se define un límite estricto de 7 filas de datos activos, con expansión mediante un control interactivo.",
+    "Los componentes de interfaz deben tener un máximo de 350 líneas de código y no usar tipos genéricos como 'any'.",
+    "Se prohíbe el re-renderizado excesivo y se requiere el uso de funciones memorizadas para evitar sobrecarga del hilo principal."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "25 Mayo 2026",
+  "resumen": "El documento describe un rediseño del dashboard de Hexelion v10.2, incluyendo corrección de un bug crítico relacionado con el puerto de tejo-ships, cambios en el layout y actualización de cards como COSECHA·DEPIN, SÍNODO·AGENTES y M2M·SERVICIOS AUTÓNOMOS. También se prepara la card ENERGÍA·OMIE + SOLAR para integrar datos del C1000. Se menciona que algunas alertas falsas desaparecerán tras la corrección del puerto. Hay una nueva card de M2M que aún está vacía, y se indica que el proyecto está en desarrollo y no completamente cerrado.",
+  "ideas_clave": [
+    "Corrección del puerto 8000 a 8765 para evitar alertas falsas",
+    "Reducción del contenido de los ojos marítimo y aéreo a solo un dato numérico",
+    "Actualización de la lista de DePINs activos y retirados",
+    "Integración de una nueva card M2M con ventas autónomas de servicios"
+  ],
+  "quedo_a_medias": true
+} 

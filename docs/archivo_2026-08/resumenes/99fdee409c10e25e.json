@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define un prompt maestro para coordinar siete agentes AI-AI en el ecosistema HEXELION. Propone tres pilares fundamentales: BELIEVE_IN_YOURSELF, KEEP_TRYING_YOU_CAN_DO_IT y NO_DATA. Establece un ciclo de verificación (rojo, sabotaje, verde) y un protocolo de resolución de bloqueos (itera, confiesa, corrige, prueba).",
+  "ideas_clave": [
+    "El bucle de verificación BELIEVE_IN_YOURSELF requiere que los tests fallen primero (rojo) antes de implementar código funcional.",
+    "El sabotaje intencional prueba la robustez del sistema verificando que las invariantes se protegen de manera efectiva.",
+    "KEEP_TRYING_YOU_CAN_DO_IT redefine el bloqueo como señal diagnóstica que activa un protocolo de resolución interno.",
+    "La arquitectura del bloqueo involucra cuatro pasos: iterar el problema, confesar el fallo, corregir y volver a probar."
+  ],
+  "quedo_a_medias": true
+} 

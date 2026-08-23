@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "2026-07-13",
+  "resumen": "Este documento es un inventario de tareas pendientes del proyecto p0x, con un enfoque en el estado de desarrollo del software y tareas técnicas. Incluye tareas cerradas de facto y varias abiertas, con detalles sobre costes, bloqueos y responsables. Se mencionan temas como el rediseño del chat, el análisis VLM, el gateway, el motor del Jardín y la modularización del código. También se incluyen tareas relacionadas con la seguridad, la calibración del hardware y la experiencia del usuario. No se incluyen tareas de hardware o decisiones de David que no estén completamente definidas o ejecutadas.",
+  "ideas_clave": [
+    "El proyecto p0x tiene un estado avanzado de desarrollo con muchas tareas técnicas y de infraestructura pendientes.",
+    "Se están llevando a cabo tareas relacionadas con la modularización del código, la mejora del chat, y el análisis VLM.",
+    "Hay tareas bloqueadas por otros elementos, como la voz del Sínodo, que depende de una tarea de David.",
+    "Se hace hincapié en la seguridad, la calibración del hardware y la experiencia del usuario en el desarrollo de la plataforma."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Se describe el refinamiento del dashboard v4 de Hexelion, centrado en la paleta de colores reducida a tres tonos (rojo, verde, blanco) y el cambio visual del elemento LEGION SOL. Incluye instrucciones de implementación y mapeo de elementos visuales. Se elimina el uso de gris y cyan/azul en el texto, manteniendo jerarquía visual mediante opacidad. El documento está incompleto, con una sección de búsqueda y reemplazo sistemático que no se concluye.",
+  "ideas_clave": [
+    "La paleta de colores del dashboard se reduce a tres tonos: rojo (crítico), verde (activo) y blanco (neutro).",
+    "Se elimina el uso de gris y cyan/azul para el texto, manteniendo estos colores en elementos decorativos.",
+    "La jerarquía visual se logra mediante opacidad sobre blanco, sin usar grises.",
+    "Se realiza un mapeo detallado de cada elemento visual para actualizar su color según la nueva paleta."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para Claude Code que define las tareas de mejora del dashboard de escaparate del proyecto Hexelion. Describe cómo debe ser la navegación entre paneles, el manejo de alertas y el funcionamiento del feed de COSECHA. Incluye instrucciones sobre seguridad, diseño visual y funcionalidades específicas para los mapas TEJO y AÉREO. El objetivo es crear un escaparate impresionante pero legible, capaz de influir en decisiones de financiación externa.",
+  "ideas_clave": [
+    "El dashboard es la cara del componente Carbono y podría decidir financiación externa",
+    "Importante mantener el diseño sobrio pero impresionante, con brillo que enseña sustancia real",
+    "Todas las acciones son read-only, sin transacciones ni llamadas a cadena",
+    "El feed de COSECHA debe activarse de nuevo después de estar congelado"
+  ],
+  "quedo_a_medias": true
+} 

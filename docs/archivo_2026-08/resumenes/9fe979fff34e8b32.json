@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe dos tareas para el proyecto p0x: activar la firma Ed25519 en El Faro (off-chain, testnet) y extender el modo privacidad del dashboard para ocultar los paneles de El Faro y el Sínodo. Se detallan pasos de backup, carga de claves, pruebas de firma y verificación, así como ajustes en el dashboard. No se mezclan commits y se mantiene la privacidad de la clave privada. El documento está incompleto en su ejecución, ya que no se indica si los pasos fueron realizados o si se completó el informe final.",
+  "ideas_clave": [
+    "La clave privada debe mantenerse segura, sin exposición ni registro en logs ni en el código.",
+    "La firma Ed25519 se activa en modo off-chain y testnet, sin afectar la mainnet ni el ledger existente.",
+    "El modo privacidad del dashboard se extiende para ocultar también El Faro y el Sínodo, con el mismo tratamiento visual que otras tarjetas.",
+    "El documento establece protocolos de backup y verificación para evitar errores o inconsistencias en el proceso."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento analiza oportunidades de negocio derivadas del catálogo de skills de Aurelius, una arquitectura de confianza computacional. Se identifican 10 oportunidades con un MoX promedio de 8.73/10, enfocadas en la soberanía del hardware local. Las oportunidades más valiosas explotan limitaciones de los SaaS en la nube. Se detallan dos casos: protocolo de escrow de propiedad intelectual y firewall de código para CI/CD.",
+  "ideas_clave": [
+    "Aurelius convierte la soberanía del hardware local en activos monetizables mediante el uso de skills distribuidos en medallones.",
+    "Las oportunidades de negocio con mayor MoX no son las más técnicamente complejas, sino las que aprovechan la imposibilidad de replicar funciones locales en la nube.",
+    "El protocolo de escrow permite demostrar autoría criptográficamente sin necesidad de notaría, usando hash y timestamp.",
+    "El firewall de código para CI/CD evita ejecución automática de código generado por LLM, preveniendo ransomware mediante interceptación local."
+  ],
+  "quedo_a_medias": true
+} 

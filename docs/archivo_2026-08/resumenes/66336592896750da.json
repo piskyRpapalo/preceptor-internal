@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "informe_estado",
+  "fecha_declarada": "09 Mayo 2026",
+  "resumen": "HEXELION TAGUS_ALPHA es un nodo soberano en Lisboa que captura señales marítimas y aéreas, procesa datos locales y vende certidumbre física verificable. El hardware está casi completo, con la antena ADS-B pendiente. La red está en configuración plana temporal y varios servicios están en desarrollo. El estado actual es fase 0 de construcción.",
+  "ideas_clave": [
+    "El nodo opera con energía solar y captura señales AIS, ADS-B y ambientales.",
+    "Los datos se certifican con firmas criptográficas y timestamps precisos.",
+    "El objetivo es crear una infraestructura de certidumbre física anclada en criptografía.",
+    "La red está en fase de configuración y se espera implementar VLANs y servicios como TimescaleDB y Qdrant."
+  ],
+  "quedo_a_medias": true
+} 

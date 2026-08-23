@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece una serie de tareas seguras para ejecutarse antes de que el Soberano se vaya al tejado, incluyendo generación de audio con espeak, revisión del inventario DePIN y verificación de la seguridad de servicios como Jupyter. Se enfoca en acciones read-only y preparación de cambios que serán aplicados posteriormente por el carbono. No se realiza ningún cambio persistente ni se tocan servicios críticos como Faro o rebindings de red.",
+  "ideas_clave": [
+    "La generación de audio IA con espeak debe completarse y verificarse en el Nexo.",
+    "La revisión del inventario DePIN se hace en modo read-only, identificando servicios activos y marcas de nodos aprobados o muertos.",
+    "Se detecta una posible vulnerabilidad en Jupyter sin token y se propone un cambio seguro para rotar credenciales.",
+    "El re-binding de redes como Ollama o Qdrant se pospone hasta después de la pasada solar, con documentación del plan solo."
+  ],
+  "quedo_a_medias": true
+} 

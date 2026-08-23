@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe una corrección crítica para el dashboard de Hexelion, especificando cambios visuales en el dashboard correcto en producción. Se detallan tres modificaciones: sustituir el logo del header por uno 3D, reemplazar el hexágono central por un ojo cibernético clickeable, e inyectar imágenes de fondo en los seis cards del dashboard. Se incluyen instrucciones para localizar el código correcto y copiar los assets necesarios.",
+  "ideas_clave": [
+    "El dashboard en producción es el que responde a https://la-fragua.tailb9e0f7.ts.net/dashboard y no el antiguo en /home/ubuntu/hexelion/dashboard/",
+    "Los cambios visuales son exclusivamente estéticos y no modifican la lógica ni estructura del dashboard",
+    "Se requiere identificar correctamente el proyecto y su stack tecnológico antes de realizar cambios",
+    "Los assets necesarios están disponibles en /tmp/hexelion_dashboard_v2_assets/ y deben copiarse al directorio correcto"
+  ],
+  "quedo_a_medias": true
+} 

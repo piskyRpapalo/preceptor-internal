@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "auditoria",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "La auditoría tiene como objetivo reconciliar el estado documentado con el desplegado en tres nodos: La Torre, El Vigía y La Legión, sin realizar cambios. Se enfoca en diagnosticar un error 500 en La Torre relacionado con Ollama. Se propone un enfoque read-only para observar y reportar sin tocar los sistemas. Se incluyen instrucciones para inspeccionar servicios, logs, configuraciones y hardware de cada nodo.",
+  "ideas_clave": [
+    "La auditoría es estrictamente read-only y no debe realizar cambios ni instalaciones.",
+    "El objetivo principal es diagnosticar el error 500 en La Torre relacionado con Ollama.",
+    "Se debe verificar la existencia y funcionamiento de servicios como Ollama, TimescaleDB y agentes del Sínodo.",
+    "Se requiere asegurar que los nodos mantengan su integridad de red, exposición y seguridad, evitando cambios o alteraciones."
+  ],
+  "quedo_a_medias": true
+} 

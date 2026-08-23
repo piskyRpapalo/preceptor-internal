@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "2026-05-29",
+  "resumen": "Este documento es un prompt para Claude Code que actúa como órgano del hardware de HEXELION. Su propósito es realizar un reconocimiento completo del estado del sistema (solo lectura) para informar el diseño de mejoras en M2M/A2A. Se detallan los pasos a seguir para inspeccionar la salud del sistema, servicios, red, modelos de IA, base de datos, activos M2M, estado del Sínodo, dashboard, sensores y tareas programadas. No se permite modificar nada, solo observar y reportar.",
+  "ideas_clave": [
+    "El sistema opera en modo solo lectura, sin posibilidad de hacer cambios ni commits.",
+    "Se enfoca en obtener un informe completo de salud del sistema para el proyecto p0x, en el contexto de HEXELION.",
+    "Se requiere inspeccionar múltiples aspectos del sistema: hardware, servicios, red, modelos de IA, base de datos, etc.",
+    "La información recopilada servirá para diseñar planes de mejora en la arquitectura M2M/A2A del organismo cibernético."
+  ],
+  "quedo_a_medias": false
+} 

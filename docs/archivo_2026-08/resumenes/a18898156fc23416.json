@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-07-04",
+  "resumen": "Este documento describe el proceso de evaluación y transplante de modelos en el marco de P0X, centrado en la persistencia del conocimiento a través de datasets y suites de evaluación. Establece cómo se generan los datos, se evalúa el rendimiento y se realiza la transferencia entre modelos base. Incluye criterios de calidad y métricas para certificar modelos. Se enfoca en la sostenibilidad del aprendizaje más allá del modelo base mediante técnicas como LoRA y validación automatizada.",
+  "ideas_clave": [
+    "El alma de un modelo (conocimiento) se mantiene a través de datasets y evaluaciones, no solo pesos.",
+    "La calidad del dataset es fundamental para la calidad del modelo entrenado.",
+    "El transplante entre modelos base se realiza con métricas objetivas y sin pérdida de información.",
+    "El proceso incluye verificación previa de la toolchain y hardware para asegurar validez experimental."
+  ],
+  "quedo_a_medias": true
+} 

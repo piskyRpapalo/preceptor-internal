@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento que describe un endurecimiento defensivo para TimescaleDB en La Torre, restringiendo el acceso a su puerto 5432 solo a clientes autorizados. Se especifica el procedimiento para aplicar un allowlist de IPs, verificar la conexión AIS, y asegurar la reversibilidad del cambio. Se enfoca en mantener la integridad del pipe de datos sin tocar otros sistemas.",
+  "ideas_clave": [
+    "El endurecimiento solo afecta el firewall del puerto 5432 en La Torre, sin tocar otros componentes.",
+    "Se debe mantener viva la conexión AIS entre La Fragua y Timescale durante el cambio.",
+    "Se requiere un snapshot previo para rollback automático si el pipe se degrada.",
+    "El proceso incluye identificar clientes conectados, verificar si Timescale está containerizado y aplicar reglas de iptables en la cadena correcta."
+  ],
+  "quedo_a_medias": true
+} 

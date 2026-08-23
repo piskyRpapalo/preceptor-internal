@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe cómo integrar visualmente las firmas emitidas por El Faro en el dashboard de HEXELION, utilizando Redis como intermediario. Se detallan las tareas para mostrar eventos de firma con estética bioluminiscente, actualizar estadísticas y reducir ruido en los alertas del sistema. Incluye instrucciones para pruebas y un informe de seguimiento.",
+  "ideas_clave": [
+    "Mostrar firmas de El Faro en el dashboard con estilo visual único (verde brillante, glow)",
+    "Integrar datos desde Redis sin afectar la cadena ni romper el sistema en ejecución",
+    "Reducir alertas de carga innecesarias para destacar las firmas",
+    "Mantener la privacidad y seguridad del dashboard (solo Tailscale)"
+  ],
+  "quedo_a_medias": true
+} 

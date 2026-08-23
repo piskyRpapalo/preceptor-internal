@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-05-06",
+  "resumen": "Se realiza un análisis crítico de manifiestos JSON de Hexelion para identificar conceptos nuevos, descartando aquellos inviables técnicamente o con modelo de negocio incierto. Se proponen expansiones viables como el protocolo Caronte, Clean Bit, y mejoras en detección de flotas oscuras. Se destacan áreas de investigación para futuras implementaciones con base en la red de nodos activos.",
+  "ideas_clave": [
+    "Descarte de conceptos inviables: Dark Fleet Hunter (hardware incompatible) y Jamming Parametric Shield (problemas regulatorios).",
+    "Propuesta de protocolos nuevos: Caronte (seguridad física LUKS) y Clean Bit (estándar ESG para DePIN).",
+    "Nuevas ideas de expansión: monitorización interna de jamming GPS y uso de Villalba como cuarto nodo en red TDOA.",
+    "Importancia del hardware y geolocalización: la expansión depende de nodos activos y hardware específico (LimeSDR)."
+  ],
+  "quedo_a_medias": true
+} 

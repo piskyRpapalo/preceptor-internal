@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento define el rol de 'El Preceptor' como sistema de aprendizaje personal que adapta contenido a la comprensión real del usuario en tiempo real. Establece principios fundamentales como la soberanía de datos, la honestidad en la evaluación y el uso de analogías con límites claros. Describe la mecánica del 'lazo de comprensión' basada en explicar conceptos al yo pasado y la disciplina del MVP centrado en el núcleo funcional. Destaca que el proyecto es independiente de HEXELION pero comparte valores y hardware.",
+  "ideas_clave": [
+    "El sistema adapta contenido a la comprensión real del usuario en lugar de niveles genéricos",
+    "La métrica de comprensión es explicar al yo pasado, no notas ni tests",
+    "La soberanía de datos es prioritaria sobre cualquier otra funcionalidad",
+    "La disciplina del MVP prioriza el núcleo funcional sobre satélites tentadores"
+  ],
+  "quedo_a_medias": true
+} 

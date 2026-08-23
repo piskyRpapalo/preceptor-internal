@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe dos tareas de reparación mínima: primero, reenrutar el chat del Sínodo desde una API obsoleta a una nueva para evitar errores de memoria; segundo, diagnosticar el problema de grabación ADS-B en El Vigía sin realizar cambios. Ambas tareas son independientes y siguen una filosofía de intervención mínima y controlada.",
+  "ideas_clave": [
+    "La reparación del chat se limita a cambiar un endpoint en el frontend, sin modificar lógica de backend ni servicios nuevos.",
+    "El problema con ADS-B en El Vigía se debe probablemente a contención de un único dongle RTL-SDR entre AIS y ADS-B.",
+    "La solución debe ser propuesta al Soberano, ya que implica decisiones sobre hardware y configuración RF.",
+    "Se enfatiza la importancia de mantener el sistema intacto y no tocar funcionalidades fuera del scope de la reparación."
+  ],
+  "quedo_a_medias": true
+} 

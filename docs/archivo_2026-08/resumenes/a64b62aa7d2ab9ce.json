@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define políticas de control de energía para el jardín, incluyendo umbrales de voltaje y acciones asociadas. Establece límites en la red mesh para peers autorizados y sus protocolos de seguridad. Incluye políticas de calibración de hardware para procesadores Ryzen, con medidas de protección térmica. También define reglas de honestidad física para evitar reportes falsos de datos.",
+  "ideas_clave": [
+    "El sistema monitorea el voltaje de alimentación del jardín y toma acciones automáticas según niveles de energía.",
+    "La red mesh tiene un límite de 100 pares activos y requiere autenticación mTLS con TLS 1.3.",
+    "El hardware Ryzen se protege con umbrales térmicos que detienen inferencias en caso de sobrecalentamiento.",
+    "Se impide la falsificación de datos mediante un mecanismo de validación que retrasa reportes inválidos."
+  ],
+  "quedo_a_medias": false
+} 

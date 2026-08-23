@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe un proceso para resolver un error 401 de Qdrant en el backup del Guardián, comparando la clave de API en config/.env con la del contenedor Qdrant. Sugiere validar la coincidencia de las claves sin imprimir secretos. Se propone una corrida de backup vía systemd como método seguro. El objetivo es confirmar si el error 401 es un artefacto del run manual o un problema real de credenciales. El informe debe incluir el resultado de la comparación y las últimas líneas del journal del servicio systemd.",
+  "ideas_clave": [
+    "La clave de API en config/.env debe coincidir con la del contenedor Qdrant para evitar el error 401.",
+    "Se debe validar la clave sin imprimirla, usando comparación de longitudes y valores.",
+    "El proceso incluye una ejecución vía systemd para asegurar que el backup funcione sin errores.",
+    "En caso de MISMATCH, se debe informar al Soberano para alinear las credenciales."
+  ],
+  "quedo_a_medias": true
+} 

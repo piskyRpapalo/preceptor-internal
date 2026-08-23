@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define la arquitectura del Cerebro Pedagógico de P0X, una estructura en capas para gestionar el aprendizaje del Soberano. Establece cuatro capas lógicas: abstracción de datos, orquestación, integración de hardware y presentación. Propone un sistema soberano basado en Markdown y Qdrant para almacenar y procesar conocimiento pedagógico. El enfoque es modular y separado por razones técnicas precisas.",
+  "ideas_clave": [
+    "La separación en capas técnicas permite que el sistema sea mantenible y evolutivo sin afectar el contenido base.",
+    "El uso de Markdown plano y estructuras de grafo permite una gestión flexible y editable a mano del conocimiento.",
+    "La orquestación del flujo de datos incluye chunking, embeddings y escritura en Qdrant para indexado eficiente.",
+    "El sistema garantiza soberanía de datos con almacenamiento local y sin telemetría externa."
+  ],
+  "quedo_a_medias": true
+} 

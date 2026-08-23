@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento define el diseño visual del dashboard de HEXELION, un microestado digital soberano, enfocado en la estética minimalista y la identidad visual basada en SVG, tipografía y colores. Presenta paneles temáticos que representan el cerebro del sistema (El Sínodo) y su funcionamiento. Se enfoca en la representación visual de métricas clave sin necesidad de imágenes pesadas. Incluye detalles sobre la paleta de colores, tipografía, temas claros/oscuros y funcionalidades como la privacidad.",
+  "ideas_clave": [
+    "El diseño debe reflejar la identidad de HEXELION a través de tipografía, color y SVG, sin usar imágenes pesadas.",
+    "El dashboard representa el cerebro del sistema (El Sínodo) con paneles que simulan su funcionamiento.",
+    "Incluye un sistema de temas (Aetheric/Sovereign) y un toggle de privacidad que difumina datos financieros.",
+    "La estética se basa en una paleta de colores teal, oro, verde y neón azul, con elementos como el átomo y el sol."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento propone una re-arquitectura para 'Le Cahier' que elimina la dependencia de Ollama y se basa en tecnologías locales como `llama.cpp` y `faiss-cpu`. Presenta una arquitectura de tres fases (Le Tintero, Le Classeur, Le Lecteur) que opera sin conectividad externa. Se enfatiza la soberanía de datos y la honestidad del hardware. La propuesta busca mantener la filosofía del ecosistema p0x, integrando IA local para tareas complejas.",
+  "ideas_clave": [
+    "Eliminar dependencias externas de IA para asegurar autonomía y resiliencia del sistema",
+    "Implementar arquitectura de tres fases basada en el modelo del Medallón para procesamiento estructurado",
+    "Utilizar software local como `llama.cpp` y `faiss-cpu` para mantener el control sobre los recursos",
+    "Alinear la arquitectura con los principios del ecosistema p0x: soberanía de datos, honestidad del hardware y fricción física"
+  ],
+  "quedo_a_medias": true
+} 

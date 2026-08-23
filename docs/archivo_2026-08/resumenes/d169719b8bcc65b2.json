@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "otro",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un brief técnico para la interfaz de usuario de Hexelion, enfocado en presentar datos de forma read-only y propuesta-only. Define reglas de diseño y contratos de datos para una arquitectura descentralizada. Describe los paneles de escucha, prueba, sustento, cosecha y mente, con endpoints y estructuras JSON. No incluye información de fecha específica.",
+  "ideas_clave": [
+    "Interfaz read-only con propuestas, nunca ejecuciones directas.",
+    "Uso de colores para indicar niveles de veracidad de los datos.",
+    "Estructura de datos definida por JSON con endpoints placeholders.",
+    "Integración de voz y YouTube como herramientas de deliberación."
+  ],
+  "quedo_a_medias": true
+} 

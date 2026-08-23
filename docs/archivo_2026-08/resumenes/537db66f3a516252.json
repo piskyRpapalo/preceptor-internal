@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el proceso de implementación del servicio de sondeo (pollers) para el proyecto Hexelion v6, que recopila datos de nodos cada 15 segundos y los escribe en Redis. Incluye instrucciones para configurar las claves SSH, instalar el servicio Python, y verificar su funcionamiento. Se enfoca en la integración con el sistema existente sin modificar el frontend ni otros componentes. El proceso está dividido en tres fases: verificación previa, configuración de SSH y instalación del poller.",
+  "ideas_clave": [
+    "El sistema pasará de mostrar datos falsos a verdaderos mediante el uso de un servicio de sondeo (poller) que se ejecuta cada 15 segundos.",
+    "El servicio se conecta a los nodos del Organismo para obtener información real, incluyendo el estado de los servicios DePIN a través de SSH.",
+    "Se utiliza un sistema de claves SSH específicas para acceder a los nodos, y se proporciona un procedimiento para que el Soberano las añada.",
+    "Los datos recolectados se escriben en Redis y serán consumidos por el dashboard a través de nuevos endpoints REST en el gateway."
+  ],
+  "quedo_a_medias": true
+} 

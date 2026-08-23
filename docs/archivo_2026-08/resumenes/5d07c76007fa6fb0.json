@@ -1,0 +1,12 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Propuesta de evolución del dashboard Nexo con enfoque en la observabilidad del Arnés, incluyendo nuevos paneles para Freno Térmico, Vigilia Nocturna y deliberaciones del Sínodo. Se mantiene el cableado existente y se introduce una capa visual nueva sin modificar el sistema actual. Se enfoca en diseño móvil, estética coherente y honestidad en la representación de datos.",
+  "ideas_clave": [
+    "La propuesta introduce paneles para observar el estado térmico, actividad nocturna y deliberaciones del Sínodo mediante placeholders honestos.",
+    "Se mantiene intacta la identidad visual de HEXELION y se respeta el cableado actual sin modificarlo.",
+    "La solución es un archivo HTML estático optimizado para móvil y sin frameworks pesados, siguiendo la doctrina de un solo dashboard."
+  ],
+  "quedo_a_medias": true
+} 

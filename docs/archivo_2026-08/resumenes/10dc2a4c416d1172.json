@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-12",
+  "resumen": "Documento de post-verificación de la Fase 0 del filtro de privacidad para el Agente B. Se realiza un test-first sin publicar nada. Todos los tests fallan porque el módulo 'guardrails.py' aún no existe, lo cual es intencional. Se verifica la integridad del anexo sellado y se comprueba que los casos de prueba están correctamente definidos.",
+  "ideas_clave": [
+    "El test-first se ejecuta antes de crear el módulo 'guardrails.py', por lo que todos los tests fallan como esperado.",
+    "Se valida el hash del anexo sellado para asegurar la integridad de la lección del punto ciego.",
+    "El documento define 23 casos de prueba que vigilan diferentes aspectos de la privacidad del código, como la ubicación de rutas y tokens.",
+    "La regla de parada no se dispara porque el módulo no existe aún, lo cual es un comportamiento deliberado."
+  ],
+  "quedo_a_medias": false
+} 

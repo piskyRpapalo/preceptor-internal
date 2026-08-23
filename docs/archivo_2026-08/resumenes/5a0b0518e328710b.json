@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un brief de diseño para una página web estática que presenta la identidad y narrativa del proyecto HEXELION. Describe el concepto de un microestado digital soberano que percibe, razona y certifica hechos del mundo físico. La página debe ser ligera, visualmente coherente y narrativamente fuerte, usando solo HTML, CSS y SVG. Se enfoca en una historia con siete ideas clave, desde los sentidos del organismo hasta la regla de oro de no automatizar firmas financieras. No hay datos operativos ni imágenes pesadas, solo una narrativa pura y una identidad visual definida.",
+  "ideas_clave": [
+    "HEXELION es un organismo cibernético digital en Lisboa con sentidos, mente y memoria que certifica hechos reales con un sello infalsificable.",
+    "La mente del sistema está compuesta por seis voces que razonan pero nunca toman decisiones financieras sin humano.",
+    "El sello de verdad es fundamental: cada dato recibido se certifica en el instante, como un notario presente.",
+    "La regla de oro establece que ningún proceso automático firma ni mueve dinero, garantizando la intervención humana."
+  ],
+  "quedo_a_medias": false
+} 

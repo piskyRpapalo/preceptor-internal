@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe una tarea puntual para corregir el mapa de Lisboa en el dashboard de Hexelion, reutilizando el componente ya existente del panel Tejo Terminal. Se busca sustituir el mapa fallback por el mapa funcional que muestra los vessels en tiempo real. Se detallan los pasos para localizar los componentes y reutilizar el código. Se prioriza no tocar el backend ni el componente TajoTerminal, y se sugiere una solución alternativa si el componente no es reutilizable directamente. El documento concluye con instrucciones de verificación y commit.",
+  "ideas_clave": [
+    "Reutilización de componentes existentes para evitar duplicados de código.",
+    "Prioridad en no tocar el backend ni el componente TajoTerminal.",
+    "Uso de mapas interactivos con datos AIS en tiempo real.",
+    "Solución alternativa con Leaflet si el componente no es reutilizable directamente."
+  ],
+  "quedo_a_medias": false
+} 

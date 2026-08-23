@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el proceso de reinicio y recuperación del sistema AIS en El Vigía, incluyendo verificaciones previas y post-reinicio para asegurar la correcta decodificación de señales. También aborda la sincronización honesta del Nexo con los datos reales de ADS-B y AIS. Se enfatiza en no tocar systemd sin aprobación y mantener la integridad de los datos. El reinicio está aprobado y se deben validar procesos como dump1090 y AIS-catcher tras el reinicio. El documento también menciona la necesidad de actualizar el panel ADS-B del Nexo y correr un smoke test actualizado después de la sincronización.",
+  "ideas_clave": [
+    "El reinicio de El Vigía está aprobado, y se debe verificar que AIS-catcher y dump1090 arrancan automáticamente.",
+    "Se debe asegurar que el AIS decodifique mensajes después del reinicio y que MastChain contenga esos datos.",
+    "Se debe corregir el panel ADS-B del Nexo para que muestre datos reales, sin indicaciones falsas de 'pendiente'.",
+    "La MAQUINA_REAL debe reflejar la realidad actual del sistema, incluyendo el estado operativo de AIS y ADS-B."
+  ],
+  "quedo_a_medias": true
+} 

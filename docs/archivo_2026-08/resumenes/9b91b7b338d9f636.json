@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento es un prompt para un diseñador UI/UX experto en estética de ciencia ficción dura y solarpunk, solicitando mejorar un dashboard basado en el proyecto 'HEXELION'. Propone una estética con elementos cibernéticos y biológicos, utilizando colores oscuros y animaciones de parpadeo en azul eléctrico. Se pide generar código HTML5 y Tailwind CSS para una interfaz con un icono central y seis cuadrados inferiores. No se incluye texto, solo nombres numerados como 'Panel 1', 'Panel 2', etc. El diseño debe integrar vegetación mediante SVG vectoriales. El código debe ser limpio, responsivo y autónomo.",
+  "ideas_clave": [
+    "Combinación de estética cibernética con elementos orgánicos",
+    "Uso de colores oscuros (#060a0c, #111a1d) y luces intermitentes en azul eléctrico (#00f0ff)",
+    "Integración de vegetación mediante SVG vectoriales que se crucen con los datos",
+    "Diseño de contenedores que emulen placas físicas o microchips"
+  ],
+  "quedo_a_medias": true
+} 

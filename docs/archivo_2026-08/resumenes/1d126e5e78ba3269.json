@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece las bases para la implementación de voces sintéticas del Sínodo usando el modelo dots.tts, priorizando la factibilidad técnica y la gobernanza ética. Define el alcance de la Fase 0, que incluye la instalación del modelo, evaluación de ubicación en los nodos, prueba de una voz sintética y creación de la documentación de procedencia. Se enfatiza en no clonar voces reales sin consentimiento y mantener la integridad del camino crítico del proyecto. Se propone un enfoque de pre-renderizado para evitar sobrecarga en los nodos críticos.",
+  "ideas_clave": [
+    "La implementación de voces sintéticas debe seguir estrictamente la gobernanza de no clonación y consentimiento, etiquetando siempre el output como generado por IA.",
+    "La evaluación de ubicación en los nodos es crucial para decidir si se genera el audio en vivo o por pre-renderizado, basándose en métricas reales de carga, RAM y temperatura.",
+    "El diseño de las seis voces del Sínodo debe basarse en caracteres claros y fuentes de referencia limpias, evitando improvisaciones o clonaciones reales sin permiso.",
+    "La Fase 0 es un trabajo paralelo que no debe afectar el camino crítico del proyecto (como A.3.2 o la recuperación de AIS), y debe mantenerse en modo read-only donde toca el sistema."
+  ],
+  "quedo_a_medias": true
+} 

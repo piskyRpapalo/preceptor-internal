@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "otro",
+  "fecha_declarada": "2026.05.02",
+  "resumen": "Registro de sesión de Hexelion donde se habilita SSH en el router, se instala y configura NUT para monitorear un UPS, y se resuelven problemas relacionados con drivers USB y permisos. Se identifican limitaciones del firmware del router y se planifica el uso de un switch gestionado externo. Se detalla la configuración de los servicios NUT y se mencionan componentes de hardware en camino.",
+  "ideas_clave": [
+    "Se habilita SSH en el router ASUS RT-BE82U para acceso remoto.",
+    "NUT se configura correctamente para monitorear un UPS Greencell con driver blazer_usb.",
+    "Se resuelven múltiples problemas de permisos y drivers USB mediante ajustes en udev, systemd y configuración de NUT.",
+    "Se planea la adición de un switch gestionado TL-SG108E debido a limitaciones del firmware del router actual."
+  ],
+  "quedo_a_medias": false
+} 

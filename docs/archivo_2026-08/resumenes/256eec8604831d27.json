@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define la estructura inicial del Sínodo de HEXELION, estableciendo el esqueleto del sistema con roles canónicos y topología de despliegue. Describe la arquitectura de los agentes en La Torre y el Enlace en La Fragua, su comunicación mediante Redis y TimescaleDB, y los pasos de verificación previa. Establece reglas para no modificar componentes existentes y enfatiza la importancia de un contrato limpio para futuras fases. El documento está incompleto, ya que falta la parte final de la estructura del paquete y los agentes.",
+  "ideas_clave": [
+    "Definición de roles canónicos del Sínodo: MONJE, ALQUIMISTA, ESCRIBA, BERSERKER, VOCERO y ENLACE.",
+    "Estructura del paquete hexelion_sinodo con agentes específicos y su comunicación mediante Redis y TimescaleDB.",
+    "Topología de despliegue con agentes en La Torre (Jetson) y el Enlace en La Fragua, con tolerancia a fallos.",
+    "Requisitos de verificación previa para asegurar funcionamiento correcto del sistema antes de continuar."
+  ],
+  "quedo_a_medias": true
+} 

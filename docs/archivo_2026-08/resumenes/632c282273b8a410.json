@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento define el contexto y reglas para la ronda de agentes AI-AI en el sistema HEXELION. Establece restricciones canonicas y vocabulario para agentes como AG-NEXO, AG-JARDIN y AG-RUTAS-V2. Describe el funcionamiento del sistema P0X-CORE y el flujo de trabajo en el marco de los sistemas vivos. Presenta los mandatos globales y criterios de ejecución para los agentes.",
+  "ideas_clave": [
+    "El sistema tiene agentes especializados (AG-NEXO, AG-JARDIN, AG-RUTAS-V2) que operan bajo invariantes estrictas",
+    "Se define un vocabulario técnico compartido para agentes (El Guía, El Alumno, La Lupa, etc.)",
+    "El flujo de trabajo sigue un ciclo de jobs creado en P0X-CORE con estados como CREATED→HARDWARE_CHECK→QUEUED→GENERATING→POST_PROCESSING",
+    "El documento establece reglas sobre firma de documentos y manejo de NO_DATA como honestidad máxima"
+  ],
+  "quedo_a_medias": true
+} 

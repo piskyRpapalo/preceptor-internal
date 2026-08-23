@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento presenta un plan para posicionarse en el campo de la Physical AI, enfocado en la construcción de un laboratorio soberano de borde con sensores físicos, inferencia local y gobernanza human-in-the-loop. Se enfatiza la importancia de mantener separadas las capas pública y privada, y de respetar las cláusulas de propiedad intelectual. El enfoque es estructurado en tres capas: hardware (sensores, rack), software (arquitectura, pipeline) y narrativa (GitHub, LinkedIn).",
+  "ideas_clave": [
+    "La Physical AI se define por señales en tiempo real, derechos de decisión, human-in-the-loop, ingeniería en el borde e integración temprana de pilotos a producción.",
+    "El enfoque de P0X es construir desde el electrón y el sensor hacia arriba, con gobernanza incorporada desde el inicio, en contraste con el enfoque tradicional desde la nube hacia abajo.",
+    "Es fundamental separar el contenido público (músculo) del privado (núcleo) para evitar conflictos de IP y mantener la soberanía de los datos.",
+    "La narrativa en redes sociales y GitHub debe ser realista, honesta y enfocada en el laboratorio personal como 'n=1', no en una producción a gran escala."
+  ],
+  "quedo_a_medias": true
+} 

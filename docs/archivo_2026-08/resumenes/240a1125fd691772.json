@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define la estructura y componentes mínimos para el repositorio hexelion-lab, que actúa como esqueleto del cerebro del laboratorio hexelion. Se detallan los elementos necesarios: configuración, cliente Ollama, bus Redis y registro de estrategias con máquina de estados. Incluye especificaciones técnicas para su implementación en La Fragua. Se enfoca en una arquitectura limpia, sin interacción con cadenas ni puertos externos.",
+  "ideas_clave": [
+    "La semilla debe construir una infraestructura pura, read-only y sin firma de transacciones.",
+    "Se utiliza SQLite como backend local para el registro de estrategias, con posibilidad de migrar a TimescaleDB en producción.",
+    "El cliente Ollama se implementa con validación estricta de respuestas y manejo de errores tipados.",
+    "El bus Redis opera con sobres tipados y sigue principios de diseño limpio."
+  ],
+  "quedo_a_medias": true
+} 

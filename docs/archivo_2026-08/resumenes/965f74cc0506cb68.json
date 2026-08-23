@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "doctrina",
+  "fecha_declarada": "18-may-2026",
+  "resumen": "El documento describe la implementación del dashboard v7 de Hexelion, enfocada en conectar los indicadores de estado de los nodos con datos en tiempo real provenientes del endpoint /api/health/nodes. Se detalla el estado actual del sistema, incluyendo los servicios en ejecución y la estructura del dashboard. Se propone crear un hook custom para consumir los datos de salud de los nodos cada 15 segundos y actualizar los dots de estado en la interfaz. Además, se menciona la necesidad de realizar tareas de mantenimiento como reparar Qdrant y limpiar archivos.",
+  "ideas_clave": [
+    "El dashboard debe mostrar el estado real de los nodos conectando los dots a la API /api/health/nodes.",
+    "Se debe crear un hook custom para fetchear los datos cada 15 segundos y mantenerlos actualizados.",
+    "El diseño del dashboard no debe cambiar, solo se conectan los datos reales a los elementos existentes.",
+    "Hay que reparar Qdrant y limpiar archivos como parte del housekeeping de esta fase."
+  ],
+  "quedo_a_medias": true
+} 

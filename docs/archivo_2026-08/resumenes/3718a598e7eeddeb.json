@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "21 Mayo 2026",
+  "resumen": "Se describen tres fixes quirúrgicos para el dashboard de Hexelion: ajustes responsive para móviles, implementación de un circuit breaker para Ollama en el sínodo y adaptaciones específicas por página. Se enfatiza en no romper la funcionalidad desktop. Se incluye código para backups y verificaciones. El documento detalla el proceso de actualización del frontend y backend sin crear nuevas páginas.",
+  "ideas_clave": [
+    "Implementación de media queries para hacer responsive el dashboard en móviles sin afectar el desktop.",
+    "Circuit breaker para Ollama en el sínodo: descarga y recarga del modelo en VRAM mediante un nuevo endpoint.",
+    "Uso de backups sistemáticos antes de modificar archivos HTML y Python.",
+    "Adaptaciones específicas por página (index, sinodo, cosecha, marítimo) para mejorar la experiencia móvil."
+  ],
+  "quedo_a_medias": true
+} 

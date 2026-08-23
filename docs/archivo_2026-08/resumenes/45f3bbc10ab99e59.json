@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la implementación de cinco marcos-contenedor en el tema Aetheric, específicamente para el rack. Detalla tareas de corte de imágenes, aplicación de marcos a paneles, verificación visual y ajustes en diseño. Incluye instrucciones sobre cómo aplicar los marcos solo en Aetheric y mantener un fallback CSS en caso de distorsión. También menciona la actualización del pie de página para reflejar datos reales.",
+  "ideas_clave": [
+    "Los marcos deben aplicarse solo en el tema Aetheric, ya que en Sovereign causan conflicto visual.",
+    "La tarea de corte requiere preservar el interior crema de los marcos y eliminar el blanco exterior mediante flood-fill.",
+    "La elección del marco se basa en el aspecto del panel (ancho, vertical o cuadrado) y se debe verificar con Playwright.",
+    "En caso de distorsión o pérdida de legibilidad, se debe recurrir al borde CSS cobre como fallback."
+  ],
+  "quedo_a_medias": true
+} 

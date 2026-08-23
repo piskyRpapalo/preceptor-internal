@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece las reglas para la ejecución autónoma de tareas en el proyecto Hexelion bajo supervisión de diseño, con énfasis en la seguridad y control de cambios. Describe las líneas rojas que prohiben acciones peligrosas, las actividades permitidas y la priorización de tareas en una rama de Git. Incluye instrucciones para mantener un diario de sesiones y preparar informes para el Soberano. Se enfoca en la auditoría, la documentación y el mantenimiento seguro del código y la infraestructura.",
+  "ideas_clave": [
+    "La seguridad del agente autónomo se basa en restricciones estrictas, no en vigilancia humana.",
+    "Todo cambio debe realizarse en una rama separada, nunca en main, y sin hacer merge.",
+    "Se prohíben acciones como transacciones en cadena, manejo de claves secretas, borrados permanentes o cambios en el perímetro de seguridad.",
+    "Las tareas permitidas son auditorías, documentación y correcciones periféricas seguras."
+  ],
+  "quedo_a_medias": true
+} 

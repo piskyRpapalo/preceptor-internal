@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento especifica la arquitectura y filosofía del sistema Aurelius, un preceptor educativo local-first basado en la filosofía socrática. Describe su enfoque en la soberanía del usuario mediante fricción pedagógica, honestidad en los datos y eliminación de andamios. Establece la estructura de almacenamiento en tres capas (bronce, plata, oro) para garantizar integridad y privacidad de los conocimientos. Incluye procesos de validación dual asíncrona para consolidar el aprendizaje.",
+  "ideas_clave": [
+    "La fricción en la copia al portapapeles es una medida pedagógica para evitar automatización y garantizar auditoría cognitiva.",
+    "El sistema no simula ni alucina información, y responde claramente con 'NO DATA' cuando no hay registros.",
+    "Los andamios de aprendizaje se eliminan tras completar una misión para forzar la autonomía del usuario.",
+    "La memoria del nodo se estructura en tres capas deterministas para optimizar el rendimiento y asegurar la integridad criptográfica."
+  ],
+  "quedo_a_medias": true
+} 

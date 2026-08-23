@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "2026-08-12",
+  "resumen": "Este documento establece un plan estructural para la misión de memoria en el proyecto Aurelius, centrado en la creación inicial de un sistema de recuerdos. Describe los tres estados iniciales del sistema (sin esquema, vacío, con datos) y propone un flujo de conversación guiado para que el usuario construya su memoria paso a paso. El plan se centra en la honestidad del sistema y en la construcción progresiva de la base de datos de recuerdos. Se menciona una colisión con la numeración de misiones ya establecida en el proyecto, y se propone una solución para evitar confusiones. El documento es una propuesta estructural sin código implementado.",
+  "ideas_clave": [
+    "La memoria de Aurelius comienza vacía y debe construirse desde cero con la participación del usuario.",
+    "El sistema distingue tres estados claros: SIN_ESQUEMA, VACIA y CON_DATOS, para evitar confusiones al arrancar.",
+    "El flujo de conversación guía al usuario paso a paso mediante campos específicos (what, why, where_ref, learned) sin preguntas abstractas.",
+    "La propuesta incluye un cierre honesto donde el sistema reconoce lo que tiene y lo que no, y pregunta al usuario sobre su próxima intención."
+  ],
+  "quedo_a_medias": true
+} 

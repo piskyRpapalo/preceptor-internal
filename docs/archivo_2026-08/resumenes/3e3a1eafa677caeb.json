@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define un modelo investigativo soberano para el proyecto p0x, basado en seis fases que integran deliberación, evidencia empírica y una compuerta de tres ejes. Establece reglas para la captura, análisis y veredicto de propuestas sin usar LLM en la toma de decisiones finales. El enfoque prioriza la determinística, auditabilidad y evitar la canonización automática. Se destaca la importancia de no modificar archivos de verificación y mantener intacta la frontera de autonomía.",
+  "ideas_clave": [
+    "El modelo investigativo sigue seis fases, integrando deliberación existente y una compuerta de tres ejes (velocidad/capital-custodia/off-thesis).",
+    "Se evita el uso de LLM en la toma de decisiones finales, manteniendo el veredicto determinista y auditado.",
+    "Se reutilizan componentes ya existentes como `ContextoTarea` y memoria de El Arnés B.1, evitando duplicados.",
+    "La compuerta Necrópolis actúa como filtro estructural, sin permitir canonización automática ni auto-modificación de fixtures."
+  ],
+  "quedo_a_medias": true
+} 

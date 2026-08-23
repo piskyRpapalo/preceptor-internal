@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe la activación del Alquimista, un componente del proyecto p0x, que lee balances on-chain de NEAR (mainnet y testnet) sin usar claves ni firmas. El objetivo es que estos datos vivos reemplacen los valores sembrados en el panel Cosecha. Se detallan las fases para diagnosticar, activar y ejecutar este lector en modo one-shot con systemd. Incluye restricciones de seguridad como fail-closed y separación de responsabilidades con otros componentes como cosecha-intel.",
+  "ideas_clave": [
+    "El Alquimista solo lee balances on-chain (NEAR) mediante RPC público, sin firmas ni claves.",
+    "Los datos vivos deben reemplazar los sembrados en el panel Cosecha, manteniendo separación entre on-chain (NEAR) y off-chain (DePIN).",
+    "Se debe evitar pisar los datos de otros sistemas como 'cosecha-intel', que manejan otros tipos de ganancias.",
+    "La ejecución se realiza mediante un timer systemd, con patrón de ciclo uno-shot y modo read-only."
+  ],
+  "quedo_a_medias": true
+} 

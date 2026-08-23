@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento propone ajustes en la arquitectura del dashboard, incluyendo cambios en la disposición de cuadros y la visualización de datos. Se sugiere una reorganización de elementos como los contadores y la presentación de información económica. Se menciona la creación de una nueva app para ocultar cifras económicas al hacer clic. Se discute la necesidad de mejorar la conectividad con canales de comunicación como LinkedIn y Acurast.",
+  "ideas_clave": [
+    "Reorganización del dashboard para mejorar la visualización de datos.",
+    "Creación de una app que oculte cifras económicas al hacer clic.",
+    "Conexión con canales como LinkedIn y Acurast para difundir ideas.",
+    "Reestructuración del cuadro de servicios y su posición en el dashboard."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define el diseño de la zona de firma del Soberano, que incluye dos funciones: el Jurado para votar propuestas y el Buzón de Intents para revisar acciones pendientes. No firma ni ejecuta valor, manteniendo una separación estricta entre la interfaz y la firma física. El diseño se basa en principios arquitectónicos para evitar riesgos de seguridad y garantizar que ninguna acción en la UI pueda comprometer fondos. No se permite que el panel firme directamente ni tenga acceso a claves o la cadena.",
+  "ideas_clave": [
+    "La firma física ocurre fuera del sistema, en un dispositivo del Soberano, y no se ejecuta desde la interfaz del dashboard.",
+    "El panel solo registra votos y estados en logs locales; no interactúa con la cadena ni posee claves.",
+    "La membrana crítica es arquitectónica, no política: no se basa en promesas sino en imposibilidad técnica de firmar.",
+    "La zona de firma no tiene rutas a la clave ni acceso a la red del firmante, garantizando aislamiento total."
+  ],
+  "quedo_a_medias": false
+} 

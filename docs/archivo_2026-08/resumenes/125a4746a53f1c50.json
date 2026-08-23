@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento define el canon visual y el diseño de interfaz para el proyecto p0x, especificando el funcionamiento del switcher de tres caras que permite navegar entre El Nexo, Le Jardin y el Chat. Establece directrices de simplificación, continuidad y separación para la visualización de datos y la integridad del código. También describe un sistema de tokens duplex para temas dual. Se trata de una guía de estilo para la arquitectura de dashboards y componentes visuales del sistema.",
+  "ideas_clave": [
+    "El switcher de tres caras (Puente) es un componente de navegación fijo que permite cambiar entre tres vistas principales: El Nexo, Le Jardin y el Chat.",
+    "Se aplican reglas estrictas de visualización de datos, como límites de filas, alineación numérica y uso de iconos de ayuda para explicaciones.",
+    "Se establecen normas de integridad de código, incluyendo límites de longitud de componentes, manejo de valores nulos y restricciones en dependencias externas.",
+    "El sistema de tokens duplex permite unificar la paleta de colores mediante dos ámbitos selectores para temas Nexo y Jardin."
+  ],
+  "quedo_a_medias": true
+} 

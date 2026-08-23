@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento propone reestructurar la carpeta de trabajo p0x bajo la arquitectura Medallion y el canon de Aurelius. Establece un marco para organizar datos en capas Bronze, Silver y Gold, priorizando la integridad, trazabilidad y soberanía de datos. Se enfoca en la limpieza disciplinada y preparación para herramientas externas sin perder funcionalidad existente. Se excluyen implementaciones definitivas sin firma humana.",
+  "ideas_clave": [
+    "La arquitectura Medallion permite separar responsabilidades en capas de datos (Bronze, Silver, Gold) con contratos claros.",
+    "La capa Bronze debe mantener datos crudos e inmutables, servir como punto de partida para auditorías y reproducción de resultados.",
+    "La capa Silver aplica validaciones y limpieza de datos según reglas del 'filtro Edge' de Aurelius, garantizando calidad y consistencia.",
+    "La capa Gold contiene datos optimizados para consumo final, listos para aplicaciones de alto valor como dashboards o modelos de IA."
+  ],
+  "quedo_a_medias": true
+} 

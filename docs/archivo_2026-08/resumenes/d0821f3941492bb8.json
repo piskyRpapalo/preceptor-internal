@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe la arquitectura de tres capas para el proyecto p0x, enfocada en la inmutabilidad de datos y la gestión de la memoria cognitiva. Propone una estructura jerárquica inspirada en el modelo Medallón para optimizar el uso del almacenamiento en dispositivos edge. Se detallan las capas Bronze, Silver y Gold para Aurelius Core y las capas correspondientes para las 11 meditaciones del proyecto Merge. Incluye consideraciones de seguridad, optimización ARM y mecanismos de consenso distribuido.",
+  "ideas_clave": [
+    "Arquitectura medallón para mitigar el desgaste de escritura en dispositivos edge.",
+    "Inmutabilidad de datos en capas físicas separadas (Bronce, Plata, Oro).",
+    "Uso de hashes SHA-256 y firmas criptográficas para garantizar integridad.",
+    "Optimización de hardware ARM mediante carga bajo demanda y lecturas eficientes."
+  ],
+  "quedo_a_medias": true
+} 

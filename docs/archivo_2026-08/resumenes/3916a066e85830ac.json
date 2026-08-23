@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece reglas para una sesión autónoma de trabajo bajo supervisión, con énfasis en la seguridad y el aislamiento del entorno. Define las ramas de git a usar, las líneas rojas que no se deben cruzar, y una cola prioritaria de tareas seguras. También incluye instrucciones sobre cómo documentar y reportar sin actuar, y cómo dejar todo listo al volver el Soberano. Las ideas clave son la separación de responsabilidades, la trampa del comentario falso, y el mantenimiento de la integridad del sistema sin tocar credenciales críticas.",
+  "ideas_clave": [
+    "La seguridad del agente se basa en el diseño, no en la vigilancia del humano.",
+    "Los comentarios mentirosos deben ser corregidos sin tocar la lógica del código.",
+    "El acceso a credenciales sensibles está estrictamente restringido y debe ser manejado por el Soberano.",
+    "El trabajo autónomo debe ser claro, seguro y documentado, con commits revisables."
+  ],
+  "quedo_a_medias": true
+} 

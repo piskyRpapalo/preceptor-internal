@@ -1,0 +1,13 @@
+{
+  "proyecto": "otro",
+  "tipo": "informe_estado",
+  "fecha_declarada": "2026-08-06",
+  "resumen": "El documento describe el estado actual de varios repositorios relacionados con proyectos como hexelion, aurelius y otros. Menciona que algunos están desactualizados y requieren auditoría local. Se hace referencia a la doctrina del stack local-first y a la estructura del entorno de desarrollo. Se indica que hay scripts de automatización y un entorno de inferencia local.",
+  "ideas_clave": [
+    "El proyecto 'hexelion' está basado en Python y FastAPI, y coordina la adquisición física.",
+    "El proyecto 'aurelius' es un compañero de aprendizaje en JavaScript que necesita ser purificado y desacoplado.",
+    "El entorno incluye SQLite con FTS5, Tailscale/Yggdrasil para red y Ollama/Qwen para inferencia local.",
+    "Hay un repositorio con scripts Bash para automatización y un README soberano."
+  ],
+  "quedo_a_medias": false
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "19 Mayo 2026",
+  "resumen": "Documento define las reglas y fases para construir 5 herramientas operativas del organismo hexelion. Incluye diagnóstico inicial del sistema, configuración de servicios y protocolo de reporte. Detalla el entorno actual, servicios desplegados y reglas inviolables para el desarrollo.",
+  "ideas_clave": [
+    "Construcción incremental de herramientas operativas en orden de complejidad creciente",
+    "Protocolo estricto de reporte tras cada fase completada",
+    "Importancia de mantener el estado de Redis como base operativa",
+    "Uso obligatorio de entornos virtuales Python para evitar conflictos"
+  ],
+  "quedo_a_medias": true
+} 

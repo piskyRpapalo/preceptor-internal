@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el desarrollo de un sistema de verificación cruzada marítima que compara datos de buques obtenidos tanto por El Vigía como por AISStream, para determinar su estado (corroborado, solo Vigía o discrepante). Se enfoca en la implementación de un servicio nuevo en La Fragua, sin tocar componentes críticos como El Faro ni exponer datos sensibles como el MMSI en su forma cruda. Incluye la extensión de un endpoint API y la mejora de la legibilidad del tema Aetheric.",
+  "ideas_clave": [
+    "El sistema compara datos de buques de dos fuentes: El Vigía y AISStream, para asignarles un estado basado en la coincidencia de posición.",
+    "Los datos de AISStream se consumen mediante un cliente WebSocket en una zona específica del estuario de Lisboa.",
+    "El estado del cruce se muestra en el dashboard con colores: verde para corroborado, azul para solo Vigía, y ámbar para discrepante, sin utilizar la palabra 'atestado'.",
+    "El MMSI se anonimiza en todas las vistas públicas y el servicio se entrega deshabilitado como medida de seguridad."
+  ],
+  "quedo_a_medias": true
+} 

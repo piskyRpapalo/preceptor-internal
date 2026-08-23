@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento describe el refinamiento visual del dashboard v3 de Hexelion, con ajustes finos en el logo y los paneles del footer. Se detallan los cambios necesarios para mejorar la estética y coherencia visual del diseño. Incluye instrucciones técnicas para actualizar los assets y aplicar estilos CSS. El documento no concluye con una implementación completa, dejando pendientes algunos pasos de configuración y diseño.",
+  "ideas_clave": [
+    "Actualización del logo hexelion para que sea más grande y limpio, alineado con el ojo central del dashboard",
+    "Aplicación de fondos temáticos a los paneles del footer para mantener la coherencia visual",
+    "Uso de gradientes y overlays para preservar la legibilidad en los nuevos fondos de los paneles",
+    "Reutilización de patrones de diseño ya establecidos en las cards principales para los paneles inferiores"
+  ],
+  "quedo_a_medias": true
+} 

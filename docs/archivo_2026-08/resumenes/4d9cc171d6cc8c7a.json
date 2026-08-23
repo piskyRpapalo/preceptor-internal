@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento que describe las tareas para el build #2 del Lab, enfocado en ajustes de configuración, estética y creación de una ventana de procesos read-only. Se detallan modificaciones en el margen del cruce, tipografía, iconos y la implementación de una vista de estado en vivo. No se tocan servicios ni lógica de ejecución. Se requiere certificación de blindaje para garantizar lectura pura y sin control.",
+  "ideas_clave": [
+    "Se define una ventana de procesos del Lab en modo lectura, sin ejecutar ni manipular flujos.",
+    "Se ajusta el margen del cruce a ≤1000 m / ≤30 s, sin tocar la lógica del cruce existente.",
+    "Se optimizan los iconos usando vectores ligeros para mejorar el rendimiento en móvil.",
+    "Se crea una nueva ruta `/dashboard/lab-processes` con lecturas en vivo del estado del cruce y del AIS."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento especifica las reglas de seguridad para el sistema paralelo p0x, enfocado en restringir el acceso a través de Tailscale. Establece políticas de bind exclusivo, prohibe el acceso desde interfaces LAN físicas y requiere validación de IP y middleware de filtrado. Se enfoca en garantizar que todo el tráfico pase por el túnel cifrado de Tailscale, evitando exposiciones no autorizadas. Se implementa una capa adicional de seguridad a nivel de aplicación con validación previa al arranque y filtrado de cabeceras HTTP.",
+  "ideas_clave": [
+    "La configuración del servidor debe restringir el bind a una IP específica de Tailscale y prohibir escuchar en todas las interfaces.",
+    "Se debe rechazar el tráfico entrante desde interfaces de red física locales para garantizar que todo el tráfico pase por el túnel.",
+    "Se implementa una validación de IP en el arranque del servidor para evitar inicializaciones incorrectas.",
+    "Se filtran las peticiones HTTP por IP emisora mediante middleware en FastAPI para evitar accesos no autorizados."
+  ],
+  "quedo_a_medias": false
+} 

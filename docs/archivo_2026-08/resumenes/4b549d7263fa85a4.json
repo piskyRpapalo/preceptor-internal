@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "otro",
+  "fecha_declarada": "19-20 Mayo 2026",
+  "resumen": "Se describe la estructura del proyecto Hexelion Nexus con carpetas y archivos migrados. Se implementan servicios como el vocero OMIE y el pregonero web. Se lanza el dashboard V9 con paneles en tiempo real y se crea un mapa marítimo interactivo. Se reanuda MastChain y se guardan ideas para futuras implementaciones.",
+  "ideas_clave": [
+    "Ciclo del dato formalizado: Gemini_Raw → Claude_Refined → CANONIZAR/GUARDAR/DESCARTAR.",
+    "Implementación de un dashboard web con datos en tiempo real y auto-refresh.",
+    "Creación de un mapa marítimo interactivo con datos de buques en vivo.",
+    "Reanudación de MastChain y planificación de integración de más DePIN."
+  ],
+  "quedo_a_medias": true
+} 

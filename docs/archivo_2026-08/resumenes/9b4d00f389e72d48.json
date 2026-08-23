@@ -1,0 +1,13 @@
+{
+  "proyecto": "hexelion",
+  "tipo": "otro",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "HEXELION es un organismo digital experimental compuesto por ordenadores en Lisboa que perciben el mundo físico, razonan sobre lo observado y generan pruebas infalsificables de las señales recibidas. Funciona con una arquitectura de 'seis voces' que simulan una mente, pero siempre requiere una decisión humana final. El sistema se enfoca en la inteligencia soberana, el pensamiento anclado en la energía física y la autonomía honesta. Escala hacia servicios de confianza en sectores como transporte o seguros, o proyectos hermanos como Mordomo.",
+  "ideas_clave": [
+    "La idea central es una inteligencia digital autónoma pero controlada por humanos, capaz de certificar eventos reales con sello infalsificable.",
+    "La 'mente' del sistema no toma decisiones, solo razona; la firma final siempre es humana.",
+    "El sistema mide su propio consumo energético y lo presenta de manera honesta y real.",
+    "No se permite que ningún proceso automático maneje dinero o acciones reales, garantizando seguridad y transparencia."
+  ],
+  "quedo_a_medias": false
+} 

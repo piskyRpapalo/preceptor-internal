@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento establece las reglas para mostrar orbes condicionales según el tema (Aetheric o Sovereign) en la interfaz frontend. Los orbes auténticos deben ser optimizados y cargados solo en Aetheric, mientras que en Sovereign se usan SVG inline. Se preserva el estilo neón y la funcionalidad de privacidad en ambos temas. Se indica que los assets originales no deben ser cargados en Sovereign y que se debe verificar el comportamiento final.",
+  "ideas_clave": [
+    "Los orbes deben adaptarse al tema activo (Aetheric o Sovereign) con assets específicos.",
+    "Los assets auténticos deben ser optimizados y cargados solo en Aetheric, no en Sovereign.",
+    "Se debe mantener la funcionalidad del neón azul y del toggle de privacidad en ambos temas.",
+    "Es fundamental verificar que no se carguen los PNG originales en el tema Sovereign."
+  ],
+  "quedo_a_medias": true
+} 

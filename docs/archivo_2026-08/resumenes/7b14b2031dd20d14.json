@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento establece las reglas para la generación y visualización de voces sintéticas del Sínodo en la Fase 1, enfocándose en la creación pre-renderizada de audio y su integración en el Nexo. Define claramente qué se incluye y excluye en esta fase, así como la ubicación de las tareas. Se enfatiza en la no clonación de voces reales y la separación de responsabilidades entre el rack y la máquina del Soberano. El enfoque es en el lore y no en la atestación ni en funcionalidades solares.",
+  "ideas_clave": [
+    "Las voces del Sínodo son sintéticas y no clonan voces reales sin consentimiento.",
+    "El audio se genera de forma pre-renderizada, sin TTS en vivo para evitar sobrecarga del sistema.",
+    "La interacción con las voces ocurre a través del Nexo, que reproduce audio estático con etiquetas de IA.",
+    "El proceso requiere una separación clara entre tareas del rack y ejecución en el Oráculo del Soberano."
+  ],
+  "quedo_a_medias": true
+} 

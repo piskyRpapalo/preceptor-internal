@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento describe tareas para corregir el diseño móvil del dashboard, asegurando que se aplique correctamente con el viewport adecuado y media queries. También se pide hacer el interior de los paneles transparente, permitiendo ver el fondo sin opacidades ni desenfoques. Se requiere verificación en dispositivos reales mediante Playwright.",
+  "ideas_clave": [
+    "La falta del meta viewport es la causa principal del problema en móviles.",
+    "La implementación debe garantizar una sola columna en móviles y texto legible.",
+    "El interior de los paneles debe ser transparente sin perder legibilidad, usando efectos como text-shadow.",
+    "Se debe verificar en dispositivos reales (Pixel 5, iPhone 13) para asegurar compatibilidad."
+  ],
+  "quedo_a_medias": true
+} 

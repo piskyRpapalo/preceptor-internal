@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "doctrina",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento propone la Ley de Desobediencia Verificable como marco para gestionar discrepancias entre órdenes y reglas superiores en el desarrollo del filtro de privacidad de Aurelius. Presenta un proceso de auditoría inmutable que documenta y justifica desviaciones técnicas mediante expedientes causales con hash SHA-256. La ley busca alinear la toma de decisiones técnicas con principios de transparencia y soberanía en la IA. Se enfoca en validar el filtro en entornos controlados y medir su impacto en hardware real.",
+  "ideas_clave": [
+    "La Ley de Desobediencia Verificable permite al silicio proponer soluciones alternativas cuando una orden colisiona con reglas superiores, siempre que se documente correctamente.",
+    "La implementación requiere expedientes causales con hash SHA-256 para garantizar integridad y verificabilidad criptográfica.",
+    "El enfoque es pragmático: priorizar la construcción de un sistema robusto antes de añadir complejidad innecesaria.",
+    "La clasificación de problemas por criticidad (bloqueantes, críticos, medios, bajos) permite una gestión disciplinada de los fallos técnicos."
+  ],
+  "quedo_a_medias": true
+} 

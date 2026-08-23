@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Documento describe un plan de edición para el pipeline de verificación cruzada marítima, incluyendo el mapeo de la realidad del frontend y backend, y la definición de tres estados para la comparación de datos: CORROBORADO, SOLO-VIGÍA y DISCREPANTE. Propone cambios en archivos y servicios nuevos, sin tocar código ni hacer cambios en el sistema. Se enfoca en la inspección read-only de componentes como El Vigía, ais-catcher, y el mapa marítimo, y define una ventana de procesos del Lab en modo solo lectura.",
+  "ideas_clave": [
+    "La verificación cruzada no atestigua, sino que compara datos de El Vigía con aisstream, sin firmar.",
+    "Los tres estados son CORROBORADO (verde), SOLO-VIGÍA (azul) y DISCREPANTE (ámbar), basados en la coherencia de los datos.",
+    "Se define una ventana de procesos del Lab que solo monitorea, sin comandos ni reinicios.",
+    "Se evita el hardcodeo de datos fijos como número de buques o rates, manteniendo dinamismo en los datos."
+  ],
+  "quedo_a_medias": true
+} 

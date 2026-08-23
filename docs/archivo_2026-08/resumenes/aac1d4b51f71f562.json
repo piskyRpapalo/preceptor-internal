@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento es un prompt para el diagnóstico no destructivo del sistema ADS-B 1090 en El Vigía, utilizando Claude Code vía SSH. Se enfoca en identificar problemas de coexistencia o hardware sin modificar el sistema. Incluye fases de descubrimiento, inventario de dispositivos, análisis de recepción y salud del servicio. El objetivo es determinar si el problema es software, transporte o hardware para decidir si se requiere migrar la antena a una Raspberry Pi Zero 2 W. No se permite modificar el AIS ni realizar cambios sin permiso.",
+  "ideas_clave": [
+    "El diagnóstico es estrictamente read-only para evitar interrumpir el AIS operativo",
+    "Se debe determinar si el problema es de colisión de serial, driver DVB, o problemas de hardware",
+    "El veredicto final indica si el problema es software arreglable o requiere migración física",
+    "Se propone un enfoque sistemático de 4 fases para identificar el origen del problema"
+  ],
+  "quedo_a_medias": true
+} 

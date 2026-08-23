@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Se propone hacer clicable todo el panel INFRA · NODES + ENERGY para que redirija a /catastro, replicando el comportamiento de otras cards de acceso directo. Se eliminará el card-botón separado MAPA DE DISCO · EL CATASTRO. El cambio es solo frontend y se debe hacer un backup antes de editar. Se requiere mantener intacto el contenido del panel y verificar que las demás rutas sigan funcionando correctamente.",
+  "ideas_clave": [
+    "Hacer clicable el panel INFRA · NODES + ENERGY para navegar a /catastro.",
+    "Eliminar el card-botón redundante MAPA DE DISCO · EL CATASTRO.",
+    "Mantener el contenido del panel y solo modificar el comportamiento de clic.",
+    "Repetir el mismo patrón de navegación usado por otras cards como /sinodo o /maritimo."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "plan",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "El documento presenta el plan de aprendizaje de Aurelius, enfocado en la soberanía digital mediante la alfabetización física. Se define un módulo fundacional llamado 'El Abecedario' que exige comprensión de conceptos básicos de hardware y computación antes de cualquier actividad técnica. Otros módulos como 'El Martillo' y 'La Vena' se centran en el control directo de sensores y el manejo de sistemas operativos. El enfoque es exigente y práctico, sin abstracciones ni interfaces gráficas, priorizando la autonomía del operador.",
+  "ideas_clave": [
+    "La alfabetización física es un requisito previo para cualquier actividad tecnológica en Aurelius.",
+    "Los módulos exigen demostración de comprensión mediante comandos y no permiten abstracciones ni interfaces gráficas.",
+    "La soberanía se construye a partir de la capacidad del operador para leer y entender el hardware directamente.",
+    "El sistema evita la ilusión de competencia mediante preguntas que prueban la comprensión real del operador."
+  ],
+  "quedo_a_medias": true
+} 

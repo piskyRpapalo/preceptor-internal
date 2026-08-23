@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "otro",
+  "fecha_declarada": "2026-08-12",
+  "resumen": "Este documento sintetiza la adaptación del marco Aurelius a la realidad actual de P0X, enfocándose en la estructura del cuerpo, la meditación up/down, el TTS local y el dataset R01. Se mapean los 7 módulos del cuerpo y se definen nombres adaptados para integrarlos en el sistema. Se propone un enfoque de exportación e importación de contenido, así como mecanismos para el procesamiento de voz y gestión de datos. No se incluye información específica sobre el proyecto 'hexelion', 'p0x' o 'otro'.",
+  "ideas_clave": [
+    "Los 7 módulos del cuerpo de Aurelius se adaptan a componentes existentes o nuevos dentro del sistema P0X, manteniendo nombres sin colisión.",
+    "Se introduce el concepto de Meditatio Up para enriquecer prompts antes de enviarlos a IA externa, con niveles N0-N4 y sidecar físico.",
+    "Se propone Meditatio Down para interpretar respuestas de IA y conectarlas al Soberano, usando FTS5 sobre SQLite.",
+    "El motor TTS local se adapta usando Piper como principal y espeak-ng como fallback, con activación manual y control de batería."
+  ],
+  "quedo_a_medias": true
+} 

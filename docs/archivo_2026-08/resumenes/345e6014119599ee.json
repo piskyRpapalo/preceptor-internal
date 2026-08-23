@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Orochi Network es una infraestructura basada en criptografía de conocimiento cero y cómputo descentralizado, diferente a redes DePIN tradicionales. Para participar, se requiere crear una identidad ONID, vincular billetera y completar KYC. Los usuarios pueden participar corriendo ONProver desde el navegador y acumulando puntos. También se pueden obtener multiplicadores de tokens participando en códigos dinámicos en Discord.",
+  "ideas_clave": [
+    "Orochi Network no se basa en rastreo aéreo, sino en verificación de datos mediante ZK y cómputo descentralizado.",
+    "La participación no requiere hardware especial ni configuración compleja, solo un navegador.",
+    "La recompensa se obtiene a través de un sistema de pruebas generadas desde el navegador (ONProver).",
+    "Los usuarios pueden multiplicar sus recompensas usando códigos dinámicos en Discord."
+  ],
+  "quedo_a_medias": false
+} 

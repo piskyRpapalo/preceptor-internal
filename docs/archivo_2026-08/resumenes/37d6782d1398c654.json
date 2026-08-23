@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "plan",
+  "fecha_declarada": "2026-08-16",
+  "resumen": "El documento presenta el estado post-R82 del proyecto p0x, destacando tareas pendientes como la ejecución del gitignore y la verificación de archivos. Se mencionan inconsistencias entre el estado declarado y el disco, y se proponen decisiones sobre el manifiesto de modelos y la gestión de archivos. Se indica que algunos elementos están aguas abajo por falta de ejecución de pasos previos.",
+  "ideas_clave": [
+    "La inconsistencia entre el estado declarado y el disco es crítica para el canon del proyecto.",
+    "Se propone una decisión sobre si el modelo 4B debe incluirse como alternativa o default en el manifiesto.",
+    "Se plantea la posibilidad de un borrado no identificado en aurelius, que debe ser investigado antes de commitearlo.",
+    "La fila con id=1 en la tabla engrams debe manejarse según reglas establecidas, evitando borrados directos o cambios inválidos."
+  ],
+  "quedo_a_medias": true
+} 

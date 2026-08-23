@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "prompt",
+  "fecha_declarada": "20 Mayo 2026",
+  "resumen": "Documento describe la reconstrucción visual del dashboard de Hexelion tras una auditoría. Propone una estrategia de commit, branch y reemplazo de componentes obsoletos. Se establece una nueva estética basada en 'Terminal Matrix + Árbol de Chips Eléctricos'. Se detallan las fases de eliminación quirúrgica y reemplazo del header con tres botones.",
+  "ideas_clave": [
+    "Reconstrucción visual del dashboard basada en una estrategia de commit + branch + reconstrucción",
+    "Eliminación de componentes obsoletos como TejoTerminal y datos mock (Energy, Finance)",
+    "Nueva estética 'Terminal Matrix + Árbol de Chips Eléctricos' con header de 3 botones",
+    "Uso de sprites para botones del header con paleta de colores específica"
+  ],
+  "quedo_a_medias": true
+} 

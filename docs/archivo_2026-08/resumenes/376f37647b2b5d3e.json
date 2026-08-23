@@ -1,0 +1,13 @@
+{
+  "proyecto": "aurelius",
+  "tipo": "informe_estado",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Aurelius-MVP es un filtro de privacidad plug-and-play que protege los datos sensibles al prevenir la exposición accidental de información crítica en los prompts antes de enviarlos a LLMs externos. Se basa en una arquitectura de soberanía digital que prioriza la transparencia, la verificación y el control del usuario sobre sus datos. El estudio define claramente su propósito, objetivos estratégicos y limitaciones, enfatizando la importancia de la honestidad sensorial y la verificación como pilares fundamentales del desarrollo. Se identifica una brecha arquitectónica entre productos genéricos y herramientas de soberanía personal, resuelta mediante el diseño del MVP.",
+  "ideas_clave": [
+    "El producto se define como un filtro determinista y transparente que opera localmente para proteger datos sensibles como IPs, claves y rutas.",
+    "La soberanía digital se concibe como un control absoluto del usuario sobre sus datos, sin depender de servidores remotos ni modelos opacos.",
+    "La filosofía del producto se basa en tres pilares: soberanía del usuario, honestidad sensorial y verificación como mecanismo de gobernanza.",
+    "Se identifica una falla en la arquitectura existente donde un repositorio público exponía datos sensibles, lo cual se resuelve con el diseño del MVP."
+  ],
+  "quedo_a_medias": false
+} 

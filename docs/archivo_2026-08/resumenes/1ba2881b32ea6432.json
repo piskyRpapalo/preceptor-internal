@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "doctrina",
+  "fecha_declarada": "2026-08-08",
+  "resumen": "Este documento es un archivo técnico que registra elementos descartados del diseño visual y decisiones técnicas rechazadas en el contexto del proyecto p0x. Incluye una lista de componentes visuales eliminados, como elementos de interfaz y estilos, junto con decisiones sobre el almacenamiento, el rendimiento y la seguridad. También detalla incidentes pendientes en el sistema Beato y una hoja de ruta para el despliegue visual, incluyendo pasos para la compilación y configuración del servidor Nginx. Las ideas clave son la eliminación de elementos visuales para mantener la coherencia estética, la prohibición de ciertas tecnologías por limitaciones técnicas, y la necesidad de solucionar problemas de conectividad y persistencia de datos. El documento queda a medias, ya que describe procesos de despliegue y correcciones técnicas que aún no se han completado.",
+  "ideas_clave": [
+    "Elementos visuales descartados para mantener la estética brutalista del sistema.",
+    "Prohibición de tecnologías como glassmorphism y localStorage por limitaciones de rendimiento y privacidad.",
+    "Necesidad de corregir fallos en el sistema de sensores y en la persistencia de datos.",
+    "Ruta de despliegue visual con pasos específicos para el servidor Nginx y compilación de Vite."
+  ],
+  "quedo_a_medias": true
+} 

@@ -1,0 +1,13 @@
+{
+  "proyecto": "p0x",
+  "tipo": "otro",
+  "fecha_declarada": "NO_DATA",
+  "resumen": "Este documento registra los drills ejecutados durante la vida del organismo Hexelion, incluyendo validaciones de reencarnación, resiliencia, rituales y otras pruebas de integridad. Se describen los tipos de drills y su calendario programado. El documento es inmutable y solo permite añadir entradas nuevas. No contiene datos concretos de drills ejecutados, ya que todos los registros están pendientes.",
+  "ideas_clave": [
+    "Los drills son pruebas estructuradas para validar la integridad del sistema Hexelion.",
+    "El documento es inmutable, con nuevas entradas añadidas pero nunca editadas.",
+    "Se planifican drills recurrentes y bajo demanda para mantener la salud del sistema.",
+    "Los drills están organizados por fases y ciclos, con fechas programadas."
+  ],
+  "quedo_a_medias": true
+} 
