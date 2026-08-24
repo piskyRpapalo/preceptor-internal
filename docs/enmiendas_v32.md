@@ -1,6 +1,6 @@
 # ENMIENDAS v3.1 → v3.2
 
-**Fecha:** noche del 2026-08-23 → 24 · **Estado:** PROPUESTA. Firma el Soberano.
+**Fecha:** noche del 2026-08-23 → 24 · **Estado:** ✅ **FIRMADO por el Soberano** el 2026-08-24. Las seis enmiendas son canon de v3.2.
 **Fuente:** [`verificacion_cruzada_v31.md`](verificacion_cruzada_v31.md)
 
 Tres correcciones de hecho y una condición. Nada más se toca de v3.1: el descarte de C.5, la
@@ -165,3 +165,14 @@ mínimo, con los dos parámetros ajustables sin tocar código. Se rediseña sobr
 | E6 | D8 aplazado hasta llevar histéresis | Aplazamiento | S |
 
 Las seis son de coste S. **v3.2 es una tarde de café, no una reescritura.**
+
+---
+
+## Firma
+
+**2026-08-24 · el Soberano firma v3.2** y ordena empezar por B.1a (FTS5).
+Ejecutado el mismo día: ver `sprint_mañana.md` §5, tarea 3.
+
+Queda **sin responder** la segunda pregunta del sprint: si se alinean el Doogee y
+`aurelius-mvp` con `origin/main` antes del ticket a GitHub Support. Mientras no se
+responda, los dos clones siguen pudiendo resucitar el blob de 3,54 MB.

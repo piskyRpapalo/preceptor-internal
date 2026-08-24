@@ -127,7 +127,7 @@ honestidad hoy, porque nada mide sus ejes.** Delante va lo que produce dato.
 |---|---|---|---|---|---|---|
 | 1 | **v3.2** · las 6 enmiendas (E1–E6) | P0 | S | Tu firma | Las tres falsedades fuera del documento | — |
 | 2 | **Regla de higiene systemd/cron** a `CLAUDE.md` + `mente/` | P0 | S | Tu firma | La regla vive donde se lee, no en el archivo | La rechazas y D-D se desbloquea |
-| 3 | **B.1a · FTS5 sobre `engrams`** | P1 | M | — (medido ✅) | Búsqueda < 50 ms en Doogee **y** las 30 suites siguen verdes | Si obliga a tocar el `CHECK` de `engrams` |
+| 3 | **B.1a · FTS5 sobre `engrams`** | P1 | M | — | ✅ **HECHO 2026-08-24** · 1,03 ms en Doogee (criterio < 50 ms) · **394/394 en 30 suites** · commit `feab8bc`, sin push | Si obliga a tocar el `CHECK` de `engrams` — no hizo falta |
 | 4 | **A.5 · latencia por turno** en `salidas` | P1 | M | — | 20 turnos con `ms` real en las dos máquinas | Si el registro altera el turno medido |
 | 5 | **D2 · Path** en `~/.aurelius/path/` | P2 | M | — | Un path se lee y se lista **sin LLM y sin red** | Si necesita LLM para leerse |
 | 6 | **D7a · `brujula_estado`** solo registro crudo | P3 | M | 4+5 | Guarda eventos medidos. **Cero columnas calculadas** | Si aparece un número compuesto |
@@ -145,6 +145,7 @@ Sin cambio y fuera del sprint: **A.1–A.3** (voz — las mides tú en casa), B.
 | Qué medir | Quién | Cuándo | Para qué |
 |---|---|---|---|
 | ~~FTS5 en Termux~~ | ~~Preceptor~~ | ✅ hecho | ~~B.1a~~ |
+| ~~`memory.db` tras 100 engramas~~ | ~~Preceptor~~ | ✅ 65.536 bytes con índice incluido | ~~B.2 (parcial: engramas, no turnos)~~ |
 | Latencia de turno: Doogee vs Beelink, 4B vs 30B | Soberano (voces) + Preceptor | Prueba de voces | A.5 y los criterios de A.1–A.3 |
 | `memory.db` tras 100 turnos (hoy: 60K sin llegar) | Preceptor | Con A.5 | B.2 |
 | RAM con el 30B cargado — **`ollama ps` primero, backend anotado** | Preceptor | Antes de D7a | D7a / L3 |
@@ -162,6 +163,36 @@ Sin cambio y fuera del sprint: **A.1–A.3** (voz — las mides tú en casa), B.
 | **D-E** identidad del Faro | Confirmada, y son **dos** campos: `hexelion.near` vs testnet **y** vs `hexelion-beato-01` | Diff propuesto en `p0x/propuestas/`. **Propose-only**: lo aplicas tú en la-fragua |
 | **D-F** purga de `9a25dee` | Más grande: el blob vive también en el Doogee y en `aurelius-mvp` | Alinear los dos clones **antes** del ticket a Support |
 | **S3** (`PENDIENTES.md`) | Sigue abierta: 282 de 385 certificadas | Candidata a P1 del sprint siguiente |
+
+---
+
+## 7 bis · B.1a, ejecutado tras la firma
+
+Firmado v3.2 el 24-ago, orden: empezar por FTS5. Hecho y medido.
+
+| | Resultado |
+|---|---|
+| Búsqueda, 100 engramas, Doogee (aarch64, sqlite 3.53.4) | **1,03 ms** — criterio era < 50 ms |
+| Escribir 100 engramas con el índice puesto | 67 ms (0,67 ms cada uno) |
+| Suites | **394/394 en 30 suites**, cero rojo (385 antes + 9 nuevas) |
+| Sabotajes de `test_memory` | 6/6 detectadas |
+| Dependencias nuevas | **cero** — FTS5 viene dentro de sqlite |
+
+Tres cosas que salieron por el camino y conviene saber:
+
+1. **Un bug real, cazado por `test_hilos` u10.** Colgar los disparadores de un `engrams`
+   que no existe rompía `asegurar_tablas()` sobre memorias a medio esquema — justo a quien
+   esa función existe para servir. Corregido: sin fuente, no hay índice.
+2. **El sabotaje de durabilidad de `test_memory` llevaba tiempo sin sabotear nada.** Su
+   ancla quedó obsoleta cuando D11 añadió `origen_dispositivo` al insert, y nadie lo veía
+   porque `bin/pruebas` no corre el modo sabotaje de esa suite. Reparado (6/6). **Es el
+   patrón S0 exacto: el detector roto y todo verde.** Refuerza la sugerencia S4 de
+   `PENDIENTES.md`.
+3. **El índice no duplica el texto** (`content=engrams`), y hay una prueba que lo vigila
+   leyendo el bloque crudo del índice. Un segundo sitio con las palabras de la persona
+   sería un segundo sitio del que fugarlas.
+
+**Sin `push`**: el commit espera en `main` local de `~/p0x/aurelius` (*ahead 1*).
 
 ---
 
