@@ -1,0 +1,33 @@
+═══════════════════════════════════════════════════════════════
+ESTADO DE BUCLES 24/7 · 2026-08-24 17:26
+═══════════════════════════════════════════════════════════════
+
+▸ QUE EXISTE (codigo en agentes/bucles/)
+    ✔ director.py
+    ✔ s0.py
+    · 8 de L1/L3 sin escribir todavia: afinador guardian centinela peregrino medico escriba cronista vigia
+
+▸ TIMERS ACTIVOS
+    (ninguno · ningun bucle esta cronificado en este nodo)
+
+▸ UNIDADES INSTALADAS
+    (ninguna)
+
+▸ LATIDOS (/home/pisky/.aurelius/loops.db)
+    2 latidos registrados. Los ultimos:
+      2026-08-23 05:03:33  director   sale   ok         0.02s
+      2026-08-23 05:03:33  director   entra  —          —s
+    
+    Bucles registrados:
+      director   LIGERO   vivo     —
+    
+    Hallazgos registrados: 0
+
+▸ BANDEJA DE FIRMAS
+    1 propuesta(s) esperando firma · /home/pisky/p0x/aurelius-internal/agentes/../docs/bandeja_firmas.md
+      | 2026-08-23 | s0 | sospecha del filtro «guardian»: corrió 1 veces con éxito y nunca ha encontra
+
+▸ LOGS RECIENTES
+    (ninguno · ningun bucle ha escrito log todavia)
+
+═══════════════════════════════════════════════════════════════
