@@ -21,8 +21,8 @@ LOOPS_DB="${LOOPS_DB:-$HOME/.aurelius/loops.db}"
 # Los ocho del mapa de ARQ_LOOPS. `director` y `s0` estan construidos; los
 # otros seis son L1/L3 y siguen [pendiente]. El panel lo dice en vez de
 # enseñarlos vacios como si estuvieran parados.
-CONSTRUIDOS="director s0 guardian"
-PENDIENTES="afinador centinela peregrino medico escriba cronista vigia"
+CONSTRUIDOS="director s0 guardian afinador"
+PENDIENTES="centinela peregrino medico escriba cronista vigia"
 
 echo "═══════════════════════════════════════════════════════════════"
 echo "ESTADO DE BUCLES 24/7 · $(date '+%Y-%m-%d %H:%M')"
