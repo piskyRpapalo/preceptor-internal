@@ -21,8 +21,8 @@ LOOPS_DB="${LOOPS_DB:-$HOME/.aurelius/loops.db}"
 # Los ocho del mapa de ARQ_LOOPS. `director` y `s0` estan construidos; los
 # otros seis son L1/L3 y siguen [pendiente]. El panel lo dice en vez de
 # enseñarlos vacios como si estuvieran parados.
-CONSTRUIDOS="director s0"
-PENDIENTES="afinador guardian centinela peregrino medico escriba cronista vigia"
+CONSTRUIDOS="director s0 guardian"
+PENDIENTES="afinador centinela peregrino medico escriba cronista vigia"
 
 echo "═══════════════════════════════════════════════════════════════"
 echo "ESTADO DE BUCLES 24/7 · $(date '+%Y-%m-%d %H:%M')"
@@ -42,6 +42,9 @@ for b in $PENDIENTES; do
   [ -f "$DIR/bucles/${b}.py" ] || faltan=$((faltan + 1))
 done
 echo "    · ${faltan} de L1/L3 sin escribir todavia: ${PENDIENTES}"
+if [ "$faltan" != "$(echo $PENDIENTES | wc -w)" ]; then
+  echo "    ! el recuento y la lista no cuadran · mueve el bucle de columna en este fichero"
+fi
 
 echo ""
 echo "▸ TIMERS ACTIVOS"

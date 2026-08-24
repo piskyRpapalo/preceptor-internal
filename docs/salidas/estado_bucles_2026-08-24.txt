@@ -1,25 +1,31 @@
 ═══════════════════════════════════════════════════════════════
-ESTADO DE BUCLES 24/7 · 2026-08-24 17:26
+ESTADO DE BUCLES 24/7 · 2026-08-24 21:19
 ═══════════════════════════════════════════════════════════════
 
 ▸ QUE EXISTE (codigo en agentes/bucles/)
     ✔ director.py
     ✔ s0.py
-    · 8 de L1/L3 sin escribir todavia: afinador guardian centinela peregrino medico escriba cronista vigia
+    ✔ guardian.py
+    · 7 de L1/L3 sin escribir todavia: afinador centinela peregrino medico escriba cronista vigia
 
 ▸ TIMERS ACTIVOS
-    (ninguno · ningun bucle esta cronificado en este nodo)
+    Tue 2026-08-25 04:05:58 WEST             6h -                                       - guardian.timer                 guardian.service
 
 ▸ UNIDADES INSTALADAS
-    (ninguna)
+    guardian     static · inactive
 
 ▸ LATIDOS (/home/pisky/.aurelius/loops.db)
-    2 latidos registrados. Los ultimos:
+    6 latidos registrados. Los ultimos:
+      2026-08-24 21:19:07  guardian   sale   ok         0.09s
+      2026-08-24 21:19:07  guardian   entra  —          —s
+      2026-08-24 21:18:28  guardian   sale   ok         0.09s
+      2026-08-24 21:18:27  guardian   entra  —          —s
       2026-08-23 05:03:33  director   sale   ok         0.02s
       2026-08-23 05:03:33  director   entra  —          —s
     
     Bucles registrados:
       director   LIGERO   vivo     —
+      guardian   LIGERO   vivo     —
     
     Hallazgos registrados: 0
 
