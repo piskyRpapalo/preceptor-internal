@@ -115,6 +115,61 @@ misma forma, y estos tres deberían heredarla entera:
 
 ---
 
+## 5 bis · Especificación de la marca visual (firmada 2026-08-25)
+
+No es un loop, pero vive aquí porque es lo que consumen el Heraldo y la Vitrina el día que
+existan. **Esta sesión no genera los PNG** — es trabajo manual con herramientas de imagen.
+Esto es la referencia para quien los haga.
+
+### La regla, y por qué
+
+**El producto en el nombre. El personaje en el sprite. Sin «×».**
+
+Se descartó *«Aurelius × PreceptorOS»* porque pone al mismo nivel dos cosas que la doctrina
+separa a propósito: **PreceptorOS es el producto; Aurelius es el personaje**, y su nombre
+honra a Marco Aurelio. Una «×» entre los dos los convierte en una colaboración entre iguales
+—como una marca de ropa con un artista— y eso no es lo que son. El personaje **vive dentro**
+del producto.
+
+La PWA ya lo hace bien y sirve de patrón: `interface/manifest.json` declara
+`"name": "PreceptorOS"` y el icono es el busto de Aurelius. **Nada que cambiar ahí.**
+
+### Lo que hay que rehacer
+
+| fichero | medidas | qué lleva hoy | qué debe llevar |
+|---|---|---|---|
+| `assets/titulo-aurelius.png` | — | el nombre «Aurelius» como título | **«PreceptorOS»** como título. Renombrar el fichero a `titulo-preceptoros.png` y actualizar el `<img>` del README |
+| `assets/social-preview.png` | 1280×640 | vista previa social | «PreceptorOS» + el busto. Es lo que se ve al pegar el enlace en cualquier sitio |
+| `assets/avatar-github.png` | 512×512 · fondo violeta `#6d5ae0` | busto sobre violeta | **Sin cambios.** Es el personaje, y es lo correcto |
+| `assets/aurelius-up.png` | — | el sprite del README | **Sin cambios.** Sprite = personaje |
+
+### Lo que NO se toca, y ya está decidido
+
+`laminas/`, `LORE.md`, `ARQUETIPO.md`, el saludo «Despierta de la piedra», y todo sprite o
+retrato del filósofo. El renombrado se diseñó para no tener que tocarlos, y la auditoría del
+2026-08-25 confirmó que ninguno miente.
+
+### Dos detalles heredados de `MARCA.md`, para no repetir el error
+
+- **El avatar no va con fondo transparente.** GitHub lo pone sobre blanco en un tema y sobre
+  casi negro en el otro, y el busto es gris claro: en el tema claro se perdería. El violeta de
+  la casa es lo único que se ve igual en los dos.
+- **El fondo gris del sprite se quita por inundación desde los bordes**, no filtrando ese
+  color en toda la imagen: el busto lleva grises parecidos dentro, y un filtro global le
+  abriría agujeros en la maquinaria.
+
+### Verificación cuando estén hechos
+
+```bash
+grep -rn "titulo-aurelius" README.md          # debe quedar vacío
+python3 -c "import json;print(json.load(open('interface/manifest.json'))['name'])"   # PreceptorOS
+```
+
+Y mirar el enlace pegado en un sitio real: la vista previa social es lo único de esta lista
+que ve alguien **antes** de decidir si entra.
+
+---
+
 ## 6 · Para la firma
 
 | # | Qué se firma | |
