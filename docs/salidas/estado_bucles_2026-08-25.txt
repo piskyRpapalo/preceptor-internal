@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════════
-ESTADO DE BUCLES 24/7 · 2026-08-24 23:53
+ESTADO DE BUCLES 24/7 · 2026-08-25 01:32
 ═══════════════════════════════════════════════════════════════
 
 ▸ QUE EXISTE (codigo en agentes/bucles/)
@@ -7,35 +7,39 @@ ESTADO DE BUCLES 24/7 · 2026-08-24 23:53
     ✔ s0.py
     ✔ guardian.py
     ✔ afinador.py
-    · 6 de L1/L3 sin escribir todavia: centinela peregrino medico escriba cronista vigia
+    ✔ curador.py
+    · 5 de L1/L3 sin escribir todavia: centinela peregrino escriba cronista vigia
 
 ▸ TIMERS ACTIVOS
-    Tue 2026-08-25 03:07:17 WEST       3h 14min -                                     - afinador.timer                 afinador.service
-    Tue 2026-08-25 04:01:08 WEST        4h 7min -                                     - guardian.timer                 guardian.service
+    Tue 2026-08-25 03:10:48 WEST       1h 38min Mon 2026-08-24 23:52:33 WEST           - afinador.timer                 afinador.service
+    Tue 2026-08-25 04:11:43 WEST       2h 39min Mon 2026-08-24 21:19:23 WEST           - guardian.timer                 guardian.service
+    Sun 2026-08-30 05:08:22 WEST         5 days -                                      - curador.timer                  curador.service
 
 ▸ UNIDADES INSTALADAS
     guardian     static · inactive
     afinador     static · inactive
+    curador      static · inactive
 
 ▸ LATIDOS (/home/pisky/.aurelius/loops.db)
-    12 latidos registrados. Los ultimos:
+    16 latidos registrados. Los ultimos:
+      2026-08-25 01:31:00  curador    sale   ok         0.01s
+      2026-08-25 01:31:00  curador    entra  —          —s
+      2026-08-25 01:30:44  curador    sale   ok         0.01s
+      2026-08-25 01:30:44  curador    entra  —          —s
       2026-08-24 23:52:10  afinador   sale   ok         87.48s
       2026-08-24 23:50:42  afinador   entra  —          —s
       2026-08-24 23:50:17  afinador   sale   ok         86.99s
       2026-08-24 23:48:50  afinador   entra  —          —s
       2026-08-24 21:20:32  guardian   sale   ok         0.09s
       2026-08-24 21:20:32  guardian   entra  —          —s
-      2026-08-24 21:19:07  guardian   sale   ok         0.09s
-      2026-08-24 21:19:07  guardian   entra  —          —s
-      2026-08-24 21:18:28  guardian   sale   ok         0.09s
-      2026-08-24 21:18:27  guardian   entra  —          —s
     
     Bucles registrados:
       director   LIGERO   vivo     —
       guardian   LIGERO   vivo     —
       afinador   MEDIO    vivo     —
+      curador    MEDIO    vivo     —
     
-    Hallazgos registrados: 0
+    Hallazgos registrados: 2
 
 ▸ BANDEJA DE FIRMAS
     1 propuesta(s) esperando firma · /home/pisky/p0x/aurelius-internal/agentes/../docs/bandeja_firmas.md
