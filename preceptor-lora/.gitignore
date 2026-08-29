@@ -1,7 +1,0 @@
-# Lo que se genera, no se versiona. El dataset es el alma (P4) y no viaja:
-# vive en disco, se reconstruye desde el canon con datos/construir_dataset.py.
-data/
-salida/
-FASE0_VEREDICTO.json
-__pycache__/
-*.pyc
