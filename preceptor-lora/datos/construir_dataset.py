@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 PRODUCTO = Path(os.environ.get(
-    "AURELIUS_REPO_LOCAL", Path.home() / "p0x" / "aurelius-mvp"))
+    "AURELIUS_REPO_LOCAL", Path.home() / "p0x" / "preceptor-mvp"))
 SALIDA_DEFECTO = Path(__file__).resolve().parent.parent / "data" / "lora_dataset.jsonl"
 
 

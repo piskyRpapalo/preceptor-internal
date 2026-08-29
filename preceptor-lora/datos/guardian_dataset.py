@@ -14,7 +14,7 @@ from collections import Counter
 from pathlib import Path
 
 PRODUCTO = Path(os.environ.get(
-    "AURELIUS_REPO_LOCAL", Path.home() / "p0x" / "aurelius-mvp"))
+    "AURELIUS_REPO_LOCAL", Path.home() / "p0x" / "preceptor-mvp"))
 DESEQUILIBRIO_MAX = 0.05          # P3: 5 %
 LARGO_MAX = 4000
 # Suelo de longitud. PROXY DECLARADO: el guardian es stdlib y no tiene

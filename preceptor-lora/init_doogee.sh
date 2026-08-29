@@ -32,7 +32,7 @@ TERMUX_VER="${TERMUX_VER:-0.118.3}"
 TERMUX_APK="termux-app_v${TERMUX_VER}+github-debug_universal.apk"
 TERMUX_URL="https://github.com/termux/termux-app/releases/download/v${TERMUX_VER}/${TERMUX_APK}"
 DESCARGAS="${DESCARGAS:-$HOME/.cache/doogee}"
-REPO="${AURELIUS_REPO:-https://github.com/piskyRpapalo/aurelius}"
+REPO="${AURELIUS_REPO:-https://github.com/piskyRpapalo/PreceptorOS}"
 PAQUETES="git python clang cmake make"
 
 az()   { printf '\033[38;5;141m··\033[0m %s\n' "$1"; }
@@ -119,7 +119,7 @@ cat <<'ORDENES'
    termux-change-repo        # elegir un espejo cercano si pkg va lento
    pkg update -y && pkg upgrade -y
    pkg install -y git python clang cmake make
-   git clone --depth 1 https://github.com/piskyRpapalo/aurelius ~/aurelius
+   git clone --depth 1 https://github.com/piskyRpapalo/PreceptorOS ~/aurelius
    cd ~/aurelius && bash bin/instalar-android
    python3 aurelius.py               # crear la memoria, si la persona quiere
 ORDENES

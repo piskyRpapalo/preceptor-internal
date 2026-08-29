@@ -1,4 +1,4 @@
-# aurelius-lora · la forja
+# preceptor-lora · la forja
 
 > **Estado: STAGING · nada se ha ejecutado, nada se ha instalado.**
 > Plan del Arquitecto recuperado del canon (`mente/backlog/BACKLOG_UI.md`,
@@ -6,7 +6,7 @@
 > hardware medido el **2026-08-20**.
 
 **Desviación mínima aditiva declarada.** El canon nombra `~/aurelius-lora/`.
-Esto vive en `~/p0x/aurelius-lora/`. Motivo: fuera del repo no hay historia, y
+Esto vive en `~/p0x/preceptor-lora/`. Motivo: fuera del repo no hay historia, y
 el encargo pide commits. El nombre se conserva; cambia el padre.
 
 ---
