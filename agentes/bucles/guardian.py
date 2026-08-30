@@ -51,7 +51,13 @@ import latido as L  # noqa: E402
 
 # El arbol vigilado. Se declara por variable de entorno para que la prueba
 # pueda apuntarlo a un arbol de mentira sin tocar el de verdad.
-ARBOL = os.path.expanduser(os.environ.get("GUARDIAN_ARBOL", "~/p0x/aurelius"))
+#
+# El defecto era `~/p0x/aurelius`, que dejo de existir con el renombrado del
+# producto. La unidad si se actualizo (`afinador.service:16` ya dice
+# `%h/p0x/preceptor`); el defecto del codigo no. Resultado medido el
+# 2026-08-30: el guardian corrio a las 04:13 y anoto «0 ficheros mirados»
+# despues de anotar 877 la vispera.
+ARBOL = os.path.expanduser(os.environ.get("GUARDIAN_ARBOL", "~/p0x/preceptor"))
 
 VENTANA_S = 86400          # una vez al dia basta: las dependencias no cambian solas
 CLASE = "LIGERO"           # solo lee ficheros y parsea; no invoca nada
@@ -84,11 +90,37 @@ def _modulos_propios(raiz):
     return propios
 
 
+def _es_entorno_virtual(ruta):
+    """Un directorio con `pyvenv.cfg` dentro ES un entorno virtual.
+
+    Se comprueba por el FICHERO y no por el nombre a proposito. Los entornos de
+    este rack se llaman `venv`, `.venv`, `.venv-dashboard` y `env` segun quien
+    los creara; una lista de nombres deja fuera el siguiente que aparezca, y
+    este guardian ya se quemo una vez por mirar donde no debia (cicatriz nº1).
+    `pyvenv.cfg` lo pone el propio `venv` de la stdlib, siempre.
+    """
+    return os.path.isfile(os.path.join(ruta, "pyvenv.cfg"))
+
+
 def _ficheros(raiz):
-    """Todos los .py del arbol, subcarpetas incluidas. La cicatriz nº1."""
+    """Todos los .py del arbol, subcarpetas incluidas. La cicatriz nº1.
+
+    Los entornos virtuales quedan FUERA, y no es una comodidad: es lo que hace
+    que este bucle signifique algo. Medido el 2026-08-30 sobre la base de
+    latidos: de los ultimos 224 hallazgos, **222 venian de dentro de un venv**
+    -- paquetes de terceros que el guardian denunciaba una y otra vez, 111 cada
+    noche desde el 28 de agosto.
+
+    Ciento once hallazgos permanentes son cero hallazgos. A la tercera noche
+    nadie mira la lista, y el dia que entre una dependencia de verdad en el
+    codigo del producto se pierde entre el ruido. Lo que este bucle vigila es
+    lo que ESCRIBIMOS, no lo que instalamos.
+    """
     for base, dirs, ficheros in os.walk(raiz):
         dirs[:] = [d for d in dirs
-                   if not d.startswith(".") and d not in ("__pycache__", "build")]
+                   if not d.startswith(".")
+                   and d not in ("__pycache__", "build")
+                   and not _es_entorno_virtual(os.path.join(base, d))]
         for f in sorted(ficheros):
             if f.endswith(".py"):
                 yield os.path.join(base, f)
@@ -164,6 +196,17 @@ def main():
         # El recuento va SIEMPRE, encuentre o no. Es lo que deja distinguir
         # "no habia nada" de "no miro nada".
         caja["nota"] = f"{mirados} ficheros mirados · {len(hallazgos)} hallazgos"
+        # Y si no miro NADA, el turno es un fallo, no un ok.
+        #
+        # Hasta el 2026-08-30 esto devolvia `ok` con el arbol ausente. El
+        # recuento en la nota permitia darse cuenta -- si alguien la leia --
+        # pero `systemctl` y cualquier panel que mirase el resultado veian
+        # verde. Es literalmente el modo de fallo que S0 existe para cazar:
+        # «el detector se rompe y todo se queda verde». Un vigilante que no
+        # mira ningun fichero no esta sano: esta ciego.
+        if mirados == 0:
+            caja["resultado"] = "fallo"
+            caja["nota"] += " · CIEGO: no se miro ni un fichero"
     return 0
 
 

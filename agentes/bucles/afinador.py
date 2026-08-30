@@ -51,7 +51,10 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import latido as L  # noqa: E402
 
-ARBOL = os.path.expanduser(os.environ.get("AFINADOR_ARBOL", "~/p0x/aurelius"))
+# El defecto era `~/p0x/aurelius`, que dejo de existir con el renombrado del
+# producto. La unidad ya apuntaba bien (`afinador.service:16`); el codigo no.
+# Desde el 2026-08-30 03:05 este bucle fallaba en cada corrida.
+ARBOL = os.path.expanduser(os.environ.get("AFINADOR_ARBOL", "~/p0x/preceptor"))
 CORREDOR = "bin/pruebas"
 
 VENTANA_S = 86400
