@@ -1,0 +1,13 @@
+# La base y el bootstrap se GENERAN. No se versionan por tres motivos:
+#
+#  1. Llevan mediciones del rack, que envejecen. Versionarlas seria volver a
+#     tener un documento de arranque que miente -- justo lo que este directorio
+#     existe para impedir.
+#  2. El bootstrap se regenera entero con `continuidad.py bootstrap`.
+#  3. El conocimiento durable (doctrina, glosario, motivos, falsos rojos) SI
+#     esta versionado, en semilla.py. Un clon limpio corre `semilla.py` y lo
+#     recupera; las mediciones vuelven del metal, que es de donde deben venir.
+continuidad.db
+continuidad.db-wal
+continuidad.db-shm
+bootstrap_continuidad.md
