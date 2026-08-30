@@ -234,6 +234,21 @@ def bootstrap(con):
     A("---")
     A("")
 
+    A("## 0 · Antes de planificar: lee El Acta")
+    A("")
+    A("Los mensajes de coordinación con `para` que te incluya, y las acciones")
+    A("pendientes que dejaron. **Se lee antes que nada:** el delta dice qué")
+    A("cambió; el Acta dice qué se te pidió y quién lo espera.")
+    A("")
+    A("```bash")
+    A("python3 -c \"import sys;sys.path.insert(0,'$HOME/p0x/Alejandria/mensajes');"
+      "import mensajes as M;[print(m['ts'][:16],m['de'],'→',m['para'],':',"
+      "m['humano'][:120]) for m in M.leer()[-5:]]\"")
+    A("```")
+    A("")
+    A("La cadena de hash se verifica sola al abrir el Ojo. Si sale rota, **para**:")
+    A("alguien editó un mensaje pasado y el registro dejó de ser un registro.")
+    A("")
     A("## 1 · Lee esto antes que nada: qué cambió")
     A("")
     d = q("SELECT fecha, area, cambio, evidencia FROM deltas ORDER BY id DESC LIMIT 15")
