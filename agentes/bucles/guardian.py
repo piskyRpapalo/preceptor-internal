@@ -67,6 +67,9 @@ CLASE = "LIGERO"           # solo lee ficheros y parsea; no invoca nada
 # pensada o un olvido que se quedo.
 CONOCIDAS = {
     "PIL": "herramienta de assets en laminas/recortar.py, no runtime del producto",
+    "wasmtime": "Jaula Wasmtime de LAS TRES JOYAS; semilla del sandbox para "
+                "codigo de terceros. Opt-in y declarada; fuera del camino "
+                "stdlib que se envia.",
 }
 
 
