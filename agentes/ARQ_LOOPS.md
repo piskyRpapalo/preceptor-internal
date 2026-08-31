@@ -137,6 +137,26 @@ python3 agentes/bucles/s0.py --informe         # filtros bajo sospecha
 python3 agentes/bucles/test_bucles.py          # 17 pruebas
 ```
 
+### El gate del enjambre
+
+```bash
+pytest agentes/ -q                             # 88 pruebas, medido 2026-08-31
+```
+
+**No se corre `pytest -q` a secas desde la raíz del repositorio.** Falla en
+colección con `ModuleNotFoundError: No module named 'pydantic'` × 3, en
+`faro_peaq/tests/`. Es una dependencia que ese módulo declara en su propio
+`requirements.txt` y que no está instalada aquí; no tiene nada que ver con los
+bucles, que pasan enteros. Si hace falta correrlo desde la raíz:
+
+```bash
+pytest -q --ignore=faro_peaq
+```
+
+Se escribe aquí porque el fallo engaña: un `pytest -q` en rojo desde la raíz
+parece decir que el enjambre está roto, y lo que dice es que falta un paquete
+de otro módulo.
+
 Un bucle nuevo se escribe así, y el latido sale gratis:
 
 ```python
